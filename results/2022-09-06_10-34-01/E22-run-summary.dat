@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 22_arrayops_addint
+    Nodes = dogecoin dogecoincash ether ethercash
+    Internal network = 10.10.149.0/24
+    Protocols:
+      Field  = atlas shamir malicious-shamir temi
+      Ring   = spdz2k
+      Binary = ccd malicious-ccd tinier
+    Inputs = 6 9 ... 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-06_10-34-01/E22-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774
+  Total Experiment runtime = 0h17min38sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip atlas - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsFIELDatlas_run0[0m
+[0;33m  Skip shamir - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsFIELDshamir_run0[0m
+[0;33m  Skip malicious-shamir - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsFIELDmalicious-shamir_run0[0m
+[0;33m  Skip temi - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsFIELDtemi_run0[0m
+[0;33m  Skip spdz2k - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsRINGspdz2k_run0[0m
+[0;33m  Skip ccd - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsBINARYccd_run0[0m
+[0;33m  Skip malicious-ccd - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsBINARYmalicious-ccd_run0[0m
+[0;33m  Skip tinier - Value not found /srv/testbed/results/obrman/default/2022-09-06_10-34-05_070774/dogecoin/testresultsBINARYtinier_run0[0m

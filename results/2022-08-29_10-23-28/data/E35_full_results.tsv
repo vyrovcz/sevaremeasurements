@@ -1,0 +1,5 @@
+nodes             program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+valga,rapla,tapa  35_set_intersection  BINARY    semidishonest  semi-bin  NA            244170           19141          30          1.84336     NA            29.5907         NA
+valga,rapla,tapa  35_set_intersection  BINARY    semidishonest  semi-bin  NA            945540           70681          60          6.83497     NA            73.8032         NA
+valga,rapla,tapa  35_set_intersection  BINARY    semidishonest  yao       NA            244170           19141          30          0.114316    NA            7.81536         NA
+valga,rapla,tapa  35_set_intersection  BINARY    semidishonest  yao       NA            945540           70681          60          0.332054    NA            30.2611         NA

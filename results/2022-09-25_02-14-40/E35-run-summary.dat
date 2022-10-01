@@ -1,0 +1,24 @@
+  Setup:
+    Experiment = 35_set_intersection 
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash dogecoingold ether ethercash ethergold
+    Internal network = 10.10.182.0/24
+    Protocols:
+      Field  = semi hemi temi soho
+      Ring   = semi2k
+      Binary = semi-bin yao yaoO semi-bmr
+    Inputs = 6 8 ... 14
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-25_02-14-40/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-25_02-14-47_546004
+  Total Experiment runtime = 3h51min30sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Skip yao - Verify error  [0, 0, 0, 0, 0, 0, 0, 0]... != [ 67   0   0   0   0   0  78 125]... at /srv/testbed/results/obrman/default/2022-09-25_02-14-47_546004/bitcoin/testresultsBINARYyao_run1[0m
+[0;33m  Skip yaoO - Verify error  [0, 0, 0, 0, 0, 0, 0, 0]... != [ 67   0   0   0   0   0  78 125]... at /srv/testbed/results/obrman/default/2022-09-25_02-14-47_546004/bitcoin/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bmr

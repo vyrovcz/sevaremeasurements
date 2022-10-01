@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.241.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 5 15 20
+    Testtypes:
+  Summary file = results/2022-09-06_14-45-43/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382
+  Total Experiment runtime = 0h9min9sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != ... at /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != ... at /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != ... at /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != ... at /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != ... at /srv/testbed/results/obrman/default/2022-09-06_14-45-45_947382/ether/testresultsBINARYreplicated-bin_run0[0m

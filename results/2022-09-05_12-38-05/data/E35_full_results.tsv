@@ -1,0 +1,91 @@
+nodes                               program              c.domain  adv.model      protocol          comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             1456          896              115            2           0.192419    21              ~260          5.06256         11.6082
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             3120          1920             244            3           0.243817    21              ~518          5.088           11.7078
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             5408          3328             421            4           0.309727    21              ~872          5.12294         11.8446
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             8320          5120             646            5           0.425411    23              ~1322         5.16739         12.0187
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             11856         7296             919            6           6.12969     21              ~1882         6.98141         17.6703
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             16016         9856             1240           7           0.958845    21              ~2524         7.04486         17.9188
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             20800         12800            1609           8           7.85334     21              ~3278         9.11789         24.6049
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             26208         16128            2026           9           3.83368     22              ~4112         9.20035         24.928
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     atlas             32240         19840            2491           10          1.38743     22              ~5056         11.5324         30.7286
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            1456          896              115            2           0.0381731   18              ~133          1.00387         2.53043
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            3120          1920             244            3           0.0700086   16              ~279          1.05389         2.67917
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            5408          3328             421            4           0.0904609   16              ~479          1.12262         2.88358
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            8320          5120             646            5           0.134739    18              ~733          1.21008         3.14368
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            11856         7296             919            6           0.223969    16              ~1043         1.79626         5.85946
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            16016         9856             1240           7           0.287639    19              ~1405         1.92115         6.23091
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            20800         12800            1609           8           0.383562    18              ~1823         2.54477         9.05805
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            26208         16128            2026           9           0.509337    16              ~2293         2.7071          9.54086
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semihonest     shamir            32240         19840            2491           10          0.663628    17              ~2819         3.84816         12.4794
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  1456          896              115            2           0.143786    24              ~132          4.37849         14.634
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  3120          1920             244            3           0.18514     24              ~261          4.44462         14.8985
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  5408          3328             421            4           0.201414    24              ~438          4.53551         15.262
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  8320          5120             646            5           0.254265    24              ~663          4.65118         15.7247
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  11856         7296             919            6           0.422306    26              ~944          6.5518          23.3272
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  16016         9856             1240           7           0.457813    24              ~1265         6.717           23.988
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  20800         12800            1609           8           1.67173     29              ~1650         10.7474         39.1496
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  26208         16128            2026           9           0.811615    25              ~2067         10.9621         40.0086
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     malhonest      malicious-shamir  32240         19840            2491           10          0.990166    25              ~2540         13.4418         48.0073
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              1456          896              115            2           0.499753    42              ~722          6.17163         14.6905
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              3120          1920             244            3           0.603935    33              ~1520         6.463           15.2731
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              5408          3328             421            4           1.05053     35              ~2619         12.6843         30.0628
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              8320          5120             646            5           1.25679     33              ~4005         13.1455         30.9854
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              11856         7296             919            6           1.73245     32              ~5692         19.5372         46.1157
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              16016         9856             1240           7           2.39693     34              ~7691         26.1579         61.7036
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              20800         12800            1609           8           2.91375     33              ~9966         32.7193         77.1739
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              26208         16128            2026           9           3.60931     33              ~12553        39.5102         93.1017
+ether,ethercash,ethergold,dogecoin  35_set_intersection  FIELD     semidishonest  temi              32240         19840            2491           10          4.2311      34              ~15428        46.3385         109.106
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            14
+14                                  868
+14                                  325                  2         232.228        1552              ~65593        7872.14          30832.4
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            30
+30                                  1860
+30                                  694                  3         227.45         1553              ~66463        7872.15          30832.5
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            52
+52                                  3224
+52                                  1201                 4         237.385        1558              ~67657        7872.16          30832.5
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            80
+80                                  4960
+80                                  1846                 5         230.701        1557              ~69175        7872.18          30832.5
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            114
+114                                 7068
+114                                 2629                 6         228.694        1556              ~71017        7872.2           30832.5
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            154
+154                                 9548
+154                                 3550                 7         230.343        1536              ~73183        7872.22          30832.6
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            200
+200                                 12400
+200                                 4609                 8         232.069        1561              ~75777        7911.12          30985.4
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            252
+252                                 15624
+252                                 5806                 9         232.396        1542              ~78591        7911.15          30985.4
+ether,ethercash,ethergold,dogecoin  35_set_intersection  RING      maldishonest   spdz2k            310
+310                                 19220
+310                                 7141                 10        232.304        1552              ~81729        7911.18          30985.5
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            2954             393            2           0.0290339   12              NA            0.009374        NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            5574             670            3           0.0508179   10              NA            0.01749         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            8956             1001           4           0.0817072   11              NA            0.027892        NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            13100            1386           5           0.114921    12              NA            0.04058         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            18006            1825           6           0.158134    10              NA            0.055554        NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            23674            2318           7           0.215095    12              NA            0.072814        NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            30104            2865           8           0.248345    12              NA            0.09236         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            37296            3466           9           0.341253    13              NA            0.114192        NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    semihonest     ccd               NA            45250            4121           10          0.387223    13              NA            0.13831         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            2954             393            2           0.0687479   15              NA            1.13983         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            5574             670            3           0.0977529   13              NA            1.22623         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            8956             1001           4           0.131614    15              NA            1.33701         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            13100            1386           5           0.235985    15              NA            2.51236         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            18006            1825           6           0.276127    15              NA            2.67191         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            23674            2318           7           0.395677    15              NA            3.89603         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            30104            2865           8           0.504283    15              NA            5.14453         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            37296            3466           9           0.605415    15              NA            5.37723         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    malhonest      malicious-ccd     NA            45250            4121           10          0.717482    15              NA            6.6745          NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            2954             393            2           1.06065     102             NA            39.4382         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            5574             670            3           1.10884     101             NA            39.4543         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            8956             1001           4           1.13327     103             NA            39.475          NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            13100            1386           5           2.04053     107             NA            78.3826         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            18006            1825           6           2.12573     106             NA            78.4124         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            23674            2318           7           2.24508     110             NA            78.4468         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            30104            2865           8           3.18374     111             NA            117.368         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            37296            3466           9           4.08661     109             NA            156.294         NA
+ether,ethercash,ethergold,dogecoin  35_set_intersection  BINARY    maldishonest   tinier            NA            45250            4121           10          4.26266     108             NA            156.342         NA

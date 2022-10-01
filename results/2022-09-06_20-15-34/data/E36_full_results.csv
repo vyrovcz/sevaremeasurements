@@ -1,0 +1,16 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;shamir;NA;NA;2;5;0.00177331;~3;0.00032;0.00072
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;shamir;NA;NA;2;15;0.00143489;~3;0.00096;0.00216
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;shamir;NA;NA;2;20;0.00137796;~3;0.00128;0.00288
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;atlas;NA;NA;2;5;0.0380798;~14;1.44032;2.88072
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;atlas;NA;NA;2;15;0.04031;~14;1.44096;2.88216
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;atlas;NA;NA;2;20;0.0394979;~14;1.44128;2.88288
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;replicated-field;NA;NA;2;5;0.000907956;~2;0.00016;0.00048
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;replicated-field;NA;NA;2;15;0.00144553;~2;0.00048;0.00144
+ether,ethercash,ethergold;36_arrayops_addint;FIELD;semihonest;replicated-field;NA;NA;2;20;0.00143289;~2;0.00064;0.00192
+ether,ethercash,ethergold;36_arrayops_addint;RING;semihonest;replicated-ring;NA;NA;2;5;0.00137573;~2;8e-05;0.00024
+ether,ethercash,ethergold;36_arrayops_addint;RING;semihonest;replicated-ring;NA;NA;2;15;0.00160006;~2;0.00024;0.00072
+ether,ethercash,ethergold;36_arrayops_addint;RING;semihonest;replicated-ring;NA;NA;2;20;0.00156033;~2;0.00032;0.00096
+ether,ethercash,ethergold;36_arrayops_addint;BINARY;semihonest;replicated-bin;NA;2940;124;5;0.0100412;NA;0.003348;NA
+ether,ethercash,ethergold;36_arrayops_addint;BINARY;semihonest;replicated-bin;NA;8820;124;15;0.00985199;NA;0.009948;NA
+ether,ethercash,ethergold;36_arrayops_addint;BINARY;semihonest;replicated-bin;NA;11760;124;20;0.0105273;NA;0.013248;NA

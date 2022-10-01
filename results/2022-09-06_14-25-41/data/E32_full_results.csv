@@ -1,0 +1,16 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;shamir;NA;NA;901;30;0.232254;~1801;0.0576;0.1296
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;shamir;NA;NA;3601;60;0.873381;~7201;0.2304;0.5184
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;shamir;NA;NA;8101;90;2.15844;~16201;0.5184;1.1664
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;atlas;NA;NA;901;30;0.282605;~1812;1.4976;3.0096
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;atlas;NA;NA;3601;60;1.10444;~7212;1.6704;3.3984
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;atlas;NA;NA;8101;90;2.24878;~16212;1.9584;4.0464
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;replicated-field;NA;NA;901;30;0.108558;~901;0.0288;0.0864
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;replicated-field;NA;NA;3601;60;0.557104;~3601;0.1152;0.3456
+ether,ethercash,ethergold;32_matrix_add;FIELD;semihonest;replicated-field;NA;NA;8101;90;1.5541;~8101;0.2592;0.7776
+ether,ethercash,ethergold;32_matrix_add;RING;semihonest;replicated-ring;NA;NA;901;30;0.272382;~901;0.0144;0.0432
+ether,ethercash,ethergold;32_matrix_add;RING;semihonest;replicated-ring;NA;NA;3601;60;0.63108;~3601;0.0576;0.1728
+ether,ethercash,ethergold;32_matrix_add;RING;semihonest;replicated-ring;NA;NA;8101;90;1.93273;~8101;0.1296;0.3888
+ether,ethercash,ethergold;32_matrix_add;BINARY;semihonest;replicated-bin;NA;529200;119701;30;7.14909;NA;0.594048;NA
+ether,ethercash,ethergold;32_matrix_add;BINARY;semihonest;replicated-bin;NA;2116800;478801;60;28.9537;NA;2.37605;NA
+ether,ethercash,ethergold;32_matrix_add;BINARY;semihonest;replicated-bin;NA;4762800;1077301;90;72.2392;NA;5.34605;NA

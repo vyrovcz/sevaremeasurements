@@ -1,0 +1,13 @@
+nodes                            program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  bandwidths(Mbs)  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bin  NA            30590            2781           10               10          20.5394     NA            22.7558         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bin  NA            111980           9161           10               20          23.6985     NA            25.3604         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bin  NA            NA               NA             100              10          2.41901     NA            22.7558         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bin  NA            NA               NA             100              20          3.23294     NA            25.3604         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            30590            2781           10               10          0.794203    NA            0.97952         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            111980           9161           10               20          2.98304     NA            3.58464         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            NA               NA             100              10          0.0894297   NA            0.97952         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            NA               NA             100              20          0.30916     NA            3.58464         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     ccd       NA            30590            2781           10               10          0.957096    NA            0.0631          NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     ccd       NA            111980           9161           10               20          3.47027     NA            0.2278          NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     ccd       NA            NA               NA             100              10          0.221524    NA            0.0631          NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     ccd       NA            NA               NA             100              20          0.818338    NA            0.2278          NA

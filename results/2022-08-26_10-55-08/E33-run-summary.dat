@@ -1,0 +1,39 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash dogecoingold ether ethercash ethergold
+    Internal network = 10.10.122.0/24
+    Protocols:
+      Field  = atlas shamir malicious-shamir temi
+      Ring   = spdz2k
+      Binary = ccd malicious-ccd tinier
+    Inputs = 5 10 ... 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-26_10-55-08/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381
+  Total Experiment runtime = 0h29min15sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDatlas_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDatlas_run3[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDshamir_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDshamir_run3[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDmalicious-shamir_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDmalicious-shamir_run3[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDtemi_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsFIELDtemi_run3[0m
+[ [0;32mok[0m ]   verified - test passed for temi
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsRINGspdz2k_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsRINGspdz2k_run3[0m
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYccd_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYccd_run3[0m
+[ [0;32mok[0m ]   verified - test passed for ccd
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYmalicious-ccd_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYmalicious-ccd_run3[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[0;33m  Verify error  [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... != [76.9, 70.1, 66.1, 70.9, 91.3, 76.1, 77.2, 66.8, 97.7, 79.4, 73.8, 85.1, 103, 41.3, 85.2, 89, 54.2, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYtinier_run2[0m
+[0;33m  Verify error  [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... != [98.7, 105, 93, 116, 93.2, 58.4, 122, 104, 130, 80.4, 88.7, 118, 99.9, 93.4, 90.4, 80.6, 69.3, 115, ... at /srv/testbed/results/obrman/default/2022-08-26_10-55-15_763381/bitcoin/testresultsBINARYtinier_run3[0m
+[ [0;32mok[0m ]   verified - test passed for tinier

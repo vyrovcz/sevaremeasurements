@@ -1,0 +1,24 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.204.0/24
+    Protocols:
+      Field  = atlas mascot temi shamir
+      Ring   = 
+      Binary = semi-bin yao ccd
+    Inputs = 10 20
+    Testtypes:
+      LATENCIES	= 5 50
+  Summary file = results/2022-08-29_12-04-35/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-29_12-04-38_027120
+  Total Experiment runtime = 1h42min29sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_12-04-38_027120/dogecoin/testresultsBINARYyao_run1[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_12-04-38_027120/dogecoin/testresultsBINARYyao_run3[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for ccd

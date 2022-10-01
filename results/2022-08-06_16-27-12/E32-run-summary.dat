@@ -1,0 +1,52 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = todd ned rod
+    Internal network = 10.10.13.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 50 500
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-06_16-27-12/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-06_16-27-15_744010
+  Total Experiment runtime = 3h39min2sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for highgear
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[0;33m  Skip tinier - File not found error: [0m
+[0;33m  Skip real-bmr - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Skip yao - Verify error  [4257, 8109, 849, 4212, 5155, 8040, 7001, 6354, 7015, 4654, 5549, 5787, 4368, 4335, 5855, 6122, 795,... != [4721, 8860, 1545, 7170, 6541, 10565, 9062, 11318, 8754, 9625, 5842, 10549, 5666, 7864, 9079, 10293,... at /srv/testbed/results/obrman/default/2022-08-06_16-27-15_744010/todd/testresultsBINARYyao_run0[0m
+[0;33m  Skip semi-bmr - File not found error: [0m
+[0;33m  Skip malicious-rep-bin - File not found error: [0m
+[0;33m  Skip malicious-ccd - File not found error: [0m
+[0;33m  Skip ps-rep-bin - File not found error: [0m
+[0;33m  Skip mal-shamir-bmr - File not found error: [0m
+[0;33m  Skip mal-rep-bmr - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m
+[0;33m  Skip ccd - File not found error: [0m
+[0;33m  Skip shamir-bmr - File not found error: [0m
+[0;33m  Skip rep-bmr - File not found error: [0m

@@ -1,0 +1,13 @@
+nodes             program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  latencies(ms)  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            244170           19141          0              30          1170.4      NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            NA               NA             5              30          2059.46     NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            NA               NA             10             30          2623.58     NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            NA               NA             15             30          3434.25     NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            NA               NA             20             30          4105.74     NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    maldishonest   real-bmr  NA            NA               NA             25             30          4417.8      NA            156617          NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            244170           19141          0              30          123.348     NA            26332.8         NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            NA               NA             5              30          167.72      NA            26332.8         NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            NA               NA             10             30          223.83      NA            26332.8         NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            NA               NA             15             30          320.696     NA            26332.8         NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            NA               NA             20             30          411.78      NA            26332.8         NA
+rapla,tapa,valga  35_set_intersection  BINARY    semidishonest  semi-bmr  NA            NA               NA             25             30          500.508     NA            26332.8         NA

@@ -1,0 +1,7 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;cpus;freqs;quotas;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;mascot;1040;630;74;4;2.6;240;10;3.41023;378;~446;176.474;488.193
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;mascot;5200;3150;354;4;2.6;240;50;9.17946;383;~1780;492.572;1435.84
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;mascot;10400;6300;704;4;2.6;240;100;15.4741;383;~3428;853.872;2518.96
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;lowgear;1040;630;74;4;2.6;240;10;1085.48;1259;~804;60.7613;178.182
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;lowgear;5200;3150;354;4;2.6;240;50;9.35479;110;~1956;61.1824;179.023
+bitcoin,bitcoincash,bitcoingold;31_scalable_search;FIELD;maldishonest;lowgear;10400;6300;704;4;2.6;240;100;9.61089;115;~3396;61.7088;180.074

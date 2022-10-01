@@ -1,0 +1,16 @@
+nodes                               program        c.domain  adv.model   protocol          comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  shamir            NA            NA               901            30          0.242826    ~1801         0.0576          0.1296
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  shamir            NA            NA               3601           60          0.952316    ~7201         0.2304          0.5184
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  shamir            NA            NA               8101           90          2.0258      ~16201        0.5184          1.1664
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  atlas             NA            NA               901            30          0.287616    ~1812         1.4976          3.0096
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  atlas             NA            NA               3601           60          1.09567     ~7212         1.6704          3.3984
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  atlas             NA            NA               8101           90          2.32794     ~16212        1.9584          4.0464
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  replicated-field  NA            NA               901            30          0.118207    ~901          0.0288          0.0864
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  replicated-field  NA            NA               3601           60          0.466503    ~3601         0.1152          0.3456
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  FIELD     semihonest  replicated-field  NA            NA               8101           90          1.06085     ~8101         0.2592          0.7776
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  RING      semihonest  replicated-ring   NA            NA               901            30          0.101682    ~901          0.0144          0.0432
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  RING      semihonest  replicated-ring   NA            NA               3601           60          0.431277    ~3601         0.0576          0.1728
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  RING      semihonest  replicated-ring   NA            NA               8101           90          1.15289     ~8101         0.1296          0.3888
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  BINARY    semihonest  replicated-bin    NA            529200           119701         30          6.68264     NA            0.594048        NA
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  BINARY    semihonest  replicated-bin    NA            2116800          478801         60          27.5326     NA            2.37605         NA
+dogecoin,dogecoincash,dogecoingold  32_matrix_add  BINARY    semihonest  replicated-bin    NA            4762800          1077301        90          60.2468     NA            5.34605         NA

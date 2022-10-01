@@ -1,0 +1,17 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;shamir;NA;48;65;4;0.0100639;15;~81;0.00256;0.006912
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;shamir;NA;108;145;6;0.0218745;13;~181;0.00576;0.015552
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;shamir;NA;192;257;8;0.0414803;14;~321;0.01024;0.027648
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;shamir;NA;300;401;10;1.29915;13;~501;0.016;0.0432
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;replicated-field;NA;48;65;4;0.00727485;13;~65;0.00128;0.00384
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;replicated-field;NA;108;145;6;0.0145459;13;~145;0.00288;0.00864
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;replicated-field;NA;192;257;8;0.0258468;13;~257;0.00512;0.01536
+ether,ethercash,ethergold;34_matrix_mul;FIELD;semihonest;replicated-field;NA;300;401;10;0.0402072;13;~401;0.008;0.024
+ether,ethercash,ethergold;34_matrix_mul;RING;semihonest;replicated-ring;NA;48;65;4;0.00711681;13;~65;0.00064;0.00192
+ether,ethercash,ethergold;34_matrix_mul;RING;semihonest;replicated-ring;NA;108;145;6;0.0149625;12;~145;0.00144;0.00432
+ether,ethercash,ethergold;34_matrix_mul;RING;semihonest;replicated-ring;NA;192;257;8;0.0228372;11;~257;0.00256;0.00768
+ether,ethercash,ethergold;34_matrix_mul;RING;semihonest;replicated-ring;NA;300;401;10;0.0422025;13;~401;0.004;0.012
+ether,ethercash,ethergold;34_matrix_mul;BINARY;semihonest;replicated-bin;NA;214176;3713;4;0.321802;12;NA;0.215376;NA
+ether,ethercash,ethergold;34_matrix_mul;BINARY;semihonest;replicated-bin;NA;481896;8353;6;0.867482;12;NA;0.484536;NA
+ether,ethercash,ethergold;34_matrix_mul;BINARY;semihonest;replicated-bin;NA;856704;14849;8;1.16954;12;NA;0.86136;NA
+ether,ethercash,ethergold;34_matrix_mul;BINARY;semihonest;replicated-bin;NA;1338600;23201;10;2.8808;14;NA;1.34585;NA

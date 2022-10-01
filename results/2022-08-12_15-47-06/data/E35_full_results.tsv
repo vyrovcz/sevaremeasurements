@@ -1,0 +1,5 @@
+nodes                            program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            111980           9161           20          0.0995239   12              NA            3.58464         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao       NA            10263800         739601         200         7.71104     23              NA            328.454         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yaoO      NA            111980           9161           20          0.0579541   14              NA            0               NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yaoO      NA            10263800         739601         200         5.07314     93              NA            0               NA

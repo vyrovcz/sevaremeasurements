@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.166.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 6 36
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-12_16-32-35/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_16-32-38_853995
+  Total Experiment runtime = 0h6min6sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-12_16-32-38_853995/dogecoin/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-12_16-32-38_853995/dogecoin/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yaoO

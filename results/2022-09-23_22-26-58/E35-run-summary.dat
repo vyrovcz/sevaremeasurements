@@ -1,0 +1,30 @@
+  Setup:
+    Experiment = 35_set_intersection 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.198.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 20 80 100
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-23_22-26-58/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-23_22-27-01_662348
+  Total Experiment runtime = 1h26min5sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for real-bmr
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Skip yao - Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [  0  28   0   0   0   0   0   0   0  63   0  75  98 101 107 109   0 115   0   0]... at /srv/testbed/results/obrman/default/2022-09-23_22-27-01_662348/bitcoin/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [  0  28   0   0   0   0   0   0   0  63   0  75  98 101 107 109   0 115   0   0]... at /srv/testbed/results/obrman/default/2022-09-23_22-27-01_662348/bitcoin/testresultsBINARYyaoO_run0[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

@@ -1,0 +1,96 @@
+nodes             program              c.domain  adv.model   protocol            comp.intbits  comp.inttriples  comp.vmrounds  input_size  packetdrops(%)  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     1830
+1830              113460
+1830              42121                30        0           1.88449             ~16578        0.55658          1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          0.5             27.4444     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          1               56.957      ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          1.5             74.9368     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          2               94.5704     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          2.5             125.939     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          3               156.34      ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          3.5             184.19      ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          4               209.158     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          4.5             246.293     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          5               276.294     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          5.5             310.71      ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          6               333.676     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          6.5             384.185     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          7               449.241     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          7.5             503.142     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      semihonest  replicated-ring     NA            NA               NA             30          8               591.304     ~16578        0.55658         1.43023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               1830
+1830              113460
+1830              42121                30        0           1.86622             ~16819        14.1323          41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          0.5             3.05559     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          1               4.31842     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          1.5             11.7833     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          2               19.7939     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          2.5             29.5863     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          3               40.041      ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          3.5             50.3729     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          4               69.1549     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          4.5             84.5201     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          5               112.275     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          5.5             147.424     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          6               156.765     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          6.5             192.578     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          7               227.099     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          7.5             297.233     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   brain               NA            NA               NA             30          8               334.244     ~16819        14.1323         41.4023
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         1830
+1830              113460
+1830              42121                30        0           2.32365             ~16784        10.5522          30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          0.5             15.5488     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          1               31.9376     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          1.5             45.0352     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          2               53.9559     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          2.5             80.0312     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          3               94.5353     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          3.5             118.924     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          4               145.843     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          4.5             165.298     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          5               203.286     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          5.5             204.584     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          6               250.603     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          6.5             296.653     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          7               344.031     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          7.5             387.597     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   ps-rep-ring         NA            NA               NA             30          8               440.127     ~16784        10.5522         30.7523
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  1830
+1830              113460
+1830              42121                30        0           1.64866             ~16788        10.9002          31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          0.5             2.33742     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          1               5.3093      ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          1.5             11.3815     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          2               17.455      ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          2.5             28.6887     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          3               37.37       ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          3.5             53.924      ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          4               72.2031     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          4.5             92.6531     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          5               106.968     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          5.5             137.995     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          6               162.147     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          6.5             199.215     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          7               238.823     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          7.5             328.907     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   malicious-rep-ring  NA            NA               NA             30          8               351.089     ~16788        10.9002         31.7961
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         1830
+1830              113460
+1830              42121                30        0           2.08817             ~16764        5.53501          16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          0.5             15.1822     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          1               27.4664     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          1.5             39.7037     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          2               55.4882     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          2.5             78.0796     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          3               94.5551     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          3.5             116.138     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          4               142.485     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          4.5             163.364     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          5               203.767     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          5.5             221.932     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          6               252.266     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          6.5             302.946     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          7               337.77      ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          7.5             364.509     ~16764        5.53501         16.4737
+rapla,tapa,valga  35_set_intersection  RING      malhonest   sy-rep-ring         NA            NA               NA             30          8               441.139     ~16764        5.53501         16.4737

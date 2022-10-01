@@ -1,0 +1,17 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;NA;NA;17;4;0.00498995;13;~33;0.000512;0.001152
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;NA;NA;37;6;0.00922662;13;~73;0.001152;0.002592
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;NA;NA;65;8;0.0141417;13;~129;0.002048;0.004608
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;NA;NA;101;10;0.0226211;13;~201;0.0032;0.0072
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;replicated-field;NA;NA;17;4;0.00293373;13;~17;0.000256;0.000768
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;replicated-field;NA;NA;37;6;0.00516977;12;~37;0.000576;0.001728
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;replicated-field;NA;NA;65;8;0.0197149;13;~65;0.001024;0.003072
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;replicated-field;NA;NA;101;10;0.0292165;13;~101;0.0016;0.0048
+ether,ethercash,ethergold;33_matrix_add_float;RING;semihonest;replicated-ring;NA;NA;17;4;0.00228639;12;~17;0.000256;0.000768
+ether,ethercash,ethergold;33_matrix_add_float;RING;semihonest;replicated-ring;NA;NA;37;6;0.0139561;13;~37;0.000576;0.001728
+ether,ethercash,ethergold;33_matrix_add_float;RING;semihonest;replicated-ring;NA;NA;65;8;0.00751502;13;~65;0.001024;0.003072
+ether,ethercash,ethergold;33_matrix_add_float;RING;semihonest;replicated-ring;NA;NA;101;10;0.0115568;12;~101;0.0016;0.0048
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;replicated-bin;NA;4416;1505;4;0.0710784;11;NA;0.005088;NA
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;replicated-bin;NA;9936;3385;6;0.17385;12;NA;0.011388;NA
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;replicated-bin;NA;17664;6017;8;0.298157;10;NA;0.020208;NA
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;replicated-bin;NA;27600;9401;10;0.483158;12;NA;0.031548;NA

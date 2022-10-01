@@ -1,0 +1,5 @@
+nodes                      program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yao       NA            17664            6017           8           0.0511817   12              NA            0.567232        NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yao       NA            158976           54145          24          0.354976    26              NA            5.10509         NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yaoO      NA            17664            6017           8           0.00846219  12              NA            0               NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yaoO      NA            158976           54145          24          0.1832      28              NA            0               NA

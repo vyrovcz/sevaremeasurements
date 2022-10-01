@@ -1,0 +1,29 @@
+  Setup:
+    Experiment = 34_matrix_mul
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.228.0/24
+    Protocols:
+      Field  = mascot lowgear semi temi
+      Ring   = spdz2k semi2k
+      Binary = semi-bin yao
+    Inputs = 2 3 ... 12
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-09_07-59-42/E34-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-09_07-59-45_514958
+  Total Experiment runtime = 4h44min40sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0]... != [8, 20, 1, 27]... at /srv/testbed/results/obrman/default/2022-08-09_07-59-45_514958/bitcoin/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0]... != [8, 20, 1, 27, 10, 48, 48, 60, 32]... at /srv/testbed/results/obrman/default/2022-08-09_07-59-45_514958/bitcoin/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50]... at /srv/testbed/results/obrman/default/2022-08-09_07-59-45_514958/bitcoin/testresultsBINARYyao_run002[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4]... at /srv/testbed/results/obrman/default/2022-08-09_07-59-45_514958/bitcoin/testresultsBINARYyao_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m

@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 36_array_ops
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.251.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 16 36 ... 100
+    Testtypes:
+  Summary file = results/2022-09-06_23-06-48/E36-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_23-06-51_247141
+  Total Experiment runtime = 0h11min56sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin

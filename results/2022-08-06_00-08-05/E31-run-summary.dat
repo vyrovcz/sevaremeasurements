@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = todd ned rod
+    Internal network = 10.10.169.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = semi-bin yao
+    Inputs = 10 200 400 ... 2000
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-06_00-08-05/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-06_00-08-08_518803
+  Total Experiment runtime = 3h3min56sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for yao

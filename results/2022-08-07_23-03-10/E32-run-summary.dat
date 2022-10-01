@@ -1,0 +1,31 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = todd ned rod
+    Internal network = 10.10.248.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir replicated-field
+      Ring   = brain malicious-rep-ring replicated-ring
+      Binary = malicious-rep-bin malicious-ccd mal-rep-bmr replicated-bin rep-bmr
+    Inputs = 5 10 ... 65
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-07_23-03-10/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-07_23-03-13_317927
+  Total Experiment runtime = 12h36min2sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[0;33m  Skip malicious-rep-bin - File not found error: /srv/testbed/results/obrman/default/2022-08-07_23-03-13_317927/todd/testresultsBINARYmalicious-rep-bin_run271[0m
+[0;33m  Skip malicious-ccd - File not found error: /srv/testbed/results/obrman/default/2022-08-07_23-03-13_317927/todd/testresultsBINARYmalicious-ccd_run271[0m
+[0;33m  Skip mal-rep-bmr - File not found error: /srv/testbed/results/obrman/default/2022-08-07_23-03-13_317927/todd/testresultsBINARYmal-rep-bmr_run271[0m
+[0;33m  Skip replicated-bin - File not found error: [0m
+[0;33m  Skip rep-bmr - File not found error: [0m

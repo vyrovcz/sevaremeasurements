@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.178.0/24
+    Protocols:
+      Field  = atlas mascot
+      Ring   = replicated-ring
+      Binary = malicious-ccd ccd yao
+    Inputs = 5 50 100 200
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_22-49-29/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207
+  Total Experiment runtime = 0h11min21sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip atlas - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsFIELDatlas_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsFIELDatlas_run0[0m
+[0;33m  Skip mascot - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsFIELDmascot_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsFIELDmascot_run0[0m
+[0;33m  Skip replicated-ring - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsRINGreplicated-ring_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip malicious-ccd - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYmalicious-ccd_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYmalicious-ccd_run0[0m
+[0;33m  Skip ccd - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYccd_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYccd_run0[0m
+[0;33m  Skip yao - Value not found error /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYyao_run0 at /srv/testbed/results/obrman/default/2022-09-28_22-49-32_197207/dogecoin/testresultsBINARYyao_run0[0m

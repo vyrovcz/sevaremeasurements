@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = todd ned rod
+    Internal network = 10.10.122.0/24
+    Protocols:
+      Field  = mascot atlas
+      Ring   = 
+      Binary = 
+    Inputs = 10 20 ... 100
+    Testtypes:
+      MEASURERAM	= 
+      QUOTAS	= 40 80
+      CPUS	= 2 4 6
+  Summary file = results/2022-08-02_12-19-08/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-02_12-19-11_051821
+  Total Experiment runtime = 0h25min25sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip - Verify error for mascot: [77.4, 111, 171, 130, 95.7, 85.2, 155, 86.2, 135, 106, 81.7, 56.8, 169, 131, 121, 100, 144, 164, 98.... != [77.4, 111, 171, 130, 95.7, 85.2, 155, 86.2, 135, 106, 81.7, 56.8, 169, 131, 121, 100, 144, 164, 98.... at /srv/testbed/results/obrman/default/2022-08-02_12-19-11_051821/todd/testresultsFIELDmascot_run06[0m
+[0;33m  Skip - Verify error for atlas: [77.4, 111, 171, 130, 95.7, 85.2, 155, 86.2, 135, 106, 81.7, 56.8, 169, 131, 121, 100, 144, 164, 98.... != [77.4, 111, 171, 130, 95.7, 85.2, 155, 86.2, 135, 106, 81.7, 56.8, 169, 131, 121, 100, 144, 164, 98.... at /srv/testbed/results/obrman/default/2022-08-02_12-19-11_051821/todd/testresultsFIELDatlas_run06[0m

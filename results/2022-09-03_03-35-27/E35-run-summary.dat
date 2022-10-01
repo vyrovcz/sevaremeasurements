@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.70.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = semi-bin tinier
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 150 145 ... 5
+  Summary file = results/2022-09-03_03-35-27/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-03_03-35-29_416380
+  Total Experiment runtime = 0h47min21sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for tinier

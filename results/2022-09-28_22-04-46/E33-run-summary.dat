@@ -1,0 +1,22 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.225.0/24
+    Protocols:
+      Field  = atlas mascot
+      Ring   = 
+      Binary = yao
+    Inputs = 11 22 33
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_22-04-46/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_22-04-49_729859
+  Total Experiment runtime = 0h9min17sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for mascot
+[0;33m  Skip yao - Verify error: [11.3271   9.29555 18.2469  14.6194  10.6772   6.39799 12.5725   4.31419
+ 11.7088  14.5739  13.8036   6.12106 14.4402  19.0167  16.8265  16.5379
+ 20.8522 ] != [12.418743 16.131052 30.100724 20.225337 20.712976 17.556387 20.210984
+ 14.263597 21.644511 23.842179 15.674626 12.585979 21.348    26.90847
+ 25.991042 19.774012 22.028898] at /srv/testbed/results/obrman/default/2022-09-28_22-04-49_729859/dogecoin/testresultsBINARYyao_run0[0m

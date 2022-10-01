@@ -1,0 +1,53 @@
+  Setup:
+    Experiment = 32_matrix_add 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.10.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 4 6 8 9 10
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-29_11-00-26/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139
+  Total Experiment runtime = 2h23min54sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip mascot -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDmascot_run1[0m
+[0;33m  Skip lowgear -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDlowgear_run1[0m
+[0;33m  Skip highgear -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDhighgear_run1[0m
+[0;33m  Skip cowgear -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDcowgear_run1[0m
+[0;33m  Skip chaigear -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDchaigear_run1[0m
+[0;33m  Skip semi -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDsemi_run1[0m
+[0;33m  Skip hemi -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDhemi_run1[0m
+[0;33m  Skip temi -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDtemi_run1[0m
+[0;33m  Skip soho -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDsoho_run1[0m
+[0;33m  Skip malicious-shamir -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDmalicious-shamir_run1[0m
+[0;33m  Skip malicious-rep-field -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDmalicious-rep-field_run1[0m
+[0;33m  Skip ps-rep-field -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDps-rep-field_run1[0m
+[0;33m  Skip sy-rep-field -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDsy-rep-field_run1[0m
+[0;33m  Skip shamir -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDshamir_run1[0m
+[0;33m  Skip atlas -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDatlas_run1[0m
+[0;33m  Skip replicated-field -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsFIELDreplicated-field_run1[0m
+[0;33m  Skip spdz2k -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGspdz2k_run1[0m
+[0;33m  Skip semi2k -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGsemi2k_run1[0m
+[0;33m  Skip brain -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGbrain_run1[0m
+[0;33m  Skip malicious-rep-ring -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGmalicious-rep-ring_run1[0m
+[0;33m  Skip ps-rep-ring -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGps-rep-ring_run1[0m
+[0;33m  Skip sy-rep-ring -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGsy-rep-ring_run1[0m
+[0;33m  Skip replicated-ring -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsRINGreplicated-ring_run1[0m
+[0;33m  Skip tinier -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYtinier_run1[0m
+[0;33m  Skip real-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYreal-bmr_run1[0m
+[0;33m  Skip semi-bin -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYsemi-bin_run1[0m
+[0;33m  Skip yao - differing values: [18 20 21 25 34 35 37 39 41 51 55 56](...) at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - differing values: [18 20 21 25 34 35 37 39 41 51 55 56](...) at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYyaoO_run0[0m
+[0;33m  Skip semi-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYsemi-bmr_run1[0m
+[0;33m  Skip malicious-rep-bin -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYmalicious-rep-bin_run1[0m
+[0;33m  Skip malicious-ccd -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYmalicious-ccd_run1[0m
+[0;33m  Skip ps-rep-bin -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYps-rep-bin_run1[0m
+[0;33m  Skip mal-shamir-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYmal-shamir-bmr_run1[0m
+[0;33m  Skip mal-rep-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYmal-rep-bmr_run1[0m
+[0;33m  Skip replicated-bin -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYreplicated-bin_run1[0m
+[0;33m  Skip ccd -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYccd_run1[0m
+[0;33m  Skip shamir-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYshamir-bmr_run1[0m
+[0;33m  Skip rep-bmr -  at /srv/testbed/results/obrman/default/2022-09-29_11-00-29_535139/dogecoin/testresultsBINARYrep-bmr_run1[0m

@@ -1,0 +1,13 @@
+nodes         program        c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+todd,ned,rod  32_matrix_add  FIELD     semihonest     atlas     NA            NA               10001          100         2.42437     ~20012        2.08            4.32
+todd,ned,rod  32_matrix_add  FIELD     semihonest     atlas     NA            NA               40001          200         10.6104     ~80039        8.32            17.28
+todd,ned,rod  32_matrix_add  FIELD     semihonest     atlas     NA            NA               90001          300         23.2489     ~180084       18.72           38.88
+todd,ned,rod  32_matrix_add  RING      maldishonest   spdz2k    NA            NA               10001          100         2.96807     ~40138        41.7736         125.001
+todd,ned,rod  32_matrix_add  RING      maldishonest   spdz2k    NA            NA               40001          200         11.561      ~160408       166.906         499.438
+todd,ned,rod  32_matrix_add  RING      maldishonest   spdz2k    NA            NA               90001          300         23.6305     ~360858       375.46          1123.5
+todd,ned,rod  32_matrix_add  RING      semidishonest  semi2k    NA            NA               10001          100         1.04055     ~40000        0.16            0.32
+todd,ned,rod  32_matrix_add  RING      semidishonest  semi2k    NA            NA               40001          200         3.43385     ~160000       0.64            1.28
+todd,ned,rod  32_matrix_add  RING      semidishonest  semi2k    NA            NA               90001          300         7.28494     ~360000       1.44            2.88
+todd,ned,rod  32_matrix_add  BINARY    semidishonest  yao       NA            NA               1330001        100         10.2982     NA            188.8           NA
+todd,ned,rod  32_matrix_add  BINARY    semidishonest  yao       NA            NA               5320001        200         53.0175     NA            755.2           NA
+todd,ned,rod  32_matrix_add  BINARY    semidishonest  yao       NA            NA               11970001       300         293.437     NA            1699.2          NA

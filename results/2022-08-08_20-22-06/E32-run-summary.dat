@@ -1,0 +1,20 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = todd ned rod
+    Internal network = 10.10.62.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = malicious-ccd mal-rep-bmr replicated-bin
+    Inputs = 5 10 ... 65
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-08_20-22-06/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-08_20-22-09_425665
+  Total Experiment runtime = 7h26min10sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin

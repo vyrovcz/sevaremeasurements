@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.187.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 10 50 100 ... 500
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-12_15-19-04/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-20-12_612009
+  Total Experiment runtime = 1h12min27sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO

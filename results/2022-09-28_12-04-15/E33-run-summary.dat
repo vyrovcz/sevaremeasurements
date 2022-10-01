@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.146.0/24
+    Protocols:
+      Field  = atlas
+      Ring   = semi2k
+      Binary = yao
+    Inputs = 20 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_12-04-15/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_12-04-18_077617
+  Total Experiment runtime = 0h8min23sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip atlas -  at /srv/testbed/results/obrman/default/2022-09-28_12-04-18_077617/bitcoin/testresultsFIELDatlas_run0[0m
+[0;33m  Skip semi2k -  at /srv/testbed/results/obrman/default/2022-09-28_12-04-18_077617/bitcoin/testresultsRINGsemi2k_run0[0m
+[0;33m  Skip yao -  at /srv/testbed/results/obrman/default/2022-09-28_12-04-18_077617/bitcoin/testresultsBINARYyao_run0[0m

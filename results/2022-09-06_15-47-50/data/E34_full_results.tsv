@@ -1,0 +1,16 @@
+nodes                      program        c.domain  adv.model   protocol          comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  shamir            NA            75               101            5           0.0159014   ~126          0.004           0.0108
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  shamir            NA            675              901            15          0.154914    ~1126         0.036           0.0972
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  shamir            NA            1200             1601           20          5.13532     ~2001         0.064           0.1728
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  atlas             NA            75               101            5           0.0876953   ~214          1.65658         3.52853
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  atlas             NA            675              901            15          2.90352     ~1814         1.68218         3.59573
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  atlas             NA            1200             1601           20          0.679819    ~3214         1.70458         3.65453
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  replicated-field  NA            75               101            5           0.010782    ~101          0.002           0.006
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  replicated-field  NA            675              901            15          0.106669    ~901          0.018           0.054
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest  replicated-field  NA            1200             1601           20          0.217197    ~1601         0.032           0.096
+ether,ethercash,ethergold  34_matrix_mul  RING      semihonest  replicated-ring   NA            75               101            5           0.0123378   ~101          0.001           0.003
+ether,ethercash,ethergold  34_matrix_mul  RING      semihonest  replicated-ring   NA            675              901            15          1.16805     ~901          0.009           0.027
+ether,ethercash,ethergold  34_matrix_mul  RING      semihonest  replicated-ring   NA            1200             1601           20          0.199581    ~1601         0.016           0.048
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest  replicated-bin    NA            334650           5801           5           0.662341    NA            0.336498        NA
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest  replicated-bin    NA            3011850          52201          15          5.08937     NA            3.0281          NA
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest  replicated-bin    NA            5354400          92801          20          10.488      NA            5.38325         NA

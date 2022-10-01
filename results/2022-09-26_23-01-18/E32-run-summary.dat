@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 32_matrix_add 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.200.0/24
+    Protocols:
+      Field  = atlas
+      Ring   = spdz2k semi2k
+      Binary = shamir-bmr
+    Inputs = 100 200 300
+    Testtypes:
+  Summary file = results/2022-09-26_23-01-18/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-26_23-01-21_743258
+  Total Experiment runtime = 1h8min43sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip atlas - Verify error  [75520, 141738, 24704, 114695, 104633, 169019, 144968, 181078, 140042, 153986, 93453, 168757, 90627,... != [ 75520 141738  24704 114695 104633 169019 144968 181078 140042 153986  93453 168757  90627 125798 1... at /srv/testbed/results/obrman/default/2022-09-26_23-01-21_743258/dogecoin/testresultsFIELDatlas_run1[0m
+[0;33m  Skip spdz2k - Verify error  [75520, 141738, 24704, 114695, 104633, 169019, 144968, 181078, 140042, 153986, 93453, 168757, 90627,... != [ 75520 141738  24704 114695 104633 169019 144968 181078 140042 153986  93453 168757  90627 125798 1... at /srv/testbed/results/obrman/default/2022-09-26_23-01-21_743258/dogecoin/testresultsRINGspdz2k_run1[0m
+[0;33m  Skip semi2k - Verify error  [75520, 141738, 24704, 114695, 104633, 169019, 144968, 181078, 140042, 153986, 93453, 168757, 90627,... != [ 75520 141738  24704 114695 104633 169019 144968 181078 140042 153986  93453 168757  90627 125798 1... at /srv/testbed/results/obrman/default/2022-09-26_23-01-21_743258/dogecoin/testresultsRINGsemi2k_run1[0m
+[0;33m  Skip shamir-bmr - Verify error  [75520, 141738, 24704, 114695, 104633, 169019, 144968, 181078, 140042, 153986, 93453, 168757, 90627,... != [ 75520 141738  24704 114695 104633 169019 144968 181078 140042 153986  93453 168757  90627 125798 1... at /srv/testbed/results/obrman/default/2022-09-26_23-01-21_743258/dogecoin/testresultsBINARYshamir-bmr_run1[0m

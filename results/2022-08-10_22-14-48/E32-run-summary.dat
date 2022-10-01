@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.238.0/24
+    Protocols:
+      Field  = atlas shamir temi
+      Ring   = replicated-ring
+      Binary = semi-bin
+    Inputs = 11 13 14 ... 16
+    Testtypes:
+      FREQS	= 2.2
+      CPUS	= 4
+      QUOTAS	= 90
+      MEASURERAM	= 
+  Summary file = results/2022-08-10_22-14-48/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-10_22-14-51_413789
+  Total Experiment runtime = 0h11min52sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for semi-bin

@@ -1,0 +1,24 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.35.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 30 60 90
+    Testtypes:
+  Summary file = results/2022-09-06_13-24-35/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736
+  Total Experiment runtime = 0h8min53sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [1]
+[1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 5... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  [1]
+[1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 5... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  [1]
+[1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 5... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [1]
+[1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 5... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [1]
+[1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 5... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_13-24-37_974736/ether/testresultsBINARYreplicated-bin_run0[0m

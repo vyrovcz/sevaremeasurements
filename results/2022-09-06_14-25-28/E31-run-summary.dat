@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.172.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 30 60 90
+    Testtypes:
+  Summary file = results/2022-09-06_14-25-28/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138
+  Total Experiment runtime = 0h9min0sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [1]... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138/dogecoin/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  [1]... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138/dogecoin/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  [1]... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138/dogecoin/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [1]... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138/dogecoin/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [1]... != [1, 2, 4, 5, 6, 9, 11, 14, 16, 17, 18, 19, 23, 25, 26, 30, 34, 35, 37, 39, 40, 42, 44, 49, 52, 53, 5... at /srv/testbed/results/obrman/default/2022-09-06_14-25-31_572138/dogecoin/testresultsBINARYreplicated-bin_run0[0m

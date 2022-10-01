@@ -1,0 +1,280 @@
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\addplot[color=olive] table {figures/mal-shamir-bmr.dat};
+\addplot[color=orange] table {figures/malicious-rep-bin.dat};
+\addplot[color=pink] table {figures/malicious-ccd.dat};
+\addplot[color=purple] table {figures/ps-rep-bin.dat};
+\addplot[color=red] table {figures/mal-rep-bmr.dat};
+\addplot[color=teal] table {figures/replicated-bin.dat};
+\addplot[color=violet] table {figures/rep-bmr.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,mal-shamir-bmr,malicious-rep-bin,malicious-ccd,ps-rep-bin,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\addplot[color=olive] table {figures/mal-shamir-bmr.dat};
+\addplot[color=orange] table {figures/malicious-rep-bin.dat};
+\addplot[color=pink] table {figures/malicious-ccd.dat};
+\addplot[color=purple] table {figures/ps-rep-bin.dat};
+\addplot[color=red] table {figures/mal-rep-bmr.dat};
+\addplot[color=teal] table {figures/replicated-bin.dat};
+\addplot[color=violet] table {figures/rep-bmr.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,mal-shamir-bmr,malicious-rep-bin,malicious-ccd,ps-rep-bin,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\addplot[color=olive] table {figures/mal-shamir-bmr.dat};
+\addplot[color=orange] table {figures/malicious-rep-bin.dat};
+\addplot[color=pink] table {figures/malicious-ccd.dat};
+\addplot[color=purple] table {figures/ps-rep-bin.dat};
+\addplot[color=red] table {figures/mal-rep-bmr.dat};
+\addplot[color=teal] table {figures/replicated-bin.dat};
+\addplot[color=violet] table {figures/rep-bmr.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,mal-shamir-bmr,malicious-rep-bin,malicious-ccd,ps-rep-bin,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\addplot[color=olive] table {figures/mal-shamir-bmr.dat};
+\addplot[color=orange] table {figures/malicious-rep-bin.dat};
+\addplot[color=pink] table {figures/malicious-ccd.dat};
+\addplot[color=purple] table {figures/ps-rep-bin.dat};
+\addplot[color=red] table {figures/mal-rep-bmr.dat};
+\addplot[color=teal] table {figures/replicated-bin.dat};
+\addplot[color=violet] table {figures/rep-bmr.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,mal-shamir-bmr,malicious-rep-bin,malicious-ccd,ps-rep-bin,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\addplot[color=olive] table {figures/mal-shamir-bmr.dat};
+\addplot[color=orange] table {figures/malicious-rep-bin.dat};
+\addplot[color=pink] table {figures/malicious-ccd.dat};
+\addplot[color=purple] table {figures/ps-rep-bin.dat};
+\addplot[color=red] table {figures/mal-rep-bmr.dat};
+\addplot[color=teal] table {figures/replicated-bin.dat};
+\addplot[color=violet] table {figures/rep-bmr.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,mal-shamir-bmr,malicious-rep-bin,malicious-ccd,ps-rep-bin,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on valga,tapa,rapla},
+    ylabel={maxPhyRAM(MiB)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/brain.dat};
+\addplot[color=green] table {figures/malicious-rep-ring.dat};
+\addplot[color=lightgray] table {figures/ps-rep-ring.dat};
+\addplot[color=lime] table {figures/sy-rep-ring.dat};
+\addplot[color=magenta] table {figures/replicated-ring.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,ps-rep-ring,sy-rep-ring,replicated-ring,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}

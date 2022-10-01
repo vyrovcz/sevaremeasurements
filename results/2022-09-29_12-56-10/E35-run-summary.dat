@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 35_set_intersection 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.31.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = tinier malicious-rep-bin replicated-bin semi-bin yao yaoO malicious-ccd ccd
+    Inputs = 10 20 ... 200
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-29_12-56-10/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871
+  Total Experiment runtime = 2h57min46sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip tinier -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYtinier_run01[0m
+[0;33m  Skip malicious-rep-bin -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYmalicious-rep-bin_run01[0m
+[0;33m  Skip replicated-bin -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYreplicated-bin_run01[0m
+[0;33m  Skip semi-bin -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYsemi-bin_run01[0m
+[0;33m  Skip yao -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYyao_run01[0m
+[0;33m  Skip yaoO -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYyaoO_run01[0m
+[0;33m  Skip malicious-ccd -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYmalicious-ccd_run01[0m
+[0;33m  Skip ccd -  at /srv/testbed/results/obrman/default/2022-09-29_12-56-13_742871/ether/testresultsBINARYccd_run01[0m

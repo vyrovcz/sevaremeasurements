@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.235.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 20 200
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-12_15-47-06/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-47-10_071866
+  Total Experiment runtime = 0h6min24sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_15-47-10_071866/bitcoin/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [0, 0, 4, 0, 1034, 0, 1042, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 576, 0, 0, 0, 0,... != [514, 0, 4, 0, 1034, 1041, 1042, 531, 0, 0, 1048, 26, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 576, 6... at /srv/testbed/results/obrman/default/2022-08-12_15-47-10_071866/bitcoin/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_15-47-10_071866/bitcoin/testresultsBINARYyaoO_run0[0m
+[0;33m  Verify error  [0, 0, 4, 0, 1034, 0, 1042, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 576, 0, 0, 0, 0,... != [514, 0, 4, 0, 1034, 1041, 1042, 531, 0, 0, 1048, 26, 0, 0, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 576, 6... at /srv/testbed/results/obrman/default/2022-08-12_15-47-10_071866/bitcoin/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yaoO

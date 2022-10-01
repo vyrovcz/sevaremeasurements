@@ -1,0 +1,53 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.12.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 4 6 8 9 10
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_02-51-43/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569
+  Total Experiment runtime = 0h42min40sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip mascot - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDmascot_run0[0m
+[0;33m  Skip lowgear - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDlowgear_run0[0m
+[0;33m  Skip highgear - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDhighgear_run0[0m
+[0;33m  Skip cowgear - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDcowgear_run0[0m
+[0;33m  Skip chaigear - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDchaigear_run0[0m
+[0;33m  Skip semi - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDsemi_run0[0m
+[0;33m  Skip hemi - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDhemi_run0[0m
+[0;33m  Skip temi - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDtemi_run0[0m
+[0;33m  Skip soho - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDsoho_run0[0m
+[0;33m  Skip malicious-shamir - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDmalicious-shamir_run0[0m
+[0;33m  Skip malicious-rep-field - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDmalicious-rep-field_run0[0m
+[0;33m  Skip ps-rep-field - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDps-rep-field_run0[0m
+[0;33m  Skip sy-rep-field - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDsy-rep-field_run0[0m
+[0;33m  Skip shamir - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip spdz2k - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGspdz2k_run0[0m
+[0;33m  Skip semi2k - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGsemi2k_run0[0m
+[0;33m  Skip brain - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGbrain_run0[0m
+[0;33m  Skip malicious-rep-ring - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGmalicious-rep-ring_run0[0m
+[0;33m  Skip ps-rep-ring - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGps-rep-ring_run0[0m
+[0;33m  Skip sy-rep-ring - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGsy-rep-ring_run0[0m
+[0;33m  Skip replicated-ring - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip tinier - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYtinier_run0[0m
+[0;33m  Skip real-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYreal-bmr_run0[0m
+[0;33m  Skip semi-bin - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYsemi-bin_run0[0m
+[0;33m  Skip yao - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYyaoO_run0[0m
+[0;33m  Skip semi-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYsemi-bmr_run0[0m
+[0;33m  Skip malicious-rep-bin - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYmalicious-rep-bin_run0[0m
+[0;33m  Skip malicious-ccd - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYmalicious-ccd_run0[0m
+[0;33m  Skip ps-rep-bin - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYps-rep-bin_run0[0m
+[0;33m  Skip mal-shamir-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYmal-shamir-bmr_run0[0m
+[0;33m  Skip mal-rep-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYmal-rep-bmr_run0[0m
+[0;33m  Skip replicated-bin - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYreplicated-bin_run0[0m
+[0;33m  Skip ccd - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYccd_run0[0m
+[0;33m  Skip shamir-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYshamir-bmr_run0[0m
+[0;33m  Skip rep-bmr - Verify error   at /srv/testbed/results/obrman/default/2022-09-28_02-51-45_932569/todd/testresultsBINARYrep-bmr_run0[0m

@@ -1,0 +1,8 @@
+nodes             program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  latencies(ms)  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      190320        117120           14671          0              30          35.0247     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             5              30          203.326     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             10             30          376.914     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             15             30          560.874     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             20             30          739.227     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             25             30          918.161     ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      NA            NA               NA             30             30          1098.29     ~61444        2553.64         7641.14

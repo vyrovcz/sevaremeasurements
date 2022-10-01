@@ -1,0 +1,7 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;FIELD;semihonest;atlas;NA;NA;401;20;0.148203;15;~812;0.7328;1.4688
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;FIELD;semihonest;atlas;NA;NA;901;30;0.191282;15;~1812;0.7488;1.5048
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;RING;semidishonest;semi2k;NA;NA;401;20;0.0801104;14;~1600;0.0064;0.0128
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;RING;semidishonest;semi2k;NA;NA;901;30;0.171193;14;~3600;0.0144;0.0288
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;BINARY;semidishonest;yao;NA;NA;37601;20;0.213756;20;NA;3.5452;NA
+bitcoin,bitcoincash,bitcoingold;33_matrix_add_float;BINARY;semidishonest;yao;NA;NA;84601;30;0.439548;37;NA;7.9767;NA

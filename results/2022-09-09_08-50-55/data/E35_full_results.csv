@@ -1,0 +1,15 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;packetdrops(%);runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;244170;19141;30;0;8.59481;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;2;105.608;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;4;256.194;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;6;514.99;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;8;859.779;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;10;1663.14;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;tinier;NA;NA;NA;30;12;3472.4;NA;545.695;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;244170;19141;30;0;1.94493;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;2;91.6328;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;4;217.17;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;6;356.951;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;8;569.956;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;10;785.443;NA;29.5907;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bin;NA;NA;NA;30;12;1086.46;NA;29.5907;NA

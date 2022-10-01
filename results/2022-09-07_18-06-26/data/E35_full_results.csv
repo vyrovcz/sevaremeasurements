@@ -1,0 +1,13 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;packetdrops(%);runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;malicious-shamir;190320;117120;14671;30;6;367.175;~14928;61.6396;185.239
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;malicious-shamir;NA;NA;NA;30;8;759.914;~14928;61.6396;185.239
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;malicious-rep-field;190320;117120;14671;30;6;154.036;~14873;21.2236;63.8308
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;malicious-rep-field;NA;NA;NA;30;8;327.417;~14873;21.2236;63.8308
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;ps-rep-field;190320;117120;14671;30;6;268.061;~14873;17.3375;52.1725
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;ps-rep-field;NA;NA;NA;30;8;424.224;~14873;17.3375;52.1725
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;sy-rep-field;190320;117120;14671;30;6;265.113;~15046;18.6704;56.1713
+rapla,tapa,valga;35_set_intersection;FIELD;malhonest;sy-rep-field;NA;NA;NA;30;8;449.637;~15046;18.6704;56.1713
+rapla,tapa,valga;35_set_intersection;FIELD;semihonest;shamir;190320;117120;14671;30;6;379.946;~16571;14.3683;43.3357
+rapla,tapa,valga;35_set_intersection;FIELD;semihonest;shamir;NA;NA;NA;30;8;676.037;~16571;14.3683;43.3357
+rapla,tapa,valga;35_set_intersection;FIELD;semihonest;replicated-field;190320;117120;14671;30;6;250.427;~14711;7.18416;21.7125
+rapla,tapa,valga;35_set_intersection;FIELD;semihonest;replicated-field;NA;NA;NA;30;8;415.31;~14711;7.18416;21.7125

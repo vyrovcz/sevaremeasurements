@@ -1,0 +1,3 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;bandwidths(Mbs);input_size;runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;BINARY;maldishonest;real-bmr;NA;244170;19141;100;30;8663.98;NA;156617;NA
+rapla,tapa,valga;35_set_intersection;BINARY;semidishonest;semi-bmr;NA;244170;19141;100;30;1210.62;NA;26332.8;NA

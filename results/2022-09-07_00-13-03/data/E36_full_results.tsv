@@ -1,0 +1,13 @@
+nodes                      program       c.domain  adv.model   protocol          comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            96               7              16          0.0500211   ~14           0.965632        2.41382
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            216              7              36          0.0601831   ~14           0.972672        2.4311
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            336              7              56          0.0618736   ~14           0.979712        2.44838
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            456              7              76          0.059546    ~14           0.986752        2.46566
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            576              7              96          0.058965    ~14           0.993792        2.48294
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  shamir            NA            600              7              100         0.0571634   ~14           0.9952          2.4864
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            96               7              16          0.0867355   ~9            0.322816        0.968448
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            216              7              36          0.0496133   ~9            0.326336        0.979008
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            336              7              56          0.0496132   ~9            0.329856        0.989568
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            456              7              76          0.0494846   ~9            0.333376        1.00013
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            576              7              96          0.0757279   ~9            0.336896        1.01069
+ether,ethercash,ethergold  36_array_ops  FIELD     semihonest  replicated-field  NA            600              7              100         0.0615653   ~9            0.3376          1.0128

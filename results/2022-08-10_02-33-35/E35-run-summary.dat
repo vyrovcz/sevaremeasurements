@@ -1,0 +1,32 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.193.0/24
+    Protocols:
+      Field  = mascot lowgear temi
+      Ring   = spdz2k semi2k
+      Binary = tinier semi-bin yao
+    Inputs = 3 4 ... 13
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-10_02-33-35/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700
+  Total Experiment runtime = 8h56min31sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [9, 0, 0, 0]... != [9, 2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [32, 0, 0, 17, 0, 0, 0, 0]... != [32, 0, 0, 17, 20, 0, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run005[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run008[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run009[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 75, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run010[0m
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-10_02-33-37_975700/dogecoin/testresultsBINARYyao_run011[0m
+[0;33m  Third consecutive verify error, skipping  [0m

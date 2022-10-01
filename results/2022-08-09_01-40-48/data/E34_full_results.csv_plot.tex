@@ -1,0 +1,136 @@
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/ps-rep-ring.dat};
+\addplot[color=green] table {figures/sy-rep-ring.dat};
+\addplot[color=lightgray] table {figures/replicated-ring.dat};
+\addplot[color=lime] table {figures/malicious-rep-bin.dat};
+\addplot[color=magenta] table {figures/replicated-bin.dat};
+\addplot[color=olive] table {figures/ccd.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,ps-rep-ring,sy-rep-ring,replicated-ring,malicious-rep-bin,replicated-bin,ccd,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={maxPhyRAM(MiB)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/ps-rep-ring.dat};
+\addplot[color=green] table {figures/sy-rep-ring.dat};
+\addplot[color=lightgray] table {figures/replicated-ring.dat};
+\addplot[color=lime] table {figures/malicious-rep-bin.dat};
+\addplot[color=magenta] table {figures/replicated-bin.dat};
+\addplot[color=olive] table {figures/ccd.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,ps-rep-ring,sy-rep-ring,replicated-ring,malicious-rep-bin,replicated-bin,ccd,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-bin.dat};
+\addplot[color=blue] table {figures/replicated-bin.dat};
+\addplot[color=brown] table {figures/ccd.dat};
+\legend{
+malicious-rep-bin,replicated-bin,ccd,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-rep-field.dat};
+\addplot[color=blue] table {figures/ps-rep-field.dat};
+\addplot[color=brown] table {figures/sy-rep-field.dat};
+\addplot[color=cyan] table {figures/shamir.dat};
+\addplot[color=darkgray] table {figures/replicated-field.dat};
+\addplot[color=gray] table {figures/ps-rep-ring.dat};
+\addplot[color=green] table {figures/sy-rep-ring.dat};
+\addplot[color=lightgray] table {figures/replicated-ring.dat};
+\addplot[color=lime] table {figures/malicious-rep-bin.dat};
+\addplot[color=magenta] table {figures/replicated-bin.dat};
+\addplot[color=olive] table {figures/ccd.dat};
+\legend{
+malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,ps-rep-ring,sy-rep-ring,replicated-ring,malicious-rep-bin,replicated-bin,ccd,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}

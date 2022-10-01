@@ -1,0 +1,5 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semidishonest;yao;NA;12258;1237;6;0.0260336;11;NA;0.39264;NA
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semidishonest;yao;NA;347868;26857;36;0.28174;13;NA;11.1341;NA
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semidishonest;yaoO;NA;12258;1237;6;0.00378037;10;NA;0;NA
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semidishonest;yaoO;NA;347868;26857;36;0.196774;22;NA;0;NA

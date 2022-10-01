@@ -1,0 +1,108 @@
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/yao.dat};
+\addplot[color=blue] table {figures/yaoO.dat};
+\legend{
+yao,yaoO,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={maxPhyRAM(MiB)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/yao.dat};
+\addplot[color=blue] table {figures/yaoO.dat};
+\legend{
+yao,yaoO,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/yao.dat};
+\addplot[color=blue] table {figures/yaoO.dat};
+\legend{
+yao,yaoO,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/yao.dat};
+\addplot[color=blue] table {figures/yaoO.dat};
+\legend{
+yao,yaoO,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}

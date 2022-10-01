@@ -1,0 +1,15 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;latencies(ms);input_size;runtime(s);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;1830
+1830;113460
+1830;42121;0;30;77.2128;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;NA;NA;NA;5;30;407.916;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;NA;NA;NA;10;30;725.931;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;NA;NA;NA;15;30;1040.5;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;NA;NA;NA;20;30;1356.51;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;1830
+1830;113460
+1830;42121;0;30;2.36713;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;NA;NA;NA;5;30;175.896;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;NA;NA;NA;10;30;344.649;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;NA;NA;NA;15;30;512.753;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;NA;NA;NA;20;30;681.032;~67110;37.78;109.331

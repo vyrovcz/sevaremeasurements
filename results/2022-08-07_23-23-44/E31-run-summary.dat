@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.233.0/24
+    Protocols:
+      Field  = malicious-shamir
+      Ring   = 
+      Binary = malicious-rep-bin malicious-ccd mal-rep-bmr replicated-bin rep-bmr
+    Inputs = 10 200 400 ... 2400
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-07_23-23-44/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-07_23-23-47_665667
+  Total Experiment runtime = 6h46min44sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash dogecoingold ether
+    Internal network = 10.10.8.0/24
+    Protocols:
+      Field  = atlas shamir malicious-shamir temi
+      Ring   = spdz2k
+      Binary = ccd malicious-ccd tinier
+    Inputs = 5 10 ... 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-25_12-59-22/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-25_12-59-28_606845
+  Total Experiment runtime = 1h11min24sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for temi
+[0;33m  Skip spdz2k - File not found error: [0m
+[0;33m  Skip ccd - File not found error: [0m
+[0;33m  Skip malicious-ccd - File not found error: [0m
+[0;33m  Skip tinier - File not found error: [0m

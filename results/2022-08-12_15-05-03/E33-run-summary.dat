@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.206.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 8 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-12_15-05-03/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-05-06_267477
+  Total Experiment runtime = 0h6min1sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [11.3, 9.3, 17.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 7.9, 5.8, 7.49, 4.29, 14.3, 12.7, 13.2, 13.6, 7... != [12.4, 16.1, 22.4, 19.2, 14.7, 14.2, 19.1, 12.8, 13.6, 14.4, 12.7, 15.4, 7.85, 18.5, 16, 16.7, 20.6,... at /srv/testbed/results/obrman/default/2022-08-12_15-05-06_267477/ether/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [19.3, 17.3, 34.2, 27.6, 19.7, 9.4, 23.6, 6.31, 19.7, 27.6, 25.8, 11.1, 25.4, 36, 32.8, 31.5, 37.9, ... != [21.4, 30.1, 59.1, 37.9, 27.3, 29.1, 38.2, 31.2, 37.7, 46.5, 43.1, 14, 37.9, 47.9, 47.7, 48.7, 44.1,... at /srv/testbed/results/obrman/default/2022-08-12_15-05-06_267477/ether/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [11.3, 9.3, 17.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 7.9, 5.8, 7.49, 4.29, 14.3, 12.7, 13.2, 13.6, 7... != [12.4, 16.1, 22.4, 19.2, 14.7, 14.2, 19.1, 12.8, 13.6, 14.4, 12.7, 15.4, 7.85, 18.5, 16, 16.7, 20.6,... at /srv/testbed/results/obrman/default/2022-08-12_15-05-06_267477/ether/testresultsBINARYyaoO_run0[0m
+[0;33m  Verify error  [19.3, 17.3, 34.2, 27.6, 19.7, 9.4, 23.6, 6.31, 19.7, 27.6, 25.8, 11.1, 25.4, 36, 32.8, 31.5, 37.9, ... != [21.4, 30.1, 59.1, 37.9, 27.3, 29.1, 38.2, 31.2, 37.7, 46.5, 43.1, 14, 37.9, 47.9, 47.7, 48.7, 44.1,... at /srv/testbed/results/obrman/default/2022-08-12_15-05-06_267477/ether/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yaoO

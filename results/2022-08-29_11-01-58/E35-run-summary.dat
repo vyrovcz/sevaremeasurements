@@ -1,0 +1,28 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.38.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = semi-bin yao ccd
+    Inputs = 10 20
+    Testtypes:
+      CPUS	= 2 4
+      QUOTAS	= 80 120
+      FREQS	= 1.8 2.1
+  Summary file = results/2022-08-29_11-01-58/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768
+  Total Experiment runtime = 0h9min43sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run01[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run03[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run05[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run07[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run09[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run11[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run13[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [0, 28, 0, 0, 0, 0, 0, 0, 0, 63, 0, 75, 98, 101, 107, 109, 0, 115, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-29_11-02-00_944768/dogecoin/testresultsBINARYyao_run15[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for ccd

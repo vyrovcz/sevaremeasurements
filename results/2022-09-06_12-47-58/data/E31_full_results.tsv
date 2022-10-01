@@ -1,0 +1,19 @@
+nodes                               program             c.domain  adv.model   protocol          comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  shamir            3120          1890             214            30          0.0528365   ~248          0.703392        1.78536
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  shamir            6240          3780             424            60          0.0869478   ~488          0.766752        1.97064
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  shamir            9360          5670             634            90          0.315044    ~728          0.830112        2.15592
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  atlas             3120          1890             214            30          0.176911    ~451          2.92333         6.52514
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  atlas             6240          3780             424            60          0.234022    ~871          2.96653         6.64994
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  atlas             9360          5670             634            90          0.31057     ~1291         3.00973         6.77474
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  replicated-field  3120          1890             214            30          0.0449097   ~216          0.351696        0.894144
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  replicated-field  6240          3780             424            60          0.0689988   ~426          0.383376        0.988224
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  FIELD     semihonest  replicated-field  9360          5670             634            90          0.113656    ~636          0.415056        1.0823
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  RING      semihonest  replicated-ring   30
+30                                  1890                664       30          0.0559046         ~322          0.40409          0.97103
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  RING      semihonest  replicated-ring   60
+60                                  3780                1324      60          0.0848082         ~562          0.40694          0.9791
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  RING      semihonest  replicated-ring   90
+90                                  5670                1984      90          0.115638          ~802          0.40979          0.98717
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  BINARY    semihonest  replicated-bin    NA            7770             1532           30          0.0940025   NA            0.009986        NA
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  BINARY    semihonest  replicated-bin    NA            15540            3062           60          0.167169    NA            0.019916        NA
+dogecoin,dogecoincash,dogecoingold  31_scalable_search  BINARY    semihonest  replicated-bin    NA            23310            4592           90          0.307727    NA            0.029846        NA

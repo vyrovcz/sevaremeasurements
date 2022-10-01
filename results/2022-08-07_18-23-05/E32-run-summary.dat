@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = todd ned rod
+    Internal network = 10.10.181.0/24
+    Protocols:
+      Field  = mascot lowgear semi hemi
+      Ring   = spdz2k semi2k
+      Binary = tinier semi-bin yao
+    Inputs = 3 6 ... 33
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-07_18-23-05/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-07_18-23-08_630577
+  Total Experiment runtime = 4h34min1sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Skip yao - Verify error  [18, 17, 11, 13, 33, 31, 29, 23, 23]... != [20, 20, 14, 25, 39, 41, 38, 30, 25]... at /srv/testbed/results/obrman/default/2022-08-07_18-23-08_630577/todd/testresultsBINARYyao_run000[0m

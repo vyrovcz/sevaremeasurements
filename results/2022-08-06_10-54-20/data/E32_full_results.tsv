@@ -1,0 +1,61 @@
+nodes         program        c.domain  adv.model         protocol             comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+todd,ned,rod  32_matrix_add  FIELD     maldishonest      mascot               NA            NA               2501           50          1.32591     262             ~10071        41.1751         123.445
+todd,ned,rod  32_matrix_add  FIELD     maldishonest      mascot               NA            NA               250001         500         52.5321     426             ~1000815      1040.17         3112.52
+todd,ned,rod  32_matrix_add  FIELD     maldishonest      lowgear              NA            NA               2501           50          506.654     1245            ~10055        1.75922         5.19756
+todd,ned,rod  32_matrix_add  FIELD     maldishonest      lowgear              NA            NA               250001         500         57.0312     228             ~1000985      64.8184         186.452
+todd,ned,rod  32_matrix_add  FIELD     highgear          NA                   NA            2501             50             1096.88     2624        ~10066          107.241       321.645
+todd,ned,rod  32_matrix_add  FIELD     highgear          NA                   NA            250001           500            99.4903     436         ~1000150        337.192       1003.58
+todd,ned,rod  32_matrix_add  FIELD     covertdishonest   cowgear              NA            NA               2501           50          6.98011     137             ~10055        1.75922         5.19756
+todd,ned,rod  32_matrix_add  FIELD     covertdishonest   cowgear              NA            NA               250001         500         56.8607     228             ~1000985      64.8184         186.452
+todd,ned,rod  32_matrix_add  FIELD     covertdishonest   chaigear             NA            NA               2501           50          70.9004     1251            ~10066        107.242         321.646
+todd,ned,rod  32_matrix_add  FIELD     covertdishonest   chaigear             NA            NA               250001         500         93.8565     432             ~1000150      337.193         1003.58
+todd,ned,rod  32_matrix_add  FIELD     semi              NA                   NA            2501             50             0.260105    15          ~10000          0.08          0.16
+todd,ned,rod  32_matrix_add  FIELD     semi              NA                   NA            250001           500            28.8922     99          ~1000000        8             16
+todd,ned,rod  32_matrix_add  FIELD     hemi              NA                   NA            2501             50             0.255297    17          ~10000          0.08          0.16
+todd,ned,rod  32_matrix_add  FIELD     hemi              NA                   NA            250001           500            28.838      101         ~1000000        8             16
+todd,ned,rod  32_matrix_add  FIELD     semidishonest     temi                 NA            NA               2501           50          0.261419    30              ~10000        0.08            0.16
+todd,ned,rod  32_matrix_add  FIELD     semidishonest     temi                 NA            NA               250001         500         28.7263     103             ~1000000      8               16
+todd,ned,rod  32_matrix_add  FIELD     soho              NA                   NA            2501             50             0.273513    121         ~10000          0.08          0.16
+todd,ned,rod  32_matrix_add  FIELD     soho              NA                   NA            250001           500            29.0063     156         ~1000000        8             16
+todd,ned,rod  32_matrix_add  FIELD     malicious-shamir  NA                   NA            2501             50             0.257472    15          ~2501           0.16          0.48
+todd,ned,rod  32_matrix_add  FIELD     malicious-shamir  NA                   NA            250001           500            37.2068     115         ~250001         16            48
+todd,ned,rod  32_matrix_add  FIELD     malhonest         malicious-rep-field  NA            NA               2501           50          0.250813    15              ~2503         0.080128        0.240384
+todd,ned,rod  32_matrix_add  FIELD     malhonest         malicious-rep-field  NA            NA               250001         500         29.1268     149             ~250003       8.00013         24.0004
+todd,ned,rod  32_matrix_add  FIELD     malhonest         ps-rep-field         NA            NA               2501           50          0.19847     16              ~2503         0.080128        0.240384
+todd,ned,rod  32_matrix_add  FIELD     malhonest         ps-rep-field         NA            NA               250001         500         29.7687     140             ~250003       8.00013         24.0004
+todd,ned,rod  32_matrix_add  FIELD     sy-rep-field      NA                   NA            2501             50             0.207218    16          ~2508           0.200256      0.600768
+todd,ned,rod  32_matrix_add  FIELD     sy-rep-field      NA                   NA            250001           500            30.7013     387         ~250008         20.0003       60.0008
+todd,ned,rod  32_matrix_add  FIELD     semihonest        shamir               NA            NA               2501           50          0.55979     14              ~5001         0.16            0.36
+todd,ned,rod  32_matrix_add  FIELD     semihonest        shamir               NA            NA               250001         500         57.8486     115             ~500001       16              36
+todd,ned,rod  32_matrix_add  FIELD     semihonest        atlas                NA            NA               2501           50          0.622035    17              ~5012         1.6             3.24
+todd,ned,rod  32_matrix_add  FIELD     semihonest        atlas                NA            NA               250001         500         65.0947     123             ~500228       52              108
+todd,ned,rod  32_matrix_add  FIELD     semihonest        replicated-field     NA            NA               2501           50          0.198068    14              ~2501         0.08            0.24
+todd,ned,rod  32_matrix_add  FIELD     semihonest        replicated-field     NA            NA               250001         500         29.4577     146             ~250001       8               24
+todd,ned,rod  32_matrix_add  RING      maldishonest      spdz2k               NA            NA               2501           50          1.2377      166             ~10093        20.7581         62.1943
+todd,ned,rod  32_matrix_add  RING      maldishonest      spdz2k               NA            NA               250001         500         68.5925     335             ~1002298      1042.83         3120.5
+todd,ned,rod  32_matrix_add  RING      semidishonest     semi2k               NA            NA               2501           50          0.247434    14              ~10000        0.04            0.08
+todd,ned,rod  32_matrix_add  RING      semidishonest     semi2k               NA            NA               250001         500         28.2471     97              ~1000000      4               8
+todd,ned,rod  32_matrix_add  RING      brain             NA                   NA            2501             50             0.182891    16          ~2503           0.040128      0.120384
+todd,ned,rod  32_matrix_add  RING      brain             NA                   NA            250001           500            29.3949     102         ~250003         4.00013       12.0004
+todd,ned,rod  32_matrix_add  RING      malhonest         malicious-rep-ring   NA            NA               2501           50          0.200013    15              ~2503         0.040128        0.120384
+todd,ned,rod  32_matrix_add  RING      malhonest         malicious-rep-ring   NA            NA               250001         500         28.0286     126             ~250003       4.00013         12.0004
+todd,ned,rod  32_matrix_add  RING      malhonest         ps-rep-ring          NA            NA               2501           50          0.205986    13              ~2503         0.040128        0.120384
+todd,ned,rod  32_matrix_add  RING      malhonest         ps-rep-ring          NA            NA               250001         500         28.4        124             ~250003       4.00013         12.0004
+todd,ned,rod  32_matrix_add  RING      malhonest         sy-rep-ring          NA            NA               2501           50          0.186895    19              ~2527         0.161522        0.483214
+todd,ned,rod  32_matrix_add  RING      malhonest         sy-rep-ring          NA            NA               250001         500         28.4896     396             ~250027       15.0115         45.0332
+todd,ned,rod  32_matrix_add  RING      semihonest        replicated-ring      NA            NA               2501           50          0.167906    14              ~2501         0.04            0.12
+todd,ned,rod  32_matrix_add  RING      semihonest        replicated-ring      NA            NA               250001         500         28.5332     123             ~250001       4               12
+todd,ned,rod  32_matrix_add  BINARY    maldishonest      tinier               NA            1470000          437501         50          72.778      175             NA            3200.1          NA
+todd,ned,rod  32_matrix_add  BINARY    maldishonest      real-bmr             NA            1470000          437501         50          4926.53     5988            NA            943258          NA
+todd,ned,rod  32_matrix_add  BINARY    semidishonest     semi-bin             NA            1470000          437501         50          24.4806     242             NA            112.393         NA
+todd,ned,rod  32_matrix_add  BINARY    semidishonest     yao                  NA            1470000          437501         50          2.15214     117             NA            47.2            NA
+todd,ned,rod  32_matrix_add  BINARY    semi-bmr          NA                   1470000       437501           50             647.691     2734        NA              158514        NA
+todd,ned,rod  32_matrix_add  BINARY    malhonest         malicious-rep-bin    NA            1470000          437501         50          21.4824     70              NA            26.1893         NA
+todd,ned,rod  32_matrix_add  BINARY    malhonest         malicious-ccd        NA            1470000          437501         50          34.7726     101             NA            181.533         NA
+todd,ned,rod  32_matrix_add  BINARY    malhonest         ps-rep-bin           NA            1470000          437501         50          30.9021     420             NA            92.3044         NA
+todd,ned,rod  32_matrix_add  BINARY    mal-shamir-bmr    NA                   1470000       437501           50             116.546     3068        NA              6115.1        NA
+todd,ned,rod  32_matrix_add  BINARY    malhonest         mal-rep-bmr          NA            1470000          437501         50          72.3725     3522            NA            2200.67         NA
+todd,ned,rod  32_matrix_add  BINARY    semihonest        replicated-bin       NA            1470000          437501         50          22.0033     66              NA            1.65005         NA
+todd,ned,rod  32_matrix_add  BINARY    semihonest        ccd                  NA            1470000          437501         50          27.0065     95              NA            3.42            NA
+todd,ned,rod  32_matrix_add  BINARY    semihonest        shamir-bmr           NA            1470000          437501         50          63.0505     2725            NA            1875.52         NA
+todd,ned,rod  32_matrix_add  BINARY    semihonest        rep-bmr              NA            1470000          437501         50          36.1746     2173            NA            914.56          NA

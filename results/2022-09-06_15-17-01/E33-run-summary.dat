@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.183.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 5 15 20
+    Testtypes:
+  Summary file = results/2022-09-06_15-17-01/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597
+  Total Experiment runtime = 0h8min59sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [8.41873, 9.13104, 13.4984, 11.2262, 11.3585, 9.03645, 13.5219, 9.24989, 12.977, 10.4449, 11.2685, 8... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-06_15-17-04_568597/ether/testresultsBINARYreplicated-bin_run0[0m

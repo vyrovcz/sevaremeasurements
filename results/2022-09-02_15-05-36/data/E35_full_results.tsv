@@ -1,0 +1,19 @@
+nodes             program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  packetdrops(%)  runtime(s)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    1830
+1830              113460
+1830              42121                30        0              76.8921   ~103720       4035.66          11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          0.5             125.767     ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          1               209.243     ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          1.5             287.113     ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          2               395.71      ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          2.5             505.47      ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    NA            NA               NA             30          3               630.441     ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    1830
+1830              113460
+1830              42121                30        0              2.33786   ~67110        37.78            109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          0.5             22.4428     ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          1               41.3245     ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          1.5             80.3437     ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          2               109.833     ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          2.5             129.664     ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    NA            NA               NA             30          3               178.083     ~67110        37.78           109.331

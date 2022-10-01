@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.146.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = real-bmr semi-bmr
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 10000 9000 ... 1000
+  Summary file = results/2022-09-12_06-42-23/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-12_06-42-25_813494
+  Total Experiment runtime = 4h23min46sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for real-bmr
+[ [0;32mok[0m ]   verified - test passed for semi-bmr

@@ -1,0 +1,2 @@
+nodes                               program              c.domain  adv.model   protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  33_matrix_add_float  FIELD     semihonest  atlas     NA            NA               10             3           0.0245218   15              ~30           0.720288        1.44065

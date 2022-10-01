@@ -1,0 +1,28 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = rapla tapa valga
+    Internal network = 10.10.180.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field
+      Ring   = brain malicious-rep-ring ps-rep-ring sy-rep-ring
+      Binary = malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr
+    Inputs = 30
+    Testtypes:
+      LATENCIES	= 5 10 ... 40
+  Summary file = results/2022-09-27_15-21-29/E31-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-27_15-21-31_758953
+  Total Experiment runtime = 0h46min46sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr

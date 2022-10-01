@@ -1,0 +1,24 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.219.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho
+      Ring   = 
+      Binary = 
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 100 95 ... 5
+  Summary file = results/2022-09-06_15-14-25/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-06_15-14-27_245745
+  Total Experiment runtime = 14h8min2sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for highgear
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho

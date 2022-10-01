@@ -1,0 +1,117 @@
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on todd,ned,rod},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-shamir.dat};
+\addplot[color=blue] table {figures/malicious-rep-field.dat};
+\addplot[color=brown] table {figures/ps-rep-field.dat};
+\addplot[color=cyan] table {figures/sy-rep-field.dat};
+\addplot[color=darkgray] table {figures/shamir.dat};
+\addplot[color=gray] table {figures/replicated-field.dat};
+\addplot[color=green] table {figures/brain.dat};
+\addplot[color=lightgray] table {figures/malicious-rep-ring.dat};
+\addplot[color=lime] table {figures/replicated-ring.dat};
+\addplot[color=magenta] table {figures/malicious-rep-bin.dat};
+\addplot[color=olive] table {figures/malicious-ccd.dat};
+\addplot[color=orange] table {figures/mal-rep-bmr.dat};
+\addplot[color=pink] table {figures/replicated-bin.dat};
+\addplot[color=purple] table {figures/rep-bmr.dat};
+\legend{
+malicious-shamir,malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,replicated-ring,malicious-rep-bin,malicious-ccd,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on todd,ned,rod},
+    ylabel={maxPhyRAM(MiB)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-shamir.dat};
+\addplot[color=blue] table {figures/malicious-rep-field.dat};
+\addplot[color=brown] table {figures/ps-rep-field.dat};
+\addplot[color=cyan] table {figures/sy-rep-field.dat};
+\addplot[color=darkgray] table {figures/shamir.dat};
+\addplot[color=gray] table {figures/replicated-field.dat};
+\addplot[color=green] table {figures/brain.dat};
+\addplot[color=lightgray] table {figures/malicious-rep-ring.dat};
+\addplot[color=lime] table {figures/replicated-ring.dat};
+\addplot[color=magenta] table {figures/malicious-rep-bin.dat};
+\addplot[color=olive] table {figures/malicious-ccd.dat};
+\addplot[color=orange] table {figures/mal-rep-bmr.dat};
+\addplot[color=pink] table {figures/replicated-bin.dat};
+\addplot[color=purple] table {figures/rep-bmr.dat};
+\legend{
+malicious-shamir,malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,replicated-ring,malicious-rep-bin,malicious-ccd,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on todd,ned,rod},
+    ylabel={runtime(s)},
+    xlabel={freqs(GHz)},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-shamir.dat};
+\addplot[color=blue] table {figures/malicious-rep-field.dat};
+\addplot[color=brown] table {figures/ps-rep-field.dat};
+\addplot[color=cyan] table {figures/sy-rep-field.dat};
+\addplot[color=darkgray] table {figures/shamir.dat};
+\addplot[color=gray] table {figures/replicated-field.dat};
+\addplot[color=green] table {figures/brain.dat};
+\addplot[color=lightgray] table {figures/malicious-rep-ring.dat};
+\addplot[color=lime] table {figures/replicated-ring.dat};
+\addplot[color=magenta] table {figures/malicious-rep-bin.dat};
+\addplot[color=olive] table {figures/malicious-ccd.dat};
+\addplot[color=orange] table {figures/mal-rep-bmr.dat};
+\addplot[color=pink] table {figures/replicated-bin.dat};
+\addplot[color=purple] table {figures/rep-bmr.dat};
+\legend{
+malicious-shamir,malicious-rep-field,ps-rep-field,sy-rep-field,shamir,replicated-field,brain,malicious-rep-ring,replicated-ring,malicious-rep-bin,malicious-ccd,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}

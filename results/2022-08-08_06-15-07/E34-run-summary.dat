@@ -1,0 +1,53 @@
+  Setup:
+    Experiment = 34_matrix_mul
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.34.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 8 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-08_06-15-07/E34-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-08_06-15-10_270063
+  Total Experiment runtime = 14h11min21sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for highgear
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[0;33m  Skip tinier - File not found error: /srv/testbed/results/obrman/default/2022-08-08_06-15-10_270063/bitcoin/testresultsBINARYtinier_run1[0m
+[0;33m  Skip real-bmr - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-08_06-15-10_270063/bitcoin/testresultsBINARYyao_run0[0m
+[0;33m  Skip yao - File not found error: [0m
+[0;33m  Skip semi-bmr - File not found error: [0m
+[0;33m  Skip malicious-rep-bin - File not found error: [0m
+[0;33m  Skip malicious-ccd - File not found error: [0m
+[0;33m  Skip ps-rep-bin - File not found error: [0m
+[0;33m  Skip mal-shamir-bmr - File not found error: [0m
+[0;33m  Skip mal-rep-bmr - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m
+[0;33m  Skip ccd - File not found error: [0m
+[0;33m  Skip shamir-bmr - File not found error: [0m
+[0;33m  Skip rep-bmr - File not found error: [0m

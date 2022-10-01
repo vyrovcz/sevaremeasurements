@@ -1,0 +1,29 @@
+  Setup:
+    Experiment = 34_matrix_mul
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.198.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = tinier semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-08_20-40-09/E34-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-08_20-40-12_979481
+  Total Experiment runtime = 4h12min9sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-08_20-40-12_979481/bitcoin/testresultsBINARYyao_run0[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

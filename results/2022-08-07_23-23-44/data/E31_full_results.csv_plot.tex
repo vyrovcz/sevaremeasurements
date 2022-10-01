@@ -1,0 +1,31 @@
+\documentclass[beamer,multi=true,preview]{standalone}
+\usepackage{beamerpackages}
+\usepackage{tumcolor}
+\newlength{\upt}
+\setlength{\upt}{0.0666667\beamertextwidth}
+
+\setbeamertemplate{headline}{}
+
+\begin{document}%
+\let\shipout\myshipout
+\begin{standaloneframe}[plain]%
+\begin{tikzpicture}
+\begin{axis}[
+	title={Experiment on bitcoin,bitcoincash,bitcoingold},
+    ylabel={runtime(s)},
+    xlabel={input_size},
+    ymin=0, width=20cm,height=14cm,
+    legend pos={north west}
+    ]
+\addplot[color=black] table {figures/malicious-shamir.dat};
+\addplot[color=blue] table {figures/malicious-rep-bin.dat};
+\addplot[color=brown] table {figures/malicious-ccd.dat};
+\addplot[color=cyan] table {figures/mal-rep-bmr.dat};
+\addplot[color=darkgray] table {figures/replicated-bin.dat};
+\addplot[color=gray] table {figures/rep-bmr.dat};
+\legend{
+malicious-shamir,malicious-rep-bin,malicious-ccd,mal-rep-bmr,replicated-bin,rep-bmr,}
+\end{axis}
+\end{tikzpicture}
+\end{standaloneframe}
+\end{document}

@@ -1,0 +1,14 @@
+nodes                            program        c.domain  adv.model      protocol           comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    maldishonest   tinier             NA            7710336          152641         24          449.657     112             NA            16699.9         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semidishonest  semi-bin           NA            7710336          152641         24          24.0359     211             NA            529.735         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semidishonest  yao                NA            7710336          152641         24          4.71401     35              NA            246.768         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semidishonest  semi-bmr           NA            7710336          152641         24          12564.9     2327            NA            831327          NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    malhonest      malicious-rep-bin  NA            7710336          152641         24          15.5931     31              NA            133.364         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    malhonest      malicious-ccd      NA            7710336          152641         24          52.4166     34              NA            927.338         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    malhonest      ps-rep-bin         NA            7710336          152641         24          36.752      382             NA            198.351         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    malhonest      mal-shamir-bmr     NA            7710336          152641         24          851.257     2567            NA            31292           NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    malhonest      mal-rep-bmr        NA            7710336          152641         24          357.852     3072            NA            11439.2         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semihonest     replicated-bin     NA            7710336          152641         24          9.6308      24              NA            7.75186         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semihonest     ccd                NA            7710336          152641         24          13.2808     29              NA            15.5313         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semihonest     shamir-bmr         NA            7710336          152641         24          179.366     2221            NA            9553.62         NA
+bitcoin,bitcoincash,bitcoingold  34_matrix_mul  BINARY    semihonest     rep-bmr            NA            7710336          152641         24          95.622      1712            NA            4692.68         NA

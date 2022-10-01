@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.11.0/24
+    Protocols:
+      Field  = 
+      Ring   = spdz2k semi2k
+      Binary = 
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 150 145 ... 5
+  Summary file = results/2022-09-03_12-37-56/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-03_12-37-58_568001
+  Total Experiment runtime = 5h40min58sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k

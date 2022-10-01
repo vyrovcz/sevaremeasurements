@@ -1,0 +1,27 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = todd ned rod
+    Internal network = 10.10.112.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 3 6 ... 33
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-15_08-59-23/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819
+  Total Experiment runtime = 0h48min29sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [18, 17, 11, 13, 33, 31, 29, 23, 23]... != [20, 20, 14, 25, 39, 41, 38, 30, 25]... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [68, 63, 39, 50, 130, 121, 113, 88, 89, 59, 91, 69, 68, 93, 19, 71, 68, 99, 33, 81, 17, 13, 47, 131,... != [76, 75, 50, 97, 152, 161, 146, 116, 94, 80, 147, 120, 134, 141, 89, 128, 133, 134, 38, 85, 64, 73, ... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [134, 254, 28, 133, 162, 252, 220, 199, 221, 146, 175, 181, 138, 136, 184, 192, 26, 274, 134, 196, 3... != [149, 278, 50, 226, 206, 331, 285, 355, 276, 302, 185, 330, 179, 247, 285, 323, 122, 414, 248, 325, ... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyao_run002[0m
+[0;33m  Verify error  [267, 249, 152, 194, 516, 480, 450, 351, 353, 233, 362, 274, 272, 367, 74, 278, 266, 391, 129, 322, ... != [296, 296, 196, 379, 603, 638, 579, 460, 372, 315, 583, 476, 533, 558, 353, 506, 524, 529, 148, 337,... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyao_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m
+[0;33m  Verify error  [18, 17, 11, 13, 33, 31, 29, 23, 23]... != [20, 20, 14, 25, 39, 41, 38, 30, 25]... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyaoO_run000[0m
+[0;33m  Verify error  [68, 63, 39, 50, 130, 121, 113, 88, 89, 59, 91, 69, 68, 93, 19, 71, 68, 99, 33, 81, 17, 13, 47, 131,... != [76, 75, 50, 97, 152, 161, 146, 116, 94, 80, 147, 120, 134, 141, 89, 128, 133, 134, 38, 85, 64, 73, ... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyaoO_run001[0m
+[0;33m  Verify error  [134, 254, 28, 133, 162, 252, 220, 199, 221, 146, 175, 181, 138, 136, 184, 192, 26, 274, 134, 196, 3... != [149, 278, 50, 226, 206, 331, 285, 355, 276, 302, 185, 330, 179, 247, 285, 323, 122, 414, 248, 325, ... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyaoO_run002[0m
+[0;33m  Verify error  [267, 249, 152, 194, 516, 480, 450, 351, 353, 233, 362, 274, 272, 367, 74, 278, 266, 391, 129, 322, ... != [296, 296, 196, 379, 603, 638, 579, 460, 372, 315, 583, 476, 533, 558, 353, 506, 524, 529, 148, 337,... at /srv/testbed/results/obrman/default/2022-08-15_08-59-26_731819/todd/testresultsBINARYyaoO_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m

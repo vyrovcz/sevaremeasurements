@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 43_set_intersection 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.202.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = tinier malicious-rep-bin replicated-bin semi-bin yao yaoO malicious-ccd ccd
+    Inputs = 10 20 ... 200
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-29_12-56-52/E43-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-29_12-56-55_578183
+  Total Experiment runtime = 2h24min34sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip tinier - File not found error: [0m
+[0;33m  Skip malicious-rep-bin - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Skip yao - File not found error: [0m
+[0;33m  Skip yaoO - File not found error: [0m
+[0;33m  Skip malicious-ccd - File not found error: [0m
+[0;33m  Skip ccd - File not found error: [0m

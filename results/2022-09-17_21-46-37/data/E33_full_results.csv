@@ -1,0 +1,9 @@
+nodes;program;c.domain;adv.model;protocol;comp.intbits;comp.inttriples;comp.vmrounds;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;malicious-shamir;NA;NA;26;5;0.00392003;14;~26;0.0008;0.0024
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;malicious-shamir;NA;NA;101;10;0.0101877;14;~101;0.0032;0.0096
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;malicious-rep-field;NA;NA;26;5;0.00324222;13;~28;0.000528;0.001584
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;malicious-rep-field;NA;NA;101;10;0.00843185;13;~103;0.001728;0.005184
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;ps-rep-field;NA;NA;26;5;0.00339664;16;~28;0.000528;0.001584
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;ps-rep-field;NA;NA;101;10;0.0196172;14;~103;0.001728;0.005184
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;sy-rep-field;NA;NA;26;5;0.00796064;15;~33;0.001224;0.003672
+todd,ned,rod;33_matrix_add_float;FIELD;malhonest;sy-rep-field;NA;NA;101;10;0.00909199;14;~108;0.004224;0.012672

@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 36_arrayops_addint
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.228.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 4 6 ... 10
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-06_19-44-06/E36-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_19-44-09_157278
+  Total Experiment runtime = 0h8min52sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [38, 38, 26, 49]... != [38 38 26 49 75 75 68 70 40 32 69 47 58 64 36 42]... at /srv/testbed/results/obrman/default/2022-09-06_19-44-09_157278/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip replicated-field - Verify error  [38, 38, 26, 49]... != [38 38 26 49 75 75 68 70 40 32 69 47 58 64 36 42]... at /srv/testbed/results/obrman/default/2022-09-06_19-44-09_157278/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [38, 38, 26, 49]... != [38 38 26 49 75 75 68 70 40 32 69 47 58 64 36 42]... at /srv/testbed/results/obrman/default/2022-09-06_19-44-09_157278/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [38, 38, 26, 49]... != [38 38 26 49 75 75 68 70 40 32 69 47 58 64 36 42]... at /srv/testbed/results/obrman/default/2022-09-06_19-44-09_157278/ether/testresultsBINARYreplicated-bin_run0[0m

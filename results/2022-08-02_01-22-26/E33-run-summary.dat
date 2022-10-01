@@ -1,0 +1,16 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = valga tapa rapla
+    Internal network = 10.10.252.0/24
+    Protocols:
+      Field  = mascot atlas
+      Ring   = 
+      Binary = 
+    Inputs = 10 20 30
+    Testtypes:
+  Summary file = results/2022-08-02_01-22-26/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-02_01-22-28_569134
+  Total Experiment runtime = 0h7min35sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for atlas

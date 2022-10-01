@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.119.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 4 6 ... 10
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-06_19-34-57/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_19-35-00_582688
+  Total Experiment runtime = 0h9min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin

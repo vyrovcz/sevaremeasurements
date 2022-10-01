@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.17.0/24
+    Protocols:
+      Field  = soho
+      Ring   = 
+      Binary = 
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 100 90 ... 10
+      LATENCIES	= 10 20 ... 120
+  Summary file = results/2022-09-13_14-54-47/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-13_14-54-49_233769
+  Total Experiment runtime = 2h32min57sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for soho

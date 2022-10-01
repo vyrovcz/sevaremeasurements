@@ -1,0 +1,52 @@
+  Setup:
+    Experiment = 32_matrix_add 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.180.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 2
+    Testtypes:
+  Summary file = results/2022-09-27_15-41-51/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449
+  Total Experiment runtime = 1h40min31sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip mascot - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDmascot_run0[0m
+[0;33m  Skip lowgear - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDlowgear_run0[0m
+[0;33m  Skip highgear - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDhighgear_run0[0m
+[0;33m  Skip cowgear - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDcowgear_run0[0m
+[0;33m  Skip chaigear - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDchaigear_run0[0m
+[0;33m  Skip semi - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDsemi_run0[0m
+[0;33m  Skip hemi - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDhemi_run0[0m
+[0;33m  Skip temi - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDtemi_run0[0m
+[0;33m  Skip soho - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDsoho_run0[0m
+[0;33m  Skip malicious-shamir - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDmalicious-shamir_run0[0m
+[0;33m  Skip malicious-rep-field - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDmalicious-rep-field_run0[0m
+[0;33m  Skip ps-rep-field - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDps-rep-field_run0[0m
+[0;33m  Skip sy-rep-field - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDsy-rep-field_run0[0m
+[0;33m  Skip shamir - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip spdz2k - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGspdz2k_run0[0m
+[0;33m  Skip semi2k - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGsemi2k_run0[0m
+[0;33m  Skip brain - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGbrain_run0[0m
+[0;33m  Skip malicious-rep-ring - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGmalicious-rep-ring_run0[0m
+[0;33m  Skip ps-rep-ring - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGps-rep-ring_run0[0m
+[0;33m  Skip sy-rep-ring - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGsy-rep-ring_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip tinier - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYtinier_run0[0m
+[0;33m  Skip real-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYreal-bmr_run0[0m
+[0;33m  Skip semi-bin - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYsemi-bin_run0[0m
+[0;33m  Skip yao - Verify error  [10, 9, 6, 7]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - Verify error  [10, 9, 6, 7]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYyaoO_run0[0m
+[0;33m  Skip semi-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYsemi-bmr_run0[0m
+[0;33m  Skip malicious-rep-bin - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYmalicious-rep-bin_run0[0m
+[0;33m  Skip malicious-ccd - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYmalicious-ccd_run0[0m
+[0;33m  Skip ps-rep-bin - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYps-rep-bin_run0[0m
+[0;33m  Skip mal-shamir-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYmal-shamir-bmr_run0[0m
+[0;33m  Skip mal-rep-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYmal-rep-bmr_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYreplicated-bin_run0[0m
+[0;33m  Skip ccd - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYccd_run0[0m
+[0;33m  Skip shamir-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYshamir-bmr_run0[0m
+[0;33m  Skip rep-bmr - Verify error  [11, 11, 8, 13]... != [11 11  8 13]... at /srv/testbed/results/obrman/default/2022-09-27_15-41-54_276449/ether/testresultsBINARYrep-bmr_run0[0m
