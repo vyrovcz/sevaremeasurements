@@ -1,0 +1,16 @@
+nodes                               program        c.domain  adv.model      protocol         input_size  runtime(s)  maxPhyRAM(MiB)
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     atlas            4           2.58568     20
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     atlas            9           4.13621     19
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     atlas            10          1.88934     18
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     shamir           4           0.0103223   12
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     shamir           9           0.0522042   12
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  FIELD     semihonest     shamir           10          0.066807    13
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  RING      semihonest     replicated-ring  4           0.00839867  12
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  RING      semihonest     replicated-ring  9           0.0376937   14
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  RING      semihonest     replicated-ring  10          0.0454296   15
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semihonest     ccd              4           0.292625    12
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semihonest     ccd              9           1.62885     13
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semihonest     ccd              10          2.03199     14
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semidishonest  yao              4           0.136938    12
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semidishonest  yao              9           0.672734    15
+dogecoin,dogecoincash,dogecoingold  34_matrix_mul  BINARY    semidishonest  yao              10          0.825212    15
