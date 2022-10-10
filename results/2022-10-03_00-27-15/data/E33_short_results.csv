@@ -1,0 +1,13 @@
+nodes;program;c.domain;adv.model;protocol;input_size;runtime(s);maxPhyRAM(MiB)
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;atlas;;5;0.0281583;15
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;atlas;;6;0.0285039;13
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;atlas;;7;0.0328063;15
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;;5;0.00529912;13
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;;6;0.00748296;13
+ether,ethercash,ethergold;33_matrix_add_float;FIELD;semihonest;shamir;;7;0.0113251;13
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;ccd;;5;0.122354;13
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;ccd;;6;0.197232;11
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semihonest;ccd;;7;0.258972;13
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semidishonest;yao;;5;0.0307966;13
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semidishonest;yao;;6;0.0350637;12
+ether,ethercash,ethergold;33_matrix_add_float;BINARY;semidishonest;yao;;7;0.0419495;12

@@ -1,0 +1,22 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.87.0/24
+    Protocols:
+      Field  = atlas shamir
+      Ring   = 
+      Binary = ccd yao
+    Inputs = 5 6 7
+    Testtypes:
+  Summary file = results/2022-10-03_00-27-15/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-10-03_00-27-18_179996
+  Total Experiment runtime = 0h8min26sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for ccd
+[0;33m  Skip yao - Verify error: [ 7.32715  5.29555 10.2469   8.61937  5.67723  4.39799  7.57249  3.31419
+  7.70879  8.57391  7.80357  4.12106  6.90804  8.15862  6.07964  8.83257
+  7.90576](...) != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908
+  9.249914 12.97704  10.444971 11.268487  8.028835 11.799832 13.323115
+  8.315767 10.009299 10.04247 ](...) at /srv/testbed/results/obrman/default/2022-10-03_00-27-18_179996/ether/testresultsBINARYyao_run0[0m

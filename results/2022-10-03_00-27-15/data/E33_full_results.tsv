@@ -1,0 +1,13 @@
+nodes                      program              c.domain  adv.model      protocol  comp.intbits  comp.inttriples  comp.vmrounds  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     atlas     NA            NA               26             5           0.0281583   ~62             0.7208        1.4418
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     atlas     NA            NA               37             6           0.0285039   ~84             0.721152      1.44259
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     atlas     NA            NA               50             7           0.0328063   ~110            0.721568      1.44353
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     shamir    NA            NA               26             5           0.00529912  ~51             0.0008        0.0018
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     shamir    NA            NA               37             6           0.00748296  ~73             0.001152      0.002592
+ether,ethercash,ethergold  33_matrix_add_float  FIELD     semihonest     shamir    NA            NA               50             7           0.0113251   ~99             0.001568      0.003528
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semihonest     ccd       NA            NA               2351           5           0.122354    NA              0.016125      NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semihonest     ccd       NA            NA               3385           6           0.197232    NA              0.02322       NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semihonest     ccd       NA            NA               4607           7           0.258972    NA              0.031605      NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yao       NA            NA               2351           5           0.0307966   NA              0.221575      NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yao       NA            NA               3385           6           0.0350637   NA              0.319068      NA
+ether,ethercash,ethergold  33_matrix_add_float  BINARY    semidishonest  yao       NA            NA               4607           7           0.0419495   NA              0.434287      NA
