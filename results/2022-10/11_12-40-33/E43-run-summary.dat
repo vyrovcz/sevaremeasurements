@@ -1,0 +1,11 @@
+  Setup:
+    Experiment = 43_set_intersection 
+    Nodes = ethercash ethergold bitcoingold
+    Internal network = 10.10.210.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 10 11 12 13
+    Testtypes:
+  Summary file = results/2022-10/11_12-40-33/E43-run-summary.dat
