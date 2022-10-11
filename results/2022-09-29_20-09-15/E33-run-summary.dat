@@ -1,0 +1,58 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.237.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier semi-bin yao yaoO semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 4 6 8 9 10
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-29_20-09-15/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-29_20-09-17_922065
+  Total Experiment runtime = 0h37min57sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for highgear
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Skip yao - Verify error: [7.32715 5.29555 9.16588 8.61937 5.67723 4.39799 7.57249 3.31419 7.70879
+ 4.90128 3.80025 4.49445 3.29294 8.29736 7.69244 7.20638](...) != [ 8.418743  9.131052 12.417479 11.226195  8.676961  9.201673 11.11669
+  7.816269  9.579832  8.366195  7.708015  9.386254  5.85345  10.527974
+ 10.017602  9.716561](...) at /srv/testbed/results/obrman/default/2022-09-29_20-09-17_922065/todd/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - Verify error: [7.32715 5.29555 9.16588 8.61937 5.67723 4.39799 7.57249 3.31419 7.70879
+ 4.90128 3.80025 4.49445 3.29294 8.29736 7.69244 7.20638](...) != [ 8.418743  9.131052 12.417479 11.226195  8.676961  9.201673 11.11669
+  7.816269  9.579832  8.366195  7.708015  9.386254  5.85345  10.527974
+ 10.017602  9.716561](...) at /srv/testbed/results/obrman/default/2022-09-29_20-09-17_922065/todd/testresultsBINARYyaoO_run0[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

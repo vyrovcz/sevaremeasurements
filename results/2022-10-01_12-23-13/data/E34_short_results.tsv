@@ -1,0 +1,13 @@
+nodes                      program        c.domain  adv.model      protocol  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     atlas     5           0.0856041
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     atlas     6           0.0904962
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     atlas     7           0.935435
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     shamir    5           0.0164071
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     shamir    6           0.0212361
+ether,ethercash,ethergold  34_matrix_mul  FIELD     semihonest     shamir    7           0.0318326
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest     ccd       5           0.498996
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest     ccd       6           0.718973
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semihonest     ccd       7           1.02311
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semidishonest  yao       5           0.210727
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semidishonest  yao       6           0.265186
+ether,ethercash,ethergold  34_matrix_mul  BINARY    semidishonest  yao       7           0.461694

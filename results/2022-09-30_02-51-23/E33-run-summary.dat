@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.33.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin ccd yao
+    Inputs = 100 200 300 400
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-30_02-51-23/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-30_02-51-26_396540
+  Total Experiment runtime = 2h38min32sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[0;33m  Skip yao - Verify error: [ 69.3271 152.104   82.9813  98.44    96.3721  41.9925  87.5725 112.386
+ 124.433  163.785  155.847   81.1293  15.5484  91.2693 121.787  112.042
+ 151.135 ](...) != [ 77.418743 199.93909  178.790325 138.691628 124.978907 117.67379
+ 144.210984 206.245771 191.382041 234.720323 221.115678  87.000386
+  63.013278 133.177096 177.678974 180.206538 174.370826](...) at /srv/testbed/results/obrman/default/2022-09-30_02-51-26_396540/todd/testresultsBINARYyao_run0[0m

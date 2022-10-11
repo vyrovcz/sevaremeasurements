@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = rapla tapa valga
+    Internal network = 10.10.133.0/24
+    Protocols:
+      Field  = atlas shamir replicated-field
+      Ring   = replicated-ring
+      Binary = shamir-bmr rep-bmr replicated-bin ccd
+    Inputs = 30
+    Testtypes:
+      LATENCIES	= 5 10 ... 40
+  Summary file = results/2022-09-29_16-31-58/E32-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-29_16-32-00_894544
+  Total Experiment runtime = 14h54min49sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
