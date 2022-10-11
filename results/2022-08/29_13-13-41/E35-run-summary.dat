@@ -1,0 +1,31 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.12.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 30 60 90
+    Testtypes:
+      PACKETDROPS	= 0 0.5 ... 25
+  Summary file = results/2022-08-29_13-13-41/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-08-29_13-13-43_932564
+  Total Experiment runtime = 0h57min3sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... at /srv/testbed/results/eiserman/default/2022-08-29_13-13-43_932564/rapla/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... at /srv/testbed/results/eiserman/default/2022-08-29_13-13-43_932564/rapla/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... at /srv/testbed/results/eiserman/default/2022-08-29_13-13-43_932564/rapla/testresultsBINARYyao_run002[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... at /srv/testbed/results/eiserman/default/2022-08-29_13-13-43_932564/rapla/testresultsBINARYyao_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

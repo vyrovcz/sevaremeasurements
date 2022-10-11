@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.35.0/24
+    Protocols:
+      Field  = mascot temi soho replicated-field ps-rep-field
+      Ring   = replicated-ring sy-rep-ring
+      Binary = semi-bin ccd replicated-bin
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 100 90 ... 10
+      LATENCIES	= 0 5 ... 40
+  Summary file = results/2022-09-12_20-27-08/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-12_20-27-10_351916
+  Total Experiment runtime = 5h43min2sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip mascot - File not found error: [0m
+[0;33m  Skip temi - File not found error: [0m
+[0;33m  Skip soho - File not found error: [0m
+[0;33m  Skip replicated-field - File not found error: [0m
+[0;33m  Skip ps-rep-field - File not found error: [0m
+[0;33m  Skip replicated-ring - File not found error: [0m
+[0;33m  Skip sy-rep-ring - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Skip ccd - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m

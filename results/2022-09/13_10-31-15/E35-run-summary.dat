@@ -1,0 +1,24 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.86.0/24
+    Protocols:
+      Field  = soho replicated-field ps-rep-field
+      Ring   = replicated-ring sy-rep-ring
+      Binary = semi-bin ccd replicated-bin
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 100 90 ... 10
+      LATENCIES	= 5 10 ... 40
+  Summary file = results/2022-09-13_10-31-15/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-13_10-31-17_624672
+  Total Experiment runtime = 2h47min34sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for replicated-bin

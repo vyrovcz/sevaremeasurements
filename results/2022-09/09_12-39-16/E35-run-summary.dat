@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.188.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = mal-shamir-bmr mal-rep-bmr rep-bmr shamir-bmr
+    Inputs = 30
+    Testtypes:
+      LATENCIES	= 0 5 ... 40
+  Summary file = results/2022-09-09_12-39-16/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-09_12-39-18_200393
+  Total Experiment runtime = 0h59min55sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr

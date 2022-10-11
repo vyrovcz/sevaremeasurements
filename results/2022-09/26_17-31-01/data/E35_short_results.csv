@@ -1,0 +1,10 @@
+nodes;program;c.domain;adv.model;protocol;partysize;latencies(ms);input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;FIELD;maldishonest;mascot;3;5;30;6.97921;NA;~1100;311.975;894.388
+rapla,tapa,valga;35_set_intersection;FIELD;maldishonest;lowgear;3;5;30;804.138;NA;~1380;60.9718;178.602
+rapla,tapa,valga;35_set_intersection;FIELD;maldishonest;highgear;3;5;30;2181.34;NA;~1206;131.659;362.739
+rapla,tapa,valga;35_set_intersection;FIELD;covertdishonest;cowgear;3;5;30;18.0407;NA;~1380;60.9718;178.602
+rapla,tapa,valga;35_set_intersection;FIELD;covertdishonest;chaigear;3;5;30;73.3053;NA;~1206;131.658;362.738
+rapla,tapa,valga;35_set_intersection;FIELD;semidishonest;semi;3;5;30;3.25476;NA;~904;49.5801;148.361
+rapla,tapa,valga;35_set_intersection;FIELD;semidishonest;hemi;3;5;30;3.15412;NA;~883;3.52519;10.1967
+rapla,tapa,valga;35_set_intersection;FIELD;semidishonest;temi;3;5;30;3.0598;NA;~890;4.30756;9.39734
+rapla,tapa,valga;35_set_intersection;FIELD;semidishonest;soho;3;5;30;4.57057;NA;~871;17.4799;52.1889

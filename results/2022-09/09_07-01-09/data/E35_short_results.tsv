@@ -1,0 +1,9 @@
+nodes             program              c.domain  adv.model      protocol  partysize  input_size  packetdrops(%)  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    3          30          0               76.4864     NA              ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    3          30          2               395.766     NA              ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    3          30          4               1026.21     NA              ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      maldishonest   spdz2k    3          30          6               2010.59     NA              ~103720       4035.66         11946.8
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    3          30          0               2.27848     NA              ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    3          30          2               102.207     NA              ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    3          30          4               280.143     NA              ~67110        37.78           109.331
+rapla,tapa,valga  35_set_intersection  RING      semidishonest  semi2k    3          30          6               452.939     NA              ~67110        37.78           109.331

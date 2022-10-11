@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = valga tapa rapla
+    Internal network = 10.10.92.0/24
+    Protocols:
+      Field  = malicious-shamir
+      Ring   = 
+      Binary = 
+    Inputs = 10 200 400 ... 2400
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-08_00-20-31/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-08_00-20-33_957188
+  Total Experiment runtime = 2h0min11sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir

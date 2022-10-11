@@ -1,0 +1,22 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.204.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = 
+      Binary = 
+    Inputs = 30
+    Testtypes:
+      PACKETDROPS	= 0 2 ... 20
+  Summary file = results/2022-09-07_16-45-41/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-07_16-45-43_333788
+  Total Experiment runtime = 1h19min3sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field

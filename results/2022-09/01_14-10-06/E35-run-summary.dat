@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = rapla tapa valga
+    Internal network = 10.10.157.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring brain ps-rep-ring malicious-rep-ring sy-rep-ring
+      Binary = replicated-bin malicious-rep-bin ps-rep-bin ccd malicious-ccd
+    Inputs = 30
+    Testtypes:
+      BANDWIDTHS	= 100 95 ... 5
+  Summary file = results/2022-09-01_14-10-06/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2022-09-01_14-10-08_735212
+  Total Experiment runtime = 0h37min37sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd

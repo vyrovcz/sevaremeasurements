@@ -1,0 +1,8 @@
+nodes             program              c.domain  adv.model      protocol  partysize  latencies(ms)  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          0              30          35.0247     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          5              30          203.326     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          10             30          376.914     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          15             30          560.874     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          20             30          739.227     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          25             30          918.161     NA              ~61444        2553.64         7641.14
+rapla,tapa,valga  35_set_intersection  FIELD     semidishonest  semi      3          30             30          1098.29     NA              ~61444        2553.64         7641.14

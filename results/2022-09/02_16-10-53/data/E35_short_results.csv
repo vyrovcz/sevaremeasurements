@@ -1,0 +1,17 @@
+nodes;program;c.domain;adv.model;protocol;partysize;latencies(ms);input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;0;30;77.9334;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;5;30;408.302;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;10;30;725.506;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;15;30;1041.15;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;20;30;1355.88;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;25;30;1669.93;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;30;30;1985.37;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;maldishonest;spdz2k;3;35;30;2302.94;NA;~103720;4035.66;11946.8
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;0;30;2.36353;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;5;30;175.824;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;10;30;344.464;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;15;30;512.694;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;20;30;681.042;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;25;30;849.524;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;30;30;1017.77;NA;~67110;37.78;109.331
+rapla,tapa,valga;35_set_intersection;RING;semidishonest;semi2k;3;35;30;1186.02;NA;~67110;37.78;109.331
