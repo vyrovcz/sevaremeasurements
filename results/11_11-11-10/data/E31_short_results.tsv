@@ -1,0 +1,7 @@
+nodes         program             c.domain  adv.model   protocol  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+todd,ned,rod  31_scalable_search  FIELD     semihonest  atlas     10          0.12062     20              ~169          2.89421         6.44146
+todd,ned,rod  31_scalable_search  FIELD     semihonest  atlas     20          0.13473     19              ~309          2.90829         6.48258
+todd,ned,rod  31_scalable_search  FIELD     semihonest  atlas     30          0.16485     22              ~449          2.92237         6.5237
+todd,ned,rod  31_scalable_search  FIELD     semihonest  shamir    10          0.0327085   16              ~86           0.660832        1.66136
+todd,ned,rod  31_scalable_search  FIELD     semihonest  shamir    20          0.0468432   15              ~166          0.681632        1.72264
+todd,ned,rod  31_scalable_search  FIELD     semihonest  shamir    30          0.0347635   15              ~246          0.702432        1.78392
