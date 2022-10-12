@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.167.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 8 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-12_15-06-12/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-06-15_687394
+  Total Experiment runtime = 0h5min50sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [134, 125, 77, 98, 252, 220, 199, 221, 146, 81, 161, 81, 136, 136, 66, 153, 149, 85, 46, 167, 129, 3... != [149, 149, 99, 191, 296, 299, 264, 276, 156, 122, 272, 182, 232, 250, 135, 163, 157, 179, 166, 249, ... at /srv/testbed/results/obrman/default/2022-08-12_15-06-15_687394/bitcoin/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [1065, 992, 606, 773, 2063, 1917, 1798, 1400, 1407, 927, 1448, 1093, 1085, 1465, 292, 1108, 1060, 15... != [1181, 1180, 780, 1513, 2410, 2549, 2314, 1835, 1481, 1252, 2331, 1899, 2128, 2227, 1407, 2020, 2089... at /srv/testbed/results/obrman/default/2022-08-12_15-06-15_687394/bitcoin/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [134, 125, 77, 98, 252, 220, 199, 221, 146, 81, 161, 81, 136, 136, 66, 153, 149, 85, 46, 167, 129, 3... != [149, 149, 99, 191, 296, 299, 264, 276, 156, 122, 272, 182, 232, 250, 135, 163, 157, 179, 166, 249, ... at /srv/testbed/results/obrman/default/2022-08-12_15-06-15_687394/bitcoin/testresultsBINARYyaoO_run0[0m
+[0;33m  Verify error  [1065, 992, 606, 773, 2063, 1917, 1798, 1400, 1407, 927, 1448, 1093, 1085, 1465, 292, 1108, 1060, 15... != [1181, 1180, 780, 1513, 2410, 2549, 2314, 1835, 1481, 1252, 2331, 1899, 2128, 2227, 1407, 2020, 2089... at /srv/testbed/results/obrman/default/2022-08-12_15-06-15_687394/bitcoin/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yaoO

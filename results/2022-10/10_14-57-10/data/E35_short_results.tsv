@@ -1,0 +1,16 @@
+nodes                               program              c.domain  adv.model      protocol         partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     atlas            3          4           2.58568     20              ~142          1.65542         3.5255
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     atlas            3          9           4.13621     19              ~662          1.66374         3.54734
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     atlas            3          10          1.88934     18              ~814          1.66618         3.55373
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     shamir           3          4           0.0103223   12              ~81           0.00256         0.006912
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     shamir           3          9           0.0522042   12              ~406          0.01296         0.034992
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     shamir           3          10          0.066807    13              ~501          0.016           0.0432
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  RING      semihonest     replicated-ring  3          4           0.00839867  12              ~65           0.00064         0.00192
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  RING      semihonest     replicated-ring  3          9           0.0376937   14              ~325          0.00324         0.00972
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  RING      semihonest     replicated-ring  3          10          0.0454296   15              ~401          0.004           0.012
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semihonest     ccd              3          4           0.292625    12              NA            0.431424        NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semihonest     ccd              3          9           1.62885     13              NA            2.18408         NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semihonest     ccd              3          10          2.03199     14              NA            2.6964          NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yao              2          4           0.136938    12              NA            6.85466         NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yao              2          9           0.672734    15              NA            34.7017         NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yao              2          10          0.825212    15              NA            42.8416         NA

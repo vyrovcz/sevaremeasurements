@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 34_matrix_mul
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash
+    Internal network = 10.10.223.0/24
+    Protocols:
+      Field  = atlas shamir malicious-shamir temi
+      Ring   = spdz2k
+      Binary = ccd malicious-ccd tinier
+    Inputs = 5 10 ... 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-25_02-31-14/E34-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-25_02-31-19_225690
+  Total Experiment runtime = 1h41min39sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for tinier

@@ -1,0 +1,16 @@
+nodes                            program              c.domain  adv.model      protocol           partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    maldishonest   tinier             3          20          8.13447     NA              NA            260.027         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    maldishonest   real-bmr           3          20          1278.03     NA              NA            71828.8         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bin           3          20          1.7284      NA              NA            25.3604         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yao                2          20          0.104072    NA              NA            3.58464         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  yaoO               2          20          0.0572998   NA              NA            0               NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semidishonest  semi-bmr           3          20          183.946     NA              NA            12075.8         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    malhonest      malicious-rep-bin  3          20          0.896615    NA              NA            2.62294         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    malhonest      malicious-ccd      3          20          1.4923      NA              NA            14.1854         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    malhonest      ps-rep-bin         3          20          3.13135     NA              NA            69.0169         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    malhonest      mal-shamir-bmr     3          20          14.1433     NA              NA            456.304         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    malhonest      mal-rep-bmr        3          20          5.4986      NA              NA            166.769         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     replicated-bin     3          20          0.870337    NA              NA            0.113468        NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     ccd                3          20          0.816863    NA              NA            0.2278          NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     shamir-bmr         3          20          3.40453     NA              NA            139.181         NA
+bitcoin,bitcoincash,bitcoingold  35_set_intersection  BINARY    semihonest     rep-bmr            3          20          1.83366     NA              NA            68.2503         NA

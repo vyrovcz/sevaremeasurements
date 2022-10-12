@@ -1,0 +1,33 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.59.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 3 4 ... 13
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-12_16-54-27/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552
+  Total Experiment runtime = 1h9min24sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [9, 0, 0, 0]... != [9, 2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [32, 0, 0, 17, 0, 0, 0, 0]... != [32, 0, 0, 17, 20, 0, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run005[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run008[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run009[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 75, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run010[0m
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyao_run011[0m
+[0;33m  Third consecutive verify error, skipping  [0m
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run000[0m
+[0;33m  Verify error  [9, 0, 0, 0]... != [9, 2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run001[0m
+[0;33m  Verify error  [32, 0, 0, 17, 0, 0, 0, 0]... != [32, 0, 0, 17, 20, 0, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run005[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run008[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run009[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 63]... != [0, 0, 0, 0, 0, 75, 0, 0, 0, 0, 28, 0, 63]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run010[0m
+[0;33m  Verify error  [0, 0, 0]... != [2, 0, 0]... at /srv/testbed/results/obrman/default/2022-08-12_16-54-30_832552/ether/testresultsBINARYyaoO_run011[0m
+[0;33m  Third consecutive verify error, skipping  [0m

@@ -1,0 +1,2 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;atlas;3;3;0.0266622;NA;~30;0.720288;1.44065

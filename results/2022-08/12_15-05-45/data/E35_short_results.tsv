@@ -1,0 +1,5 @@
+nodes                               program              c.domain  adv.model      protocol  partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yao       2          50          0.0222019   NA              NA            0.417664        NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yao       2          500         0.105733    NA              NA            4.17606         NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yaoO      2          50          0.00447419  NA              NA            0               NA
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  BINARY    semidishonest  yaoO      2          500         0.088225    NA              NA            0               NA

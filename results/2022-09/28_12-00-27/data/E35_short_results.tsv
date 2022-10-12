@@ -1,0 +1,12 @@
+nodes                      program              c.domain  adv.model      protocol  partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          100         2.71075     NA              ~20012        1.04            2.16
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          200         11.4889     NA              ~80039        4.16            8.64
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          300         24.5523     NA              ~180084       9.36            19.44
+ether,ethercash,ethergold  35_set_intersection  RING      maldishonest   spdz2k    3          100         4.18978     NA              ~40138        41.7736         125.001
+ether,ethercash,ethergold  35_set_intersection  RING      maldishonest   spdz2k    3          200         17.1884     NA              ~160408       166.906         499.438
+ether,ethercash,ethergold  35_set_intersection  RING      maldishonest   spdz2k    3          300         36.6897     NA              ~360858       375.46          1123.5
+ether,ethercash,ethergold  35_set_intersection  RING      semidishonest  semi2k    3          100         1.64037     NA              ~40000        0.16            0.32
+ether,ethercash,ethergold  35_set_intersection  RING      semidishonest  semi2k    3          200         7.00076     NA              ~160000       0.64            1.28
+ether,ethercash,ethergold  35_set_intersection  RING      semidishonest  semi2k    3          300         16.0996     NA              ~360000       1.44            2.88
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          100         6.94614     NA              NA            88.63           NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          200         30.7016     NA              NA            354.52          NA

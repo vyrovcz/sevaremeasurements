@@ -1,0 +1,14 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;maldishonest;tinier;3;24;449.657;NA;NA;16699.9;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bin;3;24;24.0359;NA;NA;529.735;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;yao;2;24;4.71401;NA;NA;246.768;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bmr;3;24;12564.9;NA;NA;831327;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;malhonest;malicious-rep-bin;3;24;15.5931;NA;NA;133.364;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;malhonest;malicious-ccd;3;24;52.4166;NA;NA;927.338;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;malhonest;ps-rep-bin;3;24;36.752;NA;NA;198.351;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;malhonest;mal-shamir-bmr;3;24;851.257;NA;NA;31292;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;malhonest;mal-rep-bmr;3;24;357.852;NA;NA;11439.2;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;replicated-bin;3;24;9.6308;NA;NA;7.75186;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;ccd;3;24;13.2808;NA;NA;15.5313;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;shamir-bmr;3;24;179.366;NA;NA;9553.62;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;rep-bmr;3;24;95.622;NA;NA;4692.68;NA

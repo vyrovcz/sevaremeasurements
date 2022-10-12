@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.49.0/24
+    Protocols:
+      Field  = mascot lowgear
+      Ring   = spdz2k
+      Binary = tinier real-bmr
+    Inputs = 10 50 100 ... 400
+    Testtypes:
+      QUOTAS	= 240 180 120 60
+      MEASURERAM	= 
+      FREQS	= 4.0 2.2 2.0 1.8
+      CPUS	= 4 3 2 1
+  Summary file = results/2022-08-05_11-43-25/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-05_11-43-28_633131
+  Total Experiment runtime = 9h58min19sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[0;33m  Skip spdz2k - File not found error: [0m
+[0;33m  Skip tinier - File not found error: [0m
+[0;33m  Skip real-bmr - File not found error: [0m

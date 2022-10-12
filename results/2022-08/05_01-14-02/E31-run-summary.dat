@@ -1,0 +1,31 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.173.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field
+      Ring   = brain malicious-rep-ring ps-rep-ring sy-rep-ring
+      Binary = malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr
+    Inputs = 10 200 400 ... 2000
+    Testtypes:
+      QUOTAS	= 240 180 120 60
+      MEASURERAM	= 
+      FREQS	= 2.6 2.3 2.0 1.7
+      CPUS	= 16 4 3 2 1
+  Summary file = results/2022-08-05_01-14-02/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-05_01-14-05_715857
+  Total Experiment runtime = 20h27min44sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[0;33m  Skip malicious-rep-bin - File not found error: /srv/testbed/results/obrman/default/2022-08-05_01-14-05_715857/dogecoin/testresultsBINARYmalicious-rep-bin_run305[0m
+[0;33m  Skip malicious-ccd - File not found error: /srv/testbed/results/obrman/default/2022-08-05_01-14-05_715857/dogecoin/testresultsBINARYmalicious-ccd_run305[0m
+[0;33m  Skip ps-rep-bin - File not found error: /srv/testbed/results/obrman/default/2022-08-05_01-14-05_715857/dogecoin/testresultsBINARYps-rep-bin_run305[0m
+[0;33m  Skip mal-shamir-bmr - File not found error: [0m
+[0;33m  Skip mal-rep-bmr - File not found error: [0m

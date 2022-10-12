@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 36_array_ops 7
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.55.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 16 36 ... 100
+    Testtypes:
+  Summary file = results/2022-09-07_11-29-34/E36-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-07_11-29-37_235938
+  Total Experiment runtime = 0h27min48sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [160.259, 586.617, 2818.79, 1389.24, 624.827, 196.132, 1708.57, 121.412, 278.753, 568.65, 227.554, 1... != [ 160.25902567  586.61752765 2818.80063831 1389.24045535  624.82816825  196.13290229 1708.57768967  ... at /srv/testbed/results/obrman/default/2022-09-07_11-29-37_235938/bitcoin/testresultsFIELDshamir_run0[0m
+[0;33m  Skip replicated-field - Verify error  [160.259, 586.617, 2818.79, 1389.24, 624.827, 196.132, 1708.57, 121.412, 278.753, 568.65, 227.554, 1... != [ 160.25902567  586.61752765 2818.80063831 1389.24045535  624.82816825  196.13290229 1708.57768967  ... at /srv/testbed/results/obrman/default/2022-09-07_11-29-37_235938/bitcoin/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [160.259, 586.617, 2818.79, 1389.24, 624.827, 196.132, 1708.57, 121.411, 278.753, 568.65, 227.554, 1... != [ 160.25902567  586.61752765 2818.80063831 1389.24045535  624.82816825  196.13290229 1708.57768967  ... at /srv/testbed/results/obrman/default/2022-09-07_11-29-37_235938/bitcoin/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Value not found /srv/testbed/results/obrman/default/2022-09-07_11-29-37_235938/bitcoin/testresultsBINARYreplicated-bin_run0[0m

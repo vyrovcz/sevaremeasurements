@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 36_array_ops
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.135.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 16 36 ... 100
+    Testtypes:
+  Summary file = results/2022-09-06_23-18-54/E36-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_23-18-57_168976
+  Total Experiment runtime = 0h12min55sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  [-591, -590, -391, -757, -1180, -1192, -1053, -1096, -619, -484, -1085, -722, -925, -998, -535, -645... != [ 199  272 -307 -225 -184 -362 -431 -118  115  -36 -799 -144 -637 -802  -21 -343]... at /srv/testbed/results/obrman/default/2022-09-06_23-18-57_168976/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip replicated-field - Verify error  [-591, -590, -391, -757, -1180, -1192, -1053, -1096, -619, -484, -1085, -722, -925, -998, -535, -645... != [ 199  272 -307 -225 -184 -362 -431 -118  115  -36 -799 -144 -637 -802  -21 -343]... at /srv/testbed/results/obrman/default/2022-09-06_23-18-57_168976/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  [-591, -590, -391, -757, -1180, -1192, -1053, -1096, -619, -484, -1085, -722, -925, -998, -535, -645... != [ 199  272 -307 -225 -184 -362 -431 -118  115  -36 -799 -144 -637 -802  -21 -343]... at /srv/testbed/results/obrman/default/2022-09-06_23-18-57_168976/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  [-591, -590, -391, -757, -1180, -1192, -1053, -1096, -619, -484, -1085, -722, -925, -998, -535, -645... != [ 199  272 -307 -225 -184 -362 -431 -118  115  -36 -799 -144 -637 -802  -21 -343]... at /srv/testbed/results/obrman/default/2022-09-06_23-18-57_168976/ether/testresultsBINARYreplicated-bin_run0[0m

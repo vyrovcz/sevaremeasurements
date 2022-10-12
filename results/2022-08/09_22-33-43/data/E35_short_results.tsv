@@ -1,0 +1,9 @@
+nodes                               program              c.domain  adv.model      protocol         partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     atlas            3          11          1.10876     NA              ~4125         7.02112         16.7307
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     atlas            3          13          1.409       NA              ~5712         9.07827         21.6173
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     shamir           3          11          0.440728    NA              ~2306         2.12694         6.36816
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semihonest     shamir           3          13          0.620609    NA              ~3194         2.97091         8.57526
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semidishonest  temi             3          11          2.95243     NA              ~8411         26.3443         57.3829
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  FIELD     semidishonest  temi             3          13          3.96141     NA              ~11653        35.2463         76.7507
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  RING      semihonest     replicated-ring  3          11          0.252688    NA              ~2040         0.369712        1.18914
+dogecoin,dogecoincash,dogecoingold  35_set_intersection  RING      semihonest     replicated-ring  3          13          0.367184    NA              ~2828         0.57992         1.73976

@@ -1,0 +1,16 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;shamir;3;30;0.232254;NA;~1801;0.0576;0.1296
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;shamir;3;60;0.873381;NA;~7201;0.2304;0.5184
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;shamir;3;90;2.15844;NA;~16201;0.5184;1.1664
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;30;0.282605;NA;~1812;1.4976;3.0096
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;60;1.10444;NA;~7212;1.6704;3.3984
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;90;2.24878;NA;~16212;1.9584;4.0464
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;replicated-field;3;30;0.108558;NA;~901;0.0288;0.0864
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;replicated-field;3;60;0.557104;NA;~3601;0.1152;0.3456
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;replicated-field;3;90;1.5541;NA;~8101;0.2592;0.7776
+ether,ethercash,ethergold;35_set_intersection;RING;semihonest;replicated-ring;3;30;0.272382;NA;~901;0.0144;0.0432
+ether,ethercash,ethergold;35_set_intersection;RING;semihonest;replicated-ring;3;60;0.63108;NA;~3601;0.0576;0.1728
+ether,ethercash,ethergold;35_set_intersection;RING;semihonest;replicated-ring;3;90;1.93273;NA;~8101;0.1296;0.3888
+ether,ethercash,ethergold;35_set_intersection;BINARY;semihonest;replicated-bin;3;30;7.14909;NA;NA;0.594048;NA
+ether,ethercash,ethergold;35_set_intersection;BINARY;semihonest;replicated-bin;3;60;28.9537;NA;NA;2.37605;NA
+ether,ethercash,ethergold;35_set_intersection;BINARY;semihonest;replicated-bin;3;90;72.2392;NA;NA;5.34605;NA

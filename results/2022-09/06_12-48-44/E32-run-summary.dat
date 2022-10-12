@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.77.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 30 60 90
+    Testtypes:
+  Summary file = results/2022-09-06_12-48-44/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868
+  Total Experiment runtime = 0h14min43sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir - Verify error  SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... != SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... at /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip atlas - Verify error  SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... != SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... at /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip replicated-field - Verify error  SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... != SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... at /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - Verify error  SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... != SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... at /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip replicated-bin - Verify error  SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... != SMC-Result: [3774, 3694, 3405, 2694, 1822, 1401, 3283, 1585, 3353, 4822, 3993, 3339, 2944, 2028, 405... at /srv/testbed/results/obrman/default/2022-09-06_12-48-47_552868/ether/testresultsBINARYreplicated-bin_run0[0m

@@ -1,0 +1,13 @@
+nodes                      program              c.domain  adv.model      protocol  partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          5           0.0856041   NA              ~214          1.65658         3.52853
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          6           0.0904962   NA              ~302          1.65798         3.53222
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     atlas     3          7           0.935435    NA              ~406          1.65965         3.53659
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     shamir    3          5           0.0164071   NA              ~126          0.004           0.0108
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     shamir    3          6           0.0212361   NA              ~181          0.00576         0.015552
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest     shamir    3          7           0.0318326   NA              ~246          0.00784         0.021168
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest     ccd       3          5           0.498996    NA              NA            0.6741          NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest     ccd       3          6           0.718973    NA              NA            0.970704        NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest     ccd       3          7           1.02311     NA              NA            1.32124         NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          5           0.210727    NA              NA            10.7104         NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          6           0.265186    NA              NA            15.423          NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          7           0.461694    NA              NA            20.9924         NA

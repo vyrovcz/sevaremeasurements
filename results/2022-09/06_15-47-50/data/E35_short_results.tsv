@@ -1,0 +1,16 @@
+nodes                      program              c.domain  adv.model   protocol          partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          5           0.0159014   NA              ~126          0.004           0.0108
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          15          0.154914    NA              ~1126         0.036           0.0972
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          20          5.13532     NA              ~2001         0.064           0.1728
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  atlas             3          5           0.0876953   NA              ~214          1.65658         3.52853
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  atlas             3          15          2.90352     NA              ~1814         1.68218         3.59573
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  atlas             3          20          0.679819    NA              ~3214         1.70458         3.65453
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          5           0.010782    NA              ~101          0.002           0.006
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          15          0.106669    NA              ~901          0.018           0.054
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          20          0.217197    NA              ~1601         0.032           0.096
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          5           0.0123378   NA              ~101          0.001           0.003
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          15          1.16805     NA              ~901          0.009           0.027
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          20          0.199581    NA              ~1601         0.016           0.048
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          5           0.662341    NA              NA            0.336498        NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          15          5.08937     NA              NA            3.0281          NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          20          10.488      NA              NA            5.38325         NA

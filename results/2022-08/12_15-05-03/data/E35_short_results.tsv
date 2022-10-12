@@ -1,0 +1,5 @@
+nodes                      program              c.domain  adv.model      protocol  partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          8           0.0511817   NA              NA            0.567232        NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yao       2          24          0.354976    NA              NA            5.10509         NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yaoO      2          8           0.00846219  NA              NA            0               NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semidishonest  yaoO      2          24          0.1832      NA              NA            0               NA

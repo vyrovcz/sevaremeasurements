@@ -1,0 +1,16 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;shamir;3;30;0.0509944;NA;~246;0.702432;1.78392
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;shamir;3;60;0.0848532;NA;~486;0.764832;1.96776
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;shamir;3;90;0.123784;NA;~726;0.827232;2.1516
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;atlas;3;30;0.183277;NA;~449;2.92237;6.5237
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;atlas;3;60;0.218947;NA;~869;2.96461;6.64706
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;atlas;3;90;0.286552;NA;~1289;3.00685;6.77042
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;replicated-field;3;30;0.0430179;NA;~215;0.351216;0.892704
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;replicated-field;3;60;0.078918;NA;~425;0.382416;0.985344
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semihonest;replicated-field;3;90;0.0923501;NA;~635;0.413616;1.07798
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;RING;semihonest;replicated-ring;3;30;0.0612195;NA;~321;0.40385;0.97031
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;RING;semihonest;replicated-ring;3;60;0.0863395;NA;~561;0.40646;0.97766
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;RING;semihonest;replicated-ring;3;90;0.118446;NA;~801;0.40907;0.98501
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semihonest;replicated-bin;3;30;0.0868832;NA;NA;0.009746;NA
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semihonest;replicated-bin;3;60;0.178465;NA;NA;0.019436;NA
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;BINARY;semihonest;replicated-bin;3;90;0.265281;NA;NA;0.029126;NA

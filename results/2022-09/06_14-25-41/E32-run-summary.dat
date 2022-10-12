@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.226.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 30 60 90
+    Testtypes:
+  Summary file = results/2022-09-06_14-25-41/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-06_14-25-44_862456
+  Total Experiment runtime = 0h14min51sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin

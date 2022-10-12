@@ -1,0 +1,10 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;100;2.76738;NA;~20012;1.04;2.16
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;200;11.0611;NA;~80039;4.16;8.64
+ether,ethercash,ethergold;35_set_intersection;FIELD;semihonest;atlas;3;300;24.8068;NA;~180084;9.36;19.44
+ether,ethercash,ethergold;35_set_intersection;RING;maldishonest;spdz2k;3;100;4.25346;NA;~40138;41.7736;125.001
+ether,ethercash,ethergold;35_set_intersection;RING;maldishonest;spdz2k;3;200;16.4023;NA;~160408;166.906;499.438
+ether,ethercash,ethergold;35_set_intersection;RING;maldishonest;spdz2k;3;300;36.825;NA;~360858;375.46;1123.5
+ether,ethercash,ethergold;35_set_intersection;RING;semidishonest;semi2k;3;100;1.65057;NA;~40000;0.16;0.32
+ether,ethercash,ethergold;35_set_intersection;RING;semidishonest;semi2k;3;200;6.60604;NA;~160000;0.64;1.28
+ether,ethercash,ethergold;35_set_intersection;RING;semidishonest;semi2k;3;300;14.8915;NA;~360000;1.44;2.88

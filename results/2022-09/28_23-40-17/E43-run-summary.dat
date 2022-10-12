@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 43_set_intersection 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.56.0/24
+    Protocols:
+      Field  = atlas mascot
+      Ring   = replicated-ring
+      Binary = malicious-ccd ccd yao
+    Inputs = 5 20 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_23-40-17/E43-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978
+  Total Experiment runtime = 0h13min30sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip atlas - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip mascot - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsFIELDmascot_run0[0m
+[0;33m  Skip replicated-ring - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip malicious-ccd - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsBINARYmalicious-ccd_run0[0m
+[0;33m  Skip ccd - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsBINARYccd_run0[0m
+[0;33m  Skip yao - differing values: [0](...) at /srv/testbed/results/obrman/default/2022-09-28_23-40-20_495978/ether/testresultsBINARYyao_run0[0m

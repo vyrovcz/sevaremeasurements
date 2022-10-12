@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.215.0/24
+    Protocols:
+      Field  = mascot lowgear temi
+      Ring   = spdz2k semi2k
+      Binary = tinier semi-bin yao
+    Inputs = 10 50 100 ... 500
+    Testtypes:
+      QUOTAS	= 240 180 140 100 60
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+  Summary file = results/2022-08-06_11-12-44/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-06_11-12-47_667238
+  Total Experiment runtime = 12h11min42sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for yao

@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 36_array_ops
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.142.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin
+    Inputs = 16 36 ... 100
+    Testtypes:
+  Summary file = results/2022-09-07_00-13-03/E36-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-07_00-13-06_419261
+  Total Experiment runtime = 0h8min16sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip shamir - Verify error  [-25200008172448733441432917093267979377, -31450802023056932587571373575915784194, -6547130301473721... != [0.04935032 0.0705401  0.00184259 0.00594148 0.00563399 0.00284879 0.00249055 0.00576637 0.04613451 ... at /srv/testbed/results/obrman/default/2022-09-07_00-13-06_419261/ether/testresultsFIELDshamir_run0[0m
+[0;33m  Skip replicated-field - Verify error  [-25200008172448733441432917093267979377, -31450802023056932587571373575915784194, -6547130301473721... != [0.04935032 0.0705401  0.00184259 0.00594148 0.00563399 0.00284879 0.00249055 0.00576637 0.04613451 ... at /srv/testbed/results/obrman/default/2022-09-07_00-13-06_419261/ether/testresultsFIELDreplicated-field_run0[0m
+[0;33m  Skip replicated-ring - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m

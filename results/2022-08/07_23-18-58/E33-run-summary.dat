@@ -1,0 +1,54 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.158.0/24
+    Protocols:
+      Field  = mascot lowgear highgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier real-bmr semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 8 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-07_23-18-58/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-07_23-19-01_427561
+  Total Experiment runtime = 1h28min31sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[ [0;32mok[0m ]   verified - test passed for highgear
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for real-bmr
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [11.3, 9.3, 17.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 7.9, 5.8, 7.49, 4.29, 14.3, 12.7, 13.2, 13.6, 7... != [12.4, 16.1, 22.4, 19.2, 14.7, 14.2, 19.1, 12.8, 13.6, 14.4, 12.7, 15.4, 7.85, 18.5, 16, 16.7, 20.6,... at /srv/testbed/results/obrman/default/2022-08-07_23-19-01_427561/dogecoin/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [19.3, 17.3, 34.2, 27.6, 19.7, 9.4, 23.6, 6.31, 19.7, 27.6, 25.8, 11.1, 25.4, 36, 32.8, 31.5, 37.9, ... != [21.4, 30.1, 59.1, 37.9, 27.3, 29.1, 38.2, 31.2, 37.7, 46.5, 43.1, 14, 37.9, 47.9, 47.7, 48.7, 44.1,... at /srv/testbed/results/obrman/default/2022-08-07_23-19-01_427561/dogecoin/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

@@ -1,0 +1,31 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash
+    Internal network = 10.10.98.0/24
+    Protocols:
+      Field  = atlas shamir malicious-shamir temi
+      Ring   = spdz2k
+      Binary = ccd malicious-ccd tinier
+    Inputs = 5 10 ... 30
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-25_02-11-54/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928
+  Total Experiment runtime = 0h19min13sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsFIELDatlas_run5[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsFIELDshamir_run5[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsFIELDmalicious-shamir_run5[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsFIELDtemi_run5[0m
+[ [0;32mok[0m ]   verified - test passed for temi
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsRINGspdz2k_run5[0m
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsBINARYccd_run5[0m
+[ [0;32mok[0m ]   verified - test passed for ccd
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsBINARYmalicious-ccd_run5[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[0;33m  Verify error  [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... != [79.8, 88, 57.5, 87.1, 109, 85, 60.1, 70.8, 108, 90.7, 80.3, 94.8, 102, 20.6, 92.2, 101, 64.3, 101, ... at /srv/testbed/results/obrman/default/2022-08-25_02-11-59_126928/bitcoin/testresultsBINARYtinier_run5[0m
+[ [0;32mok[0m ]   verified - test passed for tinier

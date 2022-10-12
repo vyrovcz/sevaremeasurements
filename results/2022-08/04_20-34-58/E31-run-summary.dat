@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.32.0/24
+    Protocols:
+      Field  = semi hemi temi soho
+      Ring   = semi2k
+      Binary = semi-bin yao semi-bmr
+    Inputs = 10 200 400 ... 2000
+    Testtypes:
+      QUOTAS	= 800 400 320 240 160 80
+      MEASURERAM	= 
+      FREQS	= 2.6 2.3 2.0 1.7
+      CPUS	= 8 6 4 2
+  Summary file = results/2022-08-04_20-34-58/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-04_20-35-00_989341
+  Total Experiment runtime = 4h36min43sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[0;33m  Skip - File not found error: [0m
+[0;33m  Skip - File not found error: [0m
+[0;33m  Skip - File not found error: [0m
+[0;33m  Skip - File not found error: [0m

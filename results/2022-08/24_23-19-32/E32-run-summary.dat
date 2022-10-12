@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 32_matrix_add
+    Nodes = bitcoin bitcoincash bitcoingold dogecoin dogecoincash dogecoingold ether ethercash ethergold
+    Internal network = 10.10.56.0/24
+    Protocols:
+      Field  = atlas shamir
+      Ring   = 
+      Binary = 
+    Inputs = 10 20 ... 120
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-24_23-19-32/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-24_23-19-39_680079
+  Total Experiment runtime = 0h15min29sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir

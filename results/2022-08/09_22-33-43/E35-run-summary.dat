@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.151.0/24
+    Protocols:
+      Field  = atlas shamir temi
+      Ring   = replicated-ring
+      Binary = 
+    Inputs = 11 13
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-09_22-33-43/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-09_22-33-46_180016
+  Total Experiment runtime = 0h9min13sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for replicated-ring

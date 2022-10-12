@@ -1,0 +1,85 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.179.0/24
+    Protocols:
+      Field  = mascot lowgear cowgear chaigear semi hemi temi soho malicious-shamir malicious-rep-field ps-rep-field sy-rep-field shamir atlas replicated-field
+      Ring   = spdz2k semi2k brain malicious-rep-ring ps-rep-ring sy-rep-ring replicated-ring
+      Binary = tinier semi-bin yao semi-bmr malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr mal-rep-bmr replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 6 36
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-09_14-01-29/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981
+  Total Experiment runtime = 1h29min20sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDmascot_run1[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDlowgear_run1[0m
+[ [0;32mok[0m ]   verified - test passed for lowgear
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDcowgear_run1[0m
+[ [0;32mok[0m ]   verified - test passed for cowgear
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDchaigear_run1[0m
+[ [0;32mok[0m ]   verified - test passed for chaigear
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDsemi_run1[0m
+[ [0;32mok[0m ]   verified - test passed for semi
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDhemi_run1[0m
+[ [0;32mok[0m ]   verified - test passed for hemi
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDtemi_run1[0m
+[ [0;32mok[0m ]   verified - test passed for temi
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDsoho_run1[0m
+[ [0;32mok[0m ]   verified - test passed for soho
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDmalicious-shamir_run1[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDmalicious-rep-field_run1[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDps-rep-field_run1[0m
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDsy-rep-field_run1[0m
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDshamir_run1[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDatlas_run1[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsFIELDreplicated-field_run1[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGspdz2k_run1[0m
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGsemi2k_run1[0m
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGbrain_run1[0m
+[ [0;32mok[0m ]   verified - test passed for brain
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGmalicious-rep-ring_run1[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGps-rep-ring_run1[0m
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGsy-rep-ring_run1[0m
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsRINGreplicated-ring_run1[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYtinier_run1[0m
+[ [0;32mok[0m ]   verified - test passed for tinier
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYsemi-bin_run1[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 195, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYsemi-bmr_run1[0m
+[ [0;32mok[0m ]   verified - test passed for semi-bmr
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYmalicious-rep-bin_run1[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYmalicious-ccd_run1[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYps-rep-bin_run1[0m
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYmal-shamir-bmr_run1[0m
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYmal-rep-bmr_run1[0m
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYreplicated-bin_run1[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYccd_run1[0m
+[ [0;32mok[0m ]   verified - test passed for ccd
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYshamir-bmr_run1[0m
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[0;33m  Verify error  [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 65, 0, 0, 195, 0, 0, 0, 0, 208, 0, 0, 0, 0, 0... at /srv/testbed/results/obrman/default/2022-08-09_14-01-32_450981/bitcoin/testresultsBINARYrep-bmr_run1[0m
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

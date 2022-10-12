@@ -1,0 +1,27 @@
+  Setup:
+    Experiment = 33_matrix_add_float
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.229.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 3 6 ... 33
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-12_15-54-07/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979
+  Total Experiment runtime = 1h15min9sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [4.33, 3.3, 6.25, 5.62, 3.68, 3.4, 4.57, 3.31, 5.71]... != [5.42, 6.13, 10.1, 7.87, 5.28, 7.08, 7.21, 7.17, 9.66]... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyao_run000[0m
+[0;33m  Verify error  [7.33, 5.3, 10.2, 8.62, 5.68, 4.4, 7.57, 3.31, 7.71, 8.57, 7.8, 4.12, 8.44, 11, 9.83, 9.54, 11.9, 10... != [8.42, 9.13, 17.1, 11.9, 8.28, 10.1, 12.2, 10.2, 13.7, 14.5, 13.1, 5.99, 11.9, 14.9, 14.7, 14.7, 14.... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyao_run001[0m
+[0;33m  Verify error  [11.3, 9.3, 18.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 14.6, 6.21, 3.92, 15.5, 10, 14.3, 14.2, 17.4, 1... != [12.4, 16.1, 23.5, 19.2, 14.7, 14.2, 22.5, 14.2, 21, 16.4, 12.7, 10.8, 23.4, 19.2, 17.6, 15.4, 20.5,... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyao_run002[0m
+[0;33m  Verify error  [11.3, 9.3, 18.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 14.6, 13.8, 6.12, 14.4, 19, 16.8, 16.5, 20.9, 1... != [12.4, 16.1, 31.1, 19.9, 15.3, 17.1, 20.2, 17.2, 21.7, 24.5, 23.1, 7.99, 20.9, 25.9, 24.7, 25.7, 24.... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyao_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m
+[0;33m  Verify error  [4.33, 3.3, 6.25, 5.62, 3.68, 3.4, 4.57, 3.31, 5.71]... != [5.42, 6.13, 10.1, 7.87, 5.28, 7.08, 7.21, 7.17, 9.66]... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyaoO_run000[0m
+[0;33m  Verify error  [7.33, 5.3, 10.2, 8.62, 5.68, 4.4, 7.57, 3.31, 7.71, 8.57, 7.8, 4.12, 8.44, 11, 9.83, 9.54, 11.9, 10... != [8.42, 9.13, 17.1, 11.9, 8.28, 10.1, 12.2, 10.2, 13.7, 14.5, 13.1, 5.99, 11.9, 14.9, 14.7, 14.7, 14.... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyaoO_run001[0m
+[0;33m  Verify error  [11.3, 9.3, 18.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 14.6, 6.21, 3.92, 15.5, 10, 14.3, 14.2, 17.4, 1... != [12.4, 16.1, 23.5, 19.2, 14.7, 14.2, 22.5, 14.2, 21, 16.4, 12.7, 10.8, 23.4, 19.2, 17.6, 15.4, 20.5,... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyaoO_run002[0m
+[0;33m  Verify error  [11.3, 9.3, 18.2, 14.6, 10.7, 6.4, 12.6, 4.31, 11.7, 14.6, 13.8, 6.12, 14.4, 19, 16.8, 16.5, 20.9, 1... != [12.4, 16.1, 31.1, 19.9, 15.3, 17.1, 20.2, 17.2, 21.7, 24.5, 23.1, 7.99, 20.9, 25.9, 24.7, 25.7, 24.... at /srv/testbed/results/obrman/default/2022-08-12_15-54-10_584979/bitcoin/testresultsBINARYyaoO_run003[0m
+[0;33m  Third consecutive verify error, skipping  [0m

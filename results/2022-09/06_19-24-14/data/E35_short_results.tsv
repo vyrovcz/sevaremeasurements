@@ -1,0 +1,17 @@
+nodes                      program              c.domain  adv.model   protocol          partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          4           0.0100639   NA              ~81           0.00256         0.006912
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          6           0.0218745   NA              ~181          0.00576         0.015552
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          8           0.0414803   NA              ~321          0.01024         0.027648
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  shamir            3          10          1.29915     NA              ~501          0.016           0.0432
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          4           0.00727485  NA              ~65           0.00128         0.00384
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          6           0.0145459   NA              ~145          0.00288         0.00864
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          8           0.0258468   NA              ~257          0.00512         0.01536
+ether,ethercash,ethergold  35_set_intersection  FIELD     semihonest  replicated-field  3          10          0.0402072   NA              ~401          0.008           0.024
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          4           0.00711681  NA              ~65           0.00064         0.00192
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          6           0.0149625   NA              ~145          0.00144         0.00432
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          8           0.0228372   NA              ~257          0.00256         0.00768
+ether,ethercash,ethergold  35_set_intersection  RING      semihonest  replicated-ring   3          10          0.0422025   NA              ~401          0.004           0.012
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          4           0.321802    NA              NA            0.215376        NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          6           0.867482    NA              NA            0.484536        NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          8           1.16954     NA              NA            0.86136         NA
+ether,ethercash,ethergold  35_set_intersection  BINARY    semihonest  replicated-bin    3          10          2.8808      NA              NA            1.34585         NA

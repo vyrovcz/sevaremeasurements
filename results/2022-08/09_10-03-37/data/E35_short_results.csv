@@ -1,0 +1,16 @@
+nodes;program;c.domain;adv.model;protocol;partysize;cpus;freqs(GHz);input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;mascot;3;8;3;5;8.89071;NA;~2159;492.594;1476.85
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;mascot;3;8;3;20;101.031;NA;~30693;6318.35;18941.7
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;mascot;3;8;3;35;302.266;NA;~92697;18963.4;56849.9
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;mascot;3;8;3;50;609.796;NA;~188183;38427.7;115201
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;mascot;3;8;3;65;1148.19;NA;~317113;64666.3;193861
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;lowgear;3;8;3;5;951.053;NA;~2335;61.2036;180.64
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;lowgear;3;8;3;20;54.6058;NA;~29775;364.448;1070.3
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;lowgear;3;8;3;35;162.323;NA;~89923;1090.31;3201.63
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;lowgear;3;8;3;50;315.112;NA;~181887;2120.87;6225.52
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;maldishonest;lowgear;3;8;3;65;527.678;NA;~306559;3574.05;10491.1
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semidishonest;temi;3;8;3;5;0.816519;NA;~1847;8.46855;18.5019
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semidishonest;temi;3;8;3;20;8.69929;NA;~27162;75.6757;164.651
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semidishonest;temi;3;8;3;35;26.3441;NA;~82201;231.122;502.925
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semidishonest;temi;3;8;3;50;52.6376;NA;~166945;463.086;1007.53
+dogecoin,dogecoincash,dogecoingold;35_set_intersection;FIELD;semidishonest;temi;3;8;3;65;88.8639;NA;~281404;779.361;1695.63

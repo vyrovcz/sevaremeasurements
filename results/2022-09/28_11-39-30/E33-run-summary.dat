@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.218.0/24
+    Protocols:
+      Field  = atlas
+      Ring   = spdz2k semi2k
+      Binary = yao
+    Inputs = 100 200 300
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-28_11-39-30/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_11-39-33_850687
+  Total Experiment runtime = 0h16min39sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip atlas -  at /srv/testbed/results/obrman/default/2022-09-28_11-39-33_850687/ether/testresultsFIELDatlas_run0[0m
+[0;33m  Skip spdz2k -  at /srv/testbed/results/obrman/default/2022-09-28_11-39-33_850687/ether/testresultsRINGspdz2k_run0[0m
+[0;33m  Skip semi2k -  at /srv/testbed/results/obrman/default/2022-09-28_11-39-33_850687/ether/testresultsRINGsemi2k_run0[0m
+[0;33m  Skip yao - File not found error: [0m

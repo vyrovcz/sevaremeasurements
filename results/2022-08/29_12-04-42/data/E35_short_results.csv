@@ -1,0 +1,13 @@
+nodes;program;c.domain;adv.model;protocol;partysize;bandwidths(Mbs);input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bin;3;10;10;20.5394;NA;NA;22.7558;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bin;3;10;20;23.6985;NA;NA;25.3604;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bin;3;100;10;2.41901;NA;NA;22.7558;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;semi-bin;3;100;20;3.23294;NA;NA;25.3604;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;yao;2;10;10;0.794203;NA;NA;0.97952;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;yao;2;10;20;2.98304;NA;NA;3.58464;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;yao;2;100;10;0.0894297;NA;NA;0.97952;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semidishonest;yao;2;100;20;0.30916;NA;NA;3.58464;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;ccd;3;10;10;0.957096;NA;NA;0.0631;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;ccd;3;10;20;3.47027;NA;NA;0.2278;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;ccd;3;100;10;0.221524;NA;NA;0.0631;NA
+bitcoin,bitcoincash,bitcoingold;35_set_intersection;BINARY;semihonest;ccd;3;100;20;0.818338;NA;NA;0.2278;NA

@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 34_matrix_mul
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.233.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 8 24
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-08-12_15-32-16/E34-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-12_15-32-19_464162
+  Total Experiment runtime = 0h6min26sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-12_15-32-19_464162/ether/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-12_15-32-19_464162/ether/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-12_15-32-19_464162/ether/testresultsBINARYyaoO_run0[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ... != [8, 20, 1, 27, 10, 48, 48, 60, 32, 30, 5, 40, 10, 32, 48, 50, 3, 100, 36, 50, 75, 2, 9, 3, 4, 9, 80,... at /srv/testbed/results/obrman/default/2022-08-12_15-32-19_464162/ether/testresultsBINARYyaoO_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yaoO
