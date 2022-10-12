@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.19.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field
+      Ring   = brain malicious-rep-ring ps-rep-ring sy-rep-ring
+      Binary = yao yaoO
+    Inputs = 5 10 ... 316
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-18_01-24-43/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779
+  Total Experiment runtime = 9h40min41sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip malicious-shamir - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsFIELDmalicious-shamir_run21[0m
+[0;33m  Skip malicious-rep-field - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsFIELDmalicious-rep-field_run21[0m
+[0;33m  Skip ps-rep-field - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsFIELDps-rep-field_run21[0m
+[0;33m  Skip sy-rep-field - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsFIELDsy-rep-field_run21[0m
+[0;33m  Skip brain - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsRINGbrain_run21[0m
+[0;33m  Skip malicious-rep-ring - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsRINGmalicious-rep-ring_run21[0m
+[0;33m  Skip ps-rep-ring - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsRINGps-rep-ring_run21[0m
+[0;33m  Skip sy-rep-ring - Verify error  [237.011, 169.165, 122.34, 287.133, 180.344, 133.634, 130.191, 120.69, 236.477, 227.378, 269.339, 16... != [237.011    169.165316 122.339817 287.133178 180.343608 133.634281 130.191446 120.689607 236.477429 ... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsRINGsy-rep-ring_run21[0m
+[0;33m  Skip yao - Verify error  [7.32715, 5.29555, 10.2469, 8.61937, 5.67723, 4.39799, 7.57249, 3.31419, 7.70879, 8.57391, 7.80357, ... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsBINARYyao_run00[0m
+[0;33m  Skip yaoO - Verify error  [7.32715, 5.29555, 10.2469, 8.61937, 5.67723, 4.39799, 7.57249, 3.31419, 7.70879, 8.57391, 7.80357, ... != [ 8.418743  9.131052 13.498473 11.226195 11.358488  9.036475 13.521908  9.249914 12.97704  10.444971... at /srv/testbed/results/obrman/default/2022-09-18_01-24-46_573779/todd/testresultsBINARYyaoO_run00[0m

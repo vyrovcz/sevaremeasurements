@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 35_set_intersection 
+    Nodes = todd ned rod
+    Internal network = 10.10.88.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = malicious-rep-bin replicated-bin semi-bin yao yaoO
+    Inputs = 10 20 ... 200
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 2.3 2.2 2.1 2.0 1.9 1.8 1.7 1.6 1.5
+  Summary file = results/2022-09-18_15-49-18/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-18_15-49-21_210826
+  Total Experiment runtime = 2h57min3sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Skip yao - Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [  0  28   0   0   0   0   0   0   0  63   0  75  98 101 107 109   0 115   0   0]... at /srv/testbed/results/obrman/default/2022-09-18_15-49-21_210826/todd/testresultsBINARYyao_run001[0m
+[0;33m  Skip yaoO - Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 63, 0, 0, 98, 101, 107, 109, 0, 115, 0, 0]... != [  0  28   0   0   0   0   0   0   0  63   0  75  98 101 107 109   0 115   0   0]... at /srv/testbed/results/obrman/default/2022-09-18_15-49-21_210826/todd/testresultsBINARYyaoO_run001[0m

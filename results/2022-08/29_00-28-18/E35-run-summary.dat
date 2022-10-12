@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 35_set_intersection
+    Nodes = todd ned rod
+    Internal network = 10.10.68.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = real-bmr semi-bin yao
+    Inputs = 30 60
+    Testtypes:
+  Summary file = results/2022-08-29_00-28-18/E35-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-29_00-28-21_228084
+  Total Experiment runtime = 1h12min56sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for real-bmr
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... != [0, 131, 0, 0, 0, 0, 0, 25, 0, 0, 0, 0, 0, 176, 0, 65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 121, 0, 125]... at /srv/testbed/results/obrman/default/2022-08-29_00-28-21_228084/todd/testresultsBINARYyao_run0[0m
+[0;33m  Verify error  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 156, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 171, 0, 49, 0, 52, 0,... != [129, 0, 0, 0, 262, 0, 0, 0, 0, 0, 0, 279, 0, 0, 156, 0, 287, 0, 0, 33, 0, 0, 167, 0, 0, 171, 0, 49,... at /srv/testbed/results/obrman/default/2022-08-29_00-28-21_228084/todd/testresultsBINARYyao_run1[0m
+[ [0;32mok[0m ]   verified - test passed for yao

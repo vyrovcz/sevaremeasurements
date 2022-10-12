@@ -1,0 +1,23 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = todd ned rod
+    Internal network = 10.10.182.0/24
+    Protocols:
+      Field  = temi soho
+      Ring   = semi2k
+      Binary = semi-bin yao semi-bmr
+    Inputs = 10 200 400 ... 2000
+    Testtypes:
+      MEASURERAM	= 
+      FREQS	= 3.0 2.2 2.0 1.8 1.6
+      CPUS	= 8 4 3 2 1
+  Summary file = results/2022-08-05_18-16-34/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-05_18-16-37_651288
+  Total Experiment runtime = 0h35min37sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[0;33m  Skip semi2k - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Skip yao - File not found error: [0m
+[0;33m  Skip semi-bmr - File not found error: [0m

@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 31_scalable_search
+    Nodes = todd ned rod
+    Internal network = 10.10.253.0/24
+    Protocols:
+      Field  = shamir atlas replicated-field
+      Ring   = replicated-ring
+      Binary = replicated-bin ccd shamir-bmr rep-bmr
+    Inputs = 10 200 400 ... 2000
+    Testtypes:
+      QUOTAS	= 800 400 320 240 160 80
+      MEASURERAM	= 
+      FREQS	= 2.6 2.3 2.0 1.7
+      CPUS	= 8 6 4 2
+  Summary file = results/2022-08-04_15-07-18/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-08-04_15-07-20_841714
+  Total Experiment runtime = 25h6min46sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr

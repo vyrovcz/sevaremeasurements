@@ -1,0 +1,13 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+todd,ned,rod;35_set_intersection;FIELD;semihonest;atlas;3;100;2.42437;NA;~20012;2.08;4.32
+todd,ned,rod;35_set_intersection;FIELD;semihonest;atlas;3;200;10.6104;NA;~80039;8.32;17.28
+todd,ned,rod;35_set_intersection;FIELD;semihonest;atlas;3;300;23.2489;NA;~180084;18.72;38.88
+todd,ned,rod;35_set_intersection;RING;maldishonest;spdz2k;3;100;2.96807;NA;~40138;41.7736;125.001
+todd,ned,rod;35_set_intersection;RING;maldishonest;spdz2k;3;200;11.561;NA;~160408;166.906;499.438
+todd,ned,rod;35_set_intersection;RING;maldishonest;spdz2k;3;300;23.6305;NA;~360858;375.46;1123.5
+todd,ned,rod;35_set_intersection;RING;semidishonest;semi2k;3;100;1.04055;NA;~40000;0.16;0.32
+todd,ned,rod;35_set_intersection;RING;semidishonest;semi2k;3;200;3.43385;NA;~160000;0.64;1.28
+todd,ned,rod;35_set_intersection;RING;semidishonest;semi2k;3;300;7.28494;NA;~360000;1.44;2.88
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;yao;2;100;10.2982;NA;NA;188.8;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;yao;2;200;53.0175;NA;NA;755.2;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;yao;2;300;293.437;NA;NA;1699.2;NA

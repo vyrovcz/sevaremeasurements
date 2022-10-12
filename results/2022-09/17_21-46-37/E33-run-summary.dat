@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.228.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field
+      Ring   = brain malicious-rep-ring ps-rep-ring sy-rep-ring
+      Binary = malicious-rep-bin malicious-ccd mal-rep-bmr
+    Inputs = 5 10 ... 50 60 ... 100
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-17_21-46-37/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-17_21-46-39_997088
+  Total Experiment runtime = 0h11min51sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip malicious-shamir - File not found error: [0m
+[0;33m  Skip malicious-rep-field - File not found error: [0m
+[0;33m  Skip ps-rep-field - File not found error: [0m
+[0;33m  Skip sy-rep-field - File not found error: [0m
+[0;33m  Skip brain - File not found error: [0m
+[0;33m  Skip malicious-rep-ring - File not found error: [0m
+[0;33m  Skip ps-rep-ring - File not found error: [0m
+[0;33m  Skip sy-rep-ring - File not found error: [0m
+[0;33m  Skip malicious-rep-bin - File not found error: [0m
+[0;33m  Skip malicious-ccd - File not found error: [0m
+[0;33m  Skip mal-rep-bmr - File not found error: [0m

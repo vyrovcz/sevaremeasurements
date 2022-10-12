@@ -1,0 +1,7 @@
+nodes;program;c.domain;adv.model;protocol;partysize;input_size;runtime(s);maxPhyRAM(MiB);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+todd,ned,rod;35_set_intersection;BINARY;maldishonest;real-bmr;3;30;821.948;NA;NA;156617;NA
+todd,ned,rod;35_set_intersection;BINARY;maldishonest;real-bmr;3;60;3144.24;NA;NA;606339;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;semi-bin;3;30;1.81118;NA;NA;29.5907;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;semi-bin;3;60;6.85752;NA;NA;73.8032;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;yao;2;30;0.118143;NA;NA;7.81536;NA
+todd,ned,rod;35_set_intersection;BINARY;semidishonest;yao;2;60;0.404233;NA;NA;30.2611;NA

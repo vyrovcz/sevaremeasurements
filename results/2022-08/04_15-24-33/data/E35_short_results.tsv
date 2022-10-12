@@ -1,0 +1,10 @@
+nodes             program              c.domain  adv.model   protocol          partysize  cpus  freqs(GHz)  quotas(%)  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+bart,marge,homer  35_set_intersection  FIELD     semihonest  shamir            3          8     2.6         800        10          114.855     NA              ~88           0.661152        1.66184
+bart,marge,homer  35_set_intersection  FIELD     semihonest  shamir            3          8     2.6         800        200         1303.04     NA              ~1612         2.02243         6.03528
+bart,marge,homer  35_set_intersection  FIELD     semihonest  shamir            3          8     2.6         800        400         3051.91     NA              ~3216         3.40483         10.4705
+bart,marge,homer  35_set_intersection  FIELD     semihonest  atlas             3          8     2.6         800        10          296.147     NA              ~171          2.89453         6.44194
+bart,marge,homer  35_set_intersection  FIELD     semihonest  atlas             3          8     2.6         800        200         2889.37     NA              ~2859         6.47491         15.5527
+bart,marge,homer  35_set_intersection  FIELD     semihonest  atlas             3          8     2.6         800        400         5373.98     NA              ~5687         10.0697         24.7051
+bart,marge,homer  35_set_intersection  FIELD     semihonest  replicated-field  3          8     2.6         800        10          61.9347     NA              ~76           0.330576        0.831424
+bart,marge,homer  35_set_intersection  FIELD     semihonest  replicated-field  3          8     2.6         800        200         583.962     NA              ~1410         1.01122         3.02726
+bart,marge,homer  35_set_intersection  FIELD     semihonest  replicated-field  3          8     2.6         800        400         1117.83     NA              ~2814         1.70242         5.25446

@@ -1,0 +1,16 @@
+nodes         program              c.domain  adv.model      protocol         partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+todd,ned,rod  35_set_intersection  FIELD     semihonest     atlas            3          14          0.361116    20              ~1582         1.67846         3.58598
+todd,ned,rod  35_set_intersection  FIELD     semihonest     atlas            3          15          0.409013    17              ~1814         1.68218         3.59573
+todd,ned,rod  35_set_intersection  FIELD     semihonest     atlas            3          16          0.367354    18              ~2062         1.68614         3.60614
+todd,ned,rod  35_set_intersection  FIELD     semihonest     shamir           3          14          0.121273    13              ~981          0.03136         0.084672
+todd,ned,rod  35_set_intersection  FIELD     semihonest     shamir           3          15          0.120812    13              ~1126         0.036           0.0972
+todd,ned,rod  35_set_intersection  FIELD     semihonest     shamir           3          16          0.142053    13              ~1281         0.04096         0.110592
+todd,ned,rod  35_set_intersection  RING      semihonest     replicated-ring  3          14          0.0525284   13              ~785          0.00784         0.02352
+todd,ned,rod  35_set_intersection  RING      semihonest     replicated-ring  3          15          0.0615943   13              ~901          0.009           0.027
+todd,ned,rod  35_set_intersection  RING      semihonest     replicated-ring  3          16          0.0598663   13              ~1025         0.01024         0.03072
+todd,ned,rod  35_set_intersection  BINARY    semihonest     ccd              3          14          3.84594     20              NA            5.28494         NA
+todd,ned,rod  35_set_intersection  BINARY    semihonest     ccd              3          15          4.41853     20              NA            6.0669          NA
+todd,ned,rod  35_set_intersection  BINARY    semihonest     ccd              3          16          4.97533     19              NA            6.90278         NA
+todd,ned,rod  35_set_intersection  BINARY    semidishonest  yao              2          14          1.17052     20              NA            83.9695         NA
+todd,ned,rod  35_set_intersection  BINARY    semidishonest  yao              2          15          1.35547     23              NA            96.3936         NA
+todd,ned,rod  35_set_intersection  BINARY    semidishonest  yao              2          16          1.3701      23              NA            109.674         NA

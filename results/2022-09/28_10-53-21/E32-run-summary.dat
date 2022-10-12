@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 32_matrix_add 
+    Nodes = todd ned rod
+    Internal network = 10.10.252.0/24
+    Protocols:
+      Field  = atlas
+      Ring   = spdz2k semi2k
+      Binary = yao
+    Inputs = 100 200 300
+    Testtypes:
+  Summary file = results/2022-09-28_10-53-21/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-28_10-53-23_829311
+  Total Experiment runtime = 1h0min10sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[0;33m  Skip yao - Verify error  differing[0m

@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.185.0/24
+    Protocols:
+      Field  = malicious-shamir malicious-rep-field ps-rep-field sy-rep-field
+      Ring   = brain malicious-rep-ring ps-rep-ring sy-rep-ring
+      Binary = malicious-rep-bin malicious-ccd mal-rep-bmr
+    Inputs = 5 10 ... 100
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-09-17_22-17-08/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-09-17_22-17-11_094091
+  Total Experiment runtime = 1h14min54sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-field
+[ [0;32mok[0m ]   verified - test passed for ps-rep-field
+[ [0;32mok[0m ]   verified - test passed for sy-rep-field
+[ [0;32mok[0m ]   verified - test passed for brain
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for mal-rep-bmr

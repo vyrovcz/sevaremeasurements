@@ -1,0 +1,9 @@
+nodes         program              c.domain  adv.model  protocol             partysize  input_size  runtime(s)  maxPhyRAM(MiB)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+todd,ned,rod  35_set_intersection  FIELD     malhonest  malicious-shamir     3          5           0.00392003  NA              ~26           0.0008          0.0024
+todd,ned,rod  35_set_intersection  FIELD     malhonest  malicious-shamir     3          10          0.0101877   NA              ~101          0.0032          0.0096
+todd,ned,rod  35_set_intersection  FIELD     malhonest  malicious-rep-field  3          5           0.00324222  NA              ~28           0.000528        0.001584
+todd,ned,rod  35_set_intersection  FIELD     malhonest  malicious-rep-field  3          10          0.00843185  NA              ~103          0.001728        0.005184
+todd,ned,rod  35_set_intersection  FIELD     malhonest  ps-rep-field         3          5           0.00339664  NA              ~28           0.000528        0.001584
+todd,ned,rod  35_set_intersection  FIELD     malhonest  ps-rep-field         3          10          0.0196172   NA              ~103          0.001728        0.005184
+todd,ned,rod  35_set_intersection  FIELD     malhonest  sy-rep-field         3          5           0.00796064  NA              ~33           0.001224        0.003672
+todd,ned,rod  35_set_intersection  FIELD     malhonest  sy-rep-field         3          10          0.00909199  NA              ~108          0.004224        0.012672
