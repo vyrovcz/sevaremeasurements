@@ -1,0 +1,22 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.240.0/24
+    Protocols:
+      Field  = atlas shamir
+      Ring   = replicated-ring
+      Binary = ccd yao tinier semi-bin malicious-rep-bin
+    Inputs = 20 30 40
+    Testtypes:
+  Summary file = results/2022-11/06_18-26-33/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-06_18-26-36_177295
+  Total Experiment runtime = 0h10min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin

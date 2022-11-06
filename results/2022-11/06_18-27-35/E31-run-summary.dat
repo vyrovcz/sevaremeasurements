@@ -1,0 +1,11 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.73.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = spdz2k replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 4 6 ... 14
+    Testtypes:
+  Summary file = results/2022-11/06_18-27-35/E31-run-summary.dat
