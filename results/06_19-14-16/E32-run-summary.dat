@@ -1,0 +1,26 @@
+  Setup:
+    Experiment = 32_matrix_add 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.122.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = spdz2k replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 3 6 9
+    Testtypes:
+      QUOTAS	= 240 120 60
+      LATENCIES	= 50 100
+      FREQS	= 2.6 2.0
+      CPUS	= 4 2 1
+  Summary file = results/2022-11/06_19-14-16/E32-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-06_19-14-19_668703
+  Total Experiment runtime = 17h17min52sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[0;33m  Skip ccd - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m
+[0;33m  Skip yao - Verify error: [18 17 11 13 33 31 29 23 23](...) != [20 20 14 25 39 41 38 30 25](...) at /srv/testbed/results/obrman/default/2022-11-06_19-14-19_668703/bitcoin/testresultsBINARYyao_run000[0m
+[0;33m  Skip yaoO - Verify error: [18 17 11 13 33 31 29 23 23](...) != [20 20 14 25 39 41 38 30 25](...) at /srv/testbed/results/obrman/default/2022-11-06_19-14-19_668703/bitcoin/testresultsBINARYyaoO_run000[0m
