@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 43_set_intersection 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.76.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = tinier semi-bin yao yaoO malicious-rep-bin replicated-bin
+    Inputs = 10 14 ... 100
+    Testtypes:
+      MEASURERAM	= 
+  Summary file = results/2022-11/08_23-28-34/E43-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-08_23-28-37_288300
+  Total Experiment runtime = 1h42min8sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
