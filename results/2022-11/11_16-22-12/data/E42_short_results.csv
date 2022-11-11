@@ -1,0 +1,4 @@
+nodes;program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+dogecoin,dogecoincash,dogecoingold;42_scalable_search;FIELD;semihonest;replicated-field;3;916.75;20947;15800;0.614961;8.49;663;71;~10;2.00662;3.99754
+dogecoin,dogecoincash,dogecoingold;42_scalable_search;FIELD;semihonest;replicated-field;3;932.38;22015;16000;0.633403;8.59;671;71;~10;2.03202;4.04814
+dogecoin,dogecoincash,dogecoingold;42_scalable_search;FIELD;semihonest;replicated-field;3;944.28;22271;16200;0.625446;8.67;677;71;~10;2.05742;4.09874
