@@ -1,0 +1,15 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.105.0/24
+    Protocols:
+      Field  = replicated-field
+      Ring   = 
+      Binary = 
+    Inputs = 17000 17200 ... 19000
+    Testtypes:
+  Summary file = results/2022-11/11_19-21-10/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-11_19-21-13_836394
+  Total Experiment runtime = 3h24min15sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-field
