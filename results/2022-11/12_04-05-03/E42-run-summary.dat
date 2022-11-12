@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.62.0/24
+    Protocols:
+      Field  = replicated-field
+      Ring   = semi2k sy-rep-ring malicious-rep-ring ps-rep-ring replicated-ring
+      Binary = tinier semi-bin yao yaoO replicated-bin
+    Inputs = 10 400 800 ... 20000
+    Testtypes:
+  Summary file = results/2022-11/12_04-05-03/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-12_04-05-06_034008
+  Total Experiment runtime = 6h38min23sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip replicated-field - File not found error: /srv/testbed/results/obrman/default/2022-11-12_04-05-06_034008/bitcoin/testresultsFIELDreplicated-field_run44[0m
+[0;33m  Skip semi2k - File not found error: [0m
+[0;33m  Skip sy-rep-ring - File not found error: [0m
+[0;33m  Skip malicious-rep-ring - File not found error: [0m
+[0;33m  Skip ps-rep-ring - File not found error: [0m
+[0;33m  Skip replicated-ring - File not found error: [0m
+[0;33m  Skip tinier - File not found error: [0m
+[0;33m  Skip semi-bin - File not found error: [0m
+[0;33m  Skip yao - File not found error: [0m
+[0;33m  Skip yaoO - File not found error: [0m
+[0;33m  Skip replicated-bin - File not found error: [0m
