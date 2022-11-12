@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.71.0/24
+    Protocols:
+      Field  = replicated-field
+      Ring   = semi2k sy-rep-ring malicious-rep-ring ps-rep-ring replicated-ring
+      Binary = tinier semi-bin yao yaoO replicated-bin
+    Inputs = 10 400 800 ... 20000
+    Testtypes:
+  Summary file = results/2022-11/11_22-11-06/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-11_22-11-09_595262
+  Total Experiment runtime = 5h48min46sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-field
+[ [0;32mok[0m ]   verified - test passed for semi2k
+[ [0;32mok[0m ]   verified - test passed for sy-rep-ring
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for ps-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for tinier
+[ [0;32mok[0m ]   verified - test passed for semi-bin
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
