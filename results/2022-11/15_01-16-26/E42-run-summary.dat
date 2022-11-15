@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.213.0/24
+    Protocols:
+      Field  = atlas
+      Ring   = 
+      Binary = yao yaoO
+    Inputs = 20 40 ... 100
+    Testtypes:
+  Summary file = results/2022-11/15_01-16-26/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-11-15_01-16-29_148845
+  Total Experiment runtime = 0h9min32sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for atlas
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
