@@ -1,0 +1,21 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.24.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 4 6 ... 14
+    Testtypes:
+  Summary file = results/2022-12/01_15-54-06/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-01_15-54-10_672618
+  Total Experiment runtime = 0h11min49sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
