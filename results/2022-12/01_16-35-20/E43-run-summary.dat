@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 43_set_intersection 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.253.0/24
+    Protocols:
+      Field  = 
+      Ring   = malicious-rep-ring replicated-ring
+      Binary = 
+    Inputs = 10 20 30 40
+    Testtypes:
+      PACKETDROPS	= 5 10 15
+  Summary file = results/2022-12/01_16-35-20/E43-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-01_16-35-22_911460
+  Total Experiment runtime = 0h18min26sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-ring
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
