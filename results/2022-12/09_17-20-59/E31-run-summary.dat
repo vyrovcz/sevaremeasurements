@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.142.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO replicated-bin
+    Inputs = 4096
+    Testtypes:
+      FREQS	= 2.5 2.3 2.1 2.0 1.9 1.8 1.7 1.6 1.4 1.2
+  Summary file = results/2022-12/09_17-20-59/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-09_17-21-01_922514
+  Total Experiment runtime = 0h10min34sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
