@@ -1,0 +1,19 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.58.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = yao yaoO replicated-bin
+    Inputs = 4096
+    Testtypes:
+      BANDWIDTHS	= 3000 1000 800 ... 200 50
+      FREQS	= 2.5 2.3 2.1 1.9 1.7 1.5 1.3
+  Summary file = results/2022-12/09_01-37-34/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-09_01-37-38_079683
+  Total Experiment runtime = 0h29min7sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
