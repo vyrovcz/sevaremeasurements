@@ -1,0 +1,7 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);latencies(ms);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+42;BINARY;semidishonest;yao;2;236.47;5653;44;0;4096;0.49331;2.10;290;96;NA;8.25754;NA
+42;BINARY;semidishonest;yao;2;NA;NA;NA;10;4096;0.68443;2.38;290;91;NA;8.25754;NA
+42;BINARY;semidishonest;yaoO;2;236.47;5653;44;0;4096;0.472977;2.12;290;85;NA;0;NA
+42;BINARY;semidishonest;yaoO;2;NA;NA;NA;10;4096;0.640763;2.37;290;77;NA;0;NA
+42;BINARY;semihonest;replicated-bin;3;236.47;5653;44;0;4096;0.196761;1.85;290;96;NA;0.520248;NA
+42;BINARY;semihonest;replicated-bin;3;NA;NA;NA;10;4096;0.498266;2.57;290;73;NA;0.520248;NA
