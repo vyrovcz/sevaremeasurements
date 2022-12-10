@@ -1,0 +1,15 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.80.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = replicated-bin
+    Inputs = 100 200
+    Testtypes:
+  Summary file = results/2022-12/10_17-10-01/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-10_17-10-04_691618
+  Total Experiment runtime = 0h5min55sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
