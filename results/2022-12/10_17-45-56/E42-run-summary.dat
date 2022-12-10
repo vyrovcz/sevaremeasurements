@@ -1,0 +1,16 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.89.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = replicated-bin
+    Inputs = 4096
+    Testtypes:
+      PACKETDROPS	= 2 4 ... 18
+  Summary file = results/2022-12/10_17-45-56/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-10_17-45-59_077534
+  Total Experiment runtime = 0h12min27sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
