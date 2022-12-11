@@ -1,0 +1,13 @@
+  Setup:
+    Experiment =  
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.234.0/24
+    Protocols: 2 4
+    Datatypes = 1 128 256
+    Inputs = 256 4096
+    Preprocessing: 0
+    Testtypes: 
+  Summary file = resultsMP-Slice/2022-12/11_22-29-35/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-11_22-29-39_634460
+  Total Experiment runtime = 0h6min21sec
+  Experiment run status: [0;32mcompleted[0m
