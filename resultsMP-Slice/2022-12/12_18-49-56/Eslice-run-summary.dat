@@ -1,0 +1,27 @@
+  Setup:
+    Experiment =  
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.212.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 1 8 64 128 256
+    Inputs = 512 1024 ... 8192
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 0
+  Summary file = resultsMP-Slice/2022-12/12_18-49-56/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642
+  Total Experiment runtime = 1h57min13sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run000[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run001[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run002[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run003[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run004[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run005[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run006[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run007[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run008[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run009[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-49-59_151642/bitcoin/testresults_run010[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
