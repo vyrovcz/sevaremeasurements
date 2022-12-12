@@ -1,0 +1,25 @@
+  Setup:
+    Experiment =  
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.40.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 1 8 64 128 256
+    Inputs = 512 1024 ... 4096
+    Preprocessing: 0
+    Testtypes: 
+  Summary file = resultsMP-Slice/2022-12/12_17-18-08/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347
+  Total Experiment runtime = 1h6min45sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run000[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run001[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run002[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run003[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run004[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run005[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run006[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run007[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run008[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run009[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_17-18-12_483347/ether/testresults_run010[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
