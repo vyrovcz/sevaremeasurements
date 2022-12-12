@@ -1,0 +1,26 @@
+  Setup:
+    Experiment =  
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.48.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 1
+    Inputs = 512 1024 ... 8192
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 1
+  Summary file = resultsMP-Slice/2022-12/12_18-06-41/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181
+  Total Experiment runtime = 0h27min30sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run00[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run01[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run02[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run03[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run04[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run05[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run06[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run07[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run08[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run09[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-12_18-06-45_530181/bitcoin/testresults_run10[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
