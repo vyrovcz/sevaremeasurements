@@ -1,0 +1,19 @@
+  Setup:
+    Experiment =  
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.213.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 256
+    Inputs = 1024 4096 8192
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+      BANDWIDTHS	= 1000 800 ... 100 50 30
+      LATENCIES	= 1 5 10 20 40 ... 100 300 500
+  Summary file = resultsMP-Slice/2022-12/13_20-07-02/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-13_20-07-05_302250
+  Total Experiment runtime = 6h56min24sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
