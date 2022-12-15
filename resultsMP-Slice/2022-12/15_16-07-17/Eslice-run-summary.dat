@@ -1,0 +1,17 @@
+  Setup:
+    Experiment =  
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.104.0/24
+    Protocols: 4
+    Datatypes = 8
+    Inputs = 4096 8192
+    Preprocessing: 0
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2022-12/15_16-07-17/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-15_16-07-20_636976
+  Total Experiment runtime = 0h4min27sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
