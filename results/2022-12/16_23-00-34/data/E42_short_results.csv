@@ -1,0 +1,17 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+42;BINARY;semihonest;replicated-bin;3;30.52;726;7;512;0.0322378;0.46;46;82;NA;0.06508;0.129768
+42;BINARY;semihonest;replicated-bin;3;60.46;1433;14;1024;0.0673548;0.80;80;91;NA;0.130104;0.259304
+42;BINARY;semihonest;replicated-bin;3;90.34;2081;21;1536;0.0937574;1.11;84;91;NA;0.195128;0.38884
+42;BINARY;semihonest;replicated-bin;3;121.57;2796;28;2048;0.119266;1.48;154;93;NA;0.260152;0.518376
+42;BINARY;semihonest;replicated-bin;3;149.14;3517;35;2560;0.151687;1.79;156;94;NA;0.325176;0.647912
+42;BINARY;semihonest;replicated-bin;3;181.98;4176;42;3072;0.166538;2.08;157;94;NA;0.3902;0.777448
+42;BINARY;semihonest;replicated-bin;3;211.43;4781;49;3584;0.176731;2.36;171;95;NA;0.455224;0.906984
+42;BINARY;semihonest;replicated-bin;3;241.92;5589;56;4096;0.201986;2.81;297;96;NA;0.520248;1.03652
+42;BINARY;semihonest;replicated-bin;3;264.61;6200;62;4608;0.216275;3.08;300;96;NA;0.585272;1.16606
+42;BINARY;semihonest;replicated-bin;3;303.90;7003;69;5120;0.242922;3.41;301;96;NA;0.650296;1.29559
+42;BINARY;semihonest;replicated-bin;3;334.06;7651;76;5632;0.260234;3.70;302;97;NA;0.71532;1.42513
+42;BINARY;semihonest;replicated-bin;3;370.37;8235;83;6144;0.276304;4.02;303;96;NA;0.780344;1.55466
+42;BINARY;semihonest;replicated-bin;3;391.89;8844;90;6656;0.307579;4.31;307;97;NA;0.845368;1.6842
+42;BINARY;semihonest;replicated-bin;3;417.98;9483;97;7168;0.308323;4.60;332;97;NA;0.910392;1.81374
+42;BINARY;semihonest;replicated-bin;3;460.58;10091;104;7680;0.339263;5.10;590;97;NA;0.975416;1.94327
+42;BINARY;semihonest;replicated-bin;3;482.16;11131;111;8192;0.351036;5.37;587;97;NA;1.04044;2.07281
