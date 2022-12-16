@@ -1,0 +1,28 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.132.0/24
+    Protocols: 4
+    Datatypes = 1 8 64 128 256
+    Inputs = 512 1024 ... 4096
+    Preprocessing: 0 1
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2022-12/16_15-26-46/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517
+  Total Experiment runtime = 0h17min15sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run00[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run01[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run02[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run03[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run04[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run06[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run07[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run08[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run09[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run10[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-16_15-26-49_034517/todd/testresults_run11[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
