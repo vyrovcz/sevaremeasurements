@@ -1,0 +1,18 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.163.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 256
+    Inputs = 8192
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+      FREQS	= 2.5 2.3 2.1 2.0 1.9 1.8 1.7 1.6 1.5 1.4 1.3 1.2 1.1 1.0
+  Summary file = resultsMP-Slice/2022-12/17_14-22-19/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-17_14-22-22_222085
+  Total Experiment runtime = 1h12min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
