@@ -1,0 +1,28 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.4.0/24
+    Protocols: 4
+    Datatypes = 1 8 64 128 256
+    Inputs = 512 1024 ... 8192
+    Preprocessing: 0 1
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2022-12/17_11-41-47/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923
+  Total Experiment runtime = 1h52min42sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run000[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run001[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run002[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run003[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run004[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run005[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run006[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run007[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run008[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run009[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2022-12-17_11-41-50_035923/todd/testresults_run012[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
