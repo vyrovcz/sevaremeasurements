@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 42_scalable_search 
+    Nodes = todd ned rod
+    Internal network = 10.10.16.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = replicated-bin
+    Inputs = 512 1024 ... 8192
+    Compile flags: -DINSECURE
+    Program flags: 
+    Run flags: -u
+    Testtypes:
+  Summary file = results/2022-12/17_00-17-48/E42-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-17_00-17-51_279287
+  Total Experiment runtime = 1h16min59sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
