@@ -1,0 +1,17 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.175.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 4 6 ... 14
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2022-12/29_18-00-32/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-29_18-00-37_656989
+  Total Experiment runtime = 0h10min46sec
+  Experiment run status: [0;33mincomplete[0m
