@@ -1,0 +1,27 @@
+  Setup:
+    Experiment = 33_matrix_add_float 
+    Nodes = todd ned rod
+    Internal network = 10.10.111.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = spdz2k replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 3 6 9
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2022-12/29_21-29-45/E33-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-29_21-29-48_240019
+  Total Experiment runtime = 0h11min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for spdz2k
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[0;33m  Skip yao - Verify error: [4.32715 3.29555 6.24687 5.61937 3.67723 3.39799 4.57249 3.31419 5.70879](...) != [ 5.418743  6.131052 10.055852  7.870976  5.284044  7.07925   7.210984
+  7.174446  9.658194](...) at /srv/testbed/results/obrman/default/2022-12-29_21-29-48_240019/todd/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO - Verify error: [4.32715 3.29555 6.24687 5.61937 3.67723 3.39799 4.57249 3.31419 5.70879](...) != [ 5.418743  6.131052 10.055852  7.870976  5.284044  7.07925   7.210984
+  7.174446  9.658194](...) at /srv/testbed/results/obrman/default/2022-12-29_21-29-48_240019/todd/testresultsBINARYyaoO_run0[0m
