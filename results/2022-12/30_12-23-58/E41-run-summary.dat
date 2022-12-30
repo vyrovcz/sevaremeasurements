@@ -1,0 +1,25 @@
+  Setup:
+    Experiment = 41_array_ops 
+    Nodes = todd ned rod
+    Internal network = 10.10.247.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = spdz2k replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 3 6 9
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2022-12/30_12-23-58/E41-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037
+  Total Experiment runtime = 0h10min53sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip shamir -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsFIELDshamir_run0[0m
+[0;33m  Skip malicious-shamir -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsFIELDmalicious-shamir_run0[0m
+[0;33m  Skip spdz2k -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsRINGspdz2k_run0[0m
+[0;33m  Skip replicated-ring -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsRINGreplicated-ring_run0[0m
+[0;33m  Skip ccd -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsBINARYccd_run0[0m
+[0;33m  Skip replicated-bin -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsBINARYreplicated-bin_run0[0m
+[0;33m  Skip yao -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsBINARYyao_run0[0m
+[0;33m  Skip yaoO -  at /srv/testbed/results/obrman/default/2022-12-30_12-24-01_445037/todd/testresultsBINARYyaoO_run0[0m
