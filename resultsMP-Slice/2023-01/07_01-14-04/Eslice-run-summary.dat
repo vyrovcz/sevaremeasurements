@@ -1,0 +1,18 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.195.0/24
+    Protocols: 4
+    Datatypes = 128 256 512
+    Inputs = 4096 8192 ... 65536
+    Preprocessing: 0 1
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-01/07_01-14-04/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-01-07_01-14-06_912717
+  Total Experiment runtime = 2h5min34sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip  - File not found error: [0m
+[ [0;32mok[0m ]   done - test finished
