@@ -1,0 +1,18 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = dogecoin dogecoincash dogecoingold
+    Internal network = 10.10.183.0/24
+    Protocols:
+      Field  = shamir
+      Ring   = 
+      Binary = 
+    Inputs = 4 6 ... 14
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-01/07_12-32-51/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-01-07_12-32-55_587077
+  Total Experiment runtime = 0h8min54sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
