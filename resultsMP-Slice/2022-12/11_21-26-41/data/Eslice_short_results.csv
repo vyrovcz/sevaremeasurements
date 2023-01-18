@@ -1,4 +1,4 @@
-comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);datatype;protocols;input_size;preprocess;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%)
+comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);datatype;protocol;input_size;preprocess;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%)
 0.00;3;NA;1;1;128;0;0.001368s;0.00;3;100
 0.00;7;NA;1;1;256;0;0.002333s;0.00;7;100
 0.02;7;NA;1;1;4096;0;0.015753s;0.02;7;88
