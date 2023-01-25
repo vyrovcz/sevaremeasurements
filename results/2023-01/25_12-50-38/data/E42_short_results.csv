@@ -1,0 +1,2 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+42;BINARY;semihonest;replicated-bin;3;239.55;5653;44;4096;0.193612;1.79;292;96;NA;0.520248;NA
