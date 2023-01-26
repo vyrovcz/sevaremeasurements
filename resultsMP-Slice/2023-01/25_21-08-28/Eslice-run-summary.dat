@@ -1,0 +1,18 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.4.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 128 256 512
+    Inputs = 4096 8192 40960
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+      BANDWIDTHS	= 25000 23000 ... 1000
+  Summary file = resultsMP-Slice/2023-01/25_21-08-28/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-01-25_21-08-31_159941
+  Total Experiment runtime = 5h52min23sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
