@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Build with sevareparser on day
+%%      29 January 2023
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[8pt]{beamer}
+\setbeamertemplate{itemize item}{$-$}
+\usepackage{pgf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\setbeamertemplate{itemize/enumerate body begin}{\small}
+\title{Sevarebench Measurement Results}
+\subtitle{MP-Slice Scalable Search\\ \hfill \\
+Various Measurements}
+
+\begin{document}
+    \frame {
+        \titlepage
+    }
+
+    \include{include/manipulations/dall_pre0split0pack0opt1}
+    \include{include/input/d256_pre0split0pack0opt1}
+    \include{include/input/s4_pre0split0pack0opt1}
+
+\end{document}

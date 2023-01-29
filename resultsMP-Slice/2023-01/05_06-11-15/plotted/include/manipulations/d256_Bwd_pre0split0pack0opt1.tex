@@ -1,0 +1,33 @@
+%% Build with sevareparser on day %%
+%%      29 January 2023      %%
+\begin{frame}
+\frametitle{MP-Slice Runtimes Bandwidths Fixed Input: 8192 -d d256 (AVX)}
+\begin{figure}
+    \begin{tikzpicture}[scale = 0.9]
+        \begin{axis}[
+            xlabel={Bandwidths [Mbit/s]},
+            ylabel={runtime [s]},
+            scaled y ticks = false,y tick label style={/pgf/number format/fixed,/pgf/number format/precision=8},
+            scaled x ticks = false,x tick label style={/pgf/number format/fixed,/pgf/number format/precision=8},
+            legend style={anchor=west, legend pos=outer north east},
+            %xmax=0.1,
+            %ymax=0.1,
+        ]
+            \addplot[mark=|, thick, color=blue] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/1/d256_Bwd_pre0split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=red] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/2/d256_Bwd_pre0split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=orange] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/3/d256_Bwd_pre0split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=green] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d256_Bwd_pre0split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=cyan] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/5/d256_Bwd_pre0split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=black] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/6/d256_Bwd_pre0split0pack0opt1.txt};
+            \legend{Sharemind, Replicated, Astra, OEC DUP, OEC REP, TTP}
+        \end{axis}
+    \end{tikzpicture}
+    \begin{itemize}
+    \item Ref.Problem: Scalable Search
+    \item Library: MP-Slice - Fixed Input: 8192 -d d256 (AVX)
+    \item Metric: Bandwidths  - runtime
+    \item Switches: Preprocessing: 0, Split Roles: 0, Pack Bool: 0, Optimize Sharing: 1
+    \item Specs: 7543(2.8GHz) 512GiB 25Gbits
+    \end{itemize}
+\end{figure}
+\end{frame}

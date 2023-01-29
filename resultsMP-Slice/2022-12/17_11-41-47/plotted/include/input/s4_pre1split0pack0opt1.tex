@@ -1,0 +1,32 @@
+%% Build with sevareparser on day %%
+%%      29 January 2023      %%
+\begin{frame}
+\frametitle{MP-Slice Runtimes Input Size Protocol -s 4 (OEC DUP)}
+\begin{figure}
+    \begin{tikzpicture}[scale = 0.9]
+        \begin{axis}[
+            xlabel={Input Size},
+            ylabel={runtime [s]},
+            scaled y ticks = false,y tick label style={/pgf/number format/fixed,/pgf/number format/precision=8},
+            scaled x ticks = false,x tick label style={/pgf/number format/fixed,/pgf/number format/precision=8},
+            legend style={anchor=west, legend pos=outer north east},
+            %xmax=0.1,
+            %ymax=0.1,
+        ]
+            \addplot[mark=|, thick, color=blue] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d1_Inp_pre1split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=red] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d128_Inp_pre1split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=orange] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d256_Inp_pre1split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=green] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d64_Inp_pre1split0pack0opt1.txt};
+            \addplot[mark=|, thick, color=cyan] table [y expr=\thisrowno{1} / 1]  {../parsed/2D/4/d8_Inp_pre1split0pack0opt1.txt};
+            \legend{bool, SSE, AVX, uint64, char}
+        \end{axis}
+    \end{tikzpicture}
+    \begin{itemize}
+    \item Ref.Problem: Scalable Search
+    \item Library: MP-Slice -  Protocol -s 4 (OEC DUP)
+    \item Metric: Input Size - runtime
+    \item Switches: Preprocessing: 1, Split Roles: 0, Pack Bool: 0, Optimize Sharing: 1
+    \item Specs: D-1518(2.2GHz) 32GiB 1Gbits
+    \end{itemize}
+\end{figure}
+\end{frame}
