@@ -1,4 +1,4 @@
-comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  datatype  protocol  input_size  preprocess  runtime_internal(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)
+comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  datatype  protocol  input_size  preprocess  runtime_chrono(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)
 2.92          231                1                  1         2         256         0           0.002589            0.00                 3             80
 2.92          231                1                  1         2         4096        0           0.024593            0.03                 7             76
 2.80          227                1                  1         4         256         0           0.002121            0.00                 3             66
