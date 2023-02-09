@@ -1,0 +1,7 @@
+program  c.domain  adv.model   protocol  partysize  comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  input_size  runtime_internal(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  P0commRounds  P0dataSent(MB)  ALLdataSent(MB)
+31       FIELD     semihonest  shamir    3          0.26          30                 1                  4           0.0257286            0.09                 15            71         ~38           0.648352        1.62459
+31       FIELD     semihonest  shamir    3          0.13          18                 1                  6           0.0300472            0.10                 15            74         ~54           0.652512        1.63685
+31       FIELD     semihonest  shamir    3          0.13          18                 1                  8           0.0382194            0.11                 16            79         ~70           0.656672        1.6491
+31       FIELD     semihonest  shamir    3          0.13          18                 1                  10          0.0436167            0.11                 15            85         ~86           0.660832        1.66136
+31       FIELD     semihonest  shamir    3          0.13          18                 1                  12          0.260426             0.32                 15            32         ~102          0.664992        1.67362
+31       FIELD     semihonest  shamir    3          0.11          18                 1                  14          0.0550047            0.12                 17            91         ~118          0.669152        1.68587
