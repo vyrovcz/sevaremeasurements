@@ -1,0 +1,23 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.13.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 1 8
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-02/10_15-01-17/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330
+  Total Experiment runtime = 0h7min7sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run00[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run01[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run02[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run03[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run04[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-02-10_15-01-21_043330/meld/testresults_run05[0m
+[ [0;32mok[0m ]   done - test finished
