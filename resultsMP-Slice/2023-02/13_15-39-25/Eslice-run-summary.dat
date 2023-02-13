@@ -1,0 +1,72 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.24.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 8 64
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-02/13_15-39-25/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-13_15-39-28_795877
+  Total Experiment runtime = 0h6min39sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+
+Node todd statistics
+Node ned statistics
+measured speed between nodes 2 and 1
+ Threads: 1
+total sender speed: 9.34 Gbits/sec
+total receiver speed: 9.33 Gbits/sec
+ Threads: 10
+total sender speed: 9.42 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+Node rod statistics
+measured speed between nodes 3 and 1
+ Threads: 1
+total sender speed: 7.98 Gbits/sec
+total receiver speed: 7.98 Gbits/sec
+ Threads: 10
+total sender speed: 9.44 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+measured speed between nodes 3 and 2
+ Threads: 1
+total sender speed: 8.02 Gbits/sec
+total receiver speed: 8.01 Gbits/sec
+ Threads: 10
+total sender speed: 9.44 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+Node todd statistics
+--- debmirror.lrz.de ping statistics ---
+rtt min/avg/max/mdev = 0.554/0.740/0.927/0.186 ms
+--- github.com ping statistics ---
+rtt min/avg/max/mdev = 9.419/9.434/9.450/0.015 ms
+--- 10.10.24.3 ping statistics ---
+rtt min/avg/max/mdev = 0.289/1019.181/2032.952/829.839 ms, pipe 3
+--- 10.10.24.4 ping statistics ---
+rtt min/avg/max/mdev = 0.198/0.211/0.218/0.009 ms
+Node ned statistics
+--- debmirror.lrz.de ping statistics ---
+rtt min/avg/max/mdev = 0.650/0.678/0.706/0.028 ms
+--- github.com ping statistics ---
+rtt min/avg/max/mdev = 9.639/9.647/9.655/0.008 ms
+--- 10.10.24.4 ping statistics ---
+rtt min/avg/max/mdev = 1024.320/1536.312/2048.305/511.992 ms, pipe 2
+--- 10.10.24.2 ping statistics ---
+rtt min/avg/max/mdev = 0.214/0.218/0.224/0.004 ms
+Node rod statistics
+--- debmirror.lrz.de ping statistics ---
+rtt min/avg/max/mdev = 0.565/0.845/1.126/0.280 ms
+--- github.com ping statistics ---
+rtt min/avg/max/mdev = 9.354/9.594/9.835/0.240 ms
+--- 10.10.24.2 ping statistics ---
+rtt min/avg/max/mdev = 0.428/0.428/0.428/0.000 ms
+--- 10.10.24.3 ping statistics ---
+rtt min/avg/max/mdev = 0.086/0.186/0.238/0.070 ms
