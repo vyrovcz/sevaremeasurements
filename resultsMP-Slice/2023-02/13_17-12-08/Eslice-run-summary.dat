@@ -1,0 +1,26 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.80.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 8 64
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-02/13_17-12-08/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-13_17-12-10_917274
+  Total Experiment runtime = 0h5min17sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+
+Latency Info
+Node todd statistics
+Node ned statistics
+Node rod statistics
