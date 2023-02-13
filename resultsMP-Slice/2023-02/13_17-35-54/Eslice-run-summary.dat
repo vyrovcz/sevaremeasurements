@@ -1,0 +1,59 @@
+  Setup:
+    Experiment =  
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.10.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 8 64
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-02/13_17-35-54/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-13_17-35-57_247826
+  Total Experiment runtime = 0h7min16sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .97 Gbits/sec
+total receiver speed: .96 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.10.3 ping statistics ---
+rtt min/avg/max/mdev = 0.184/0.244/0.391/0.074 ms
+--- 10.10.10.4 ping statistics ---
+rtt min/avg/max/mdev = 0.206/0.214/0.220/0.005 ms
+Node bitcoincash statistics
+--- 10.10.10.2 ping statistics ---
+rtt min/avg/max/mdev = 0.229/0.254/0.269/0.013 ms
+--- 10.10.10.4 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.277/0.434/0.078 ms
+Node bitcoingold statistics
+--- 10.10.10.2 ping statistics ---
+rtt min/avg/max/mdev = 0.183/0.237/0.327/0.047 ms
+--- 10.10.10.3 ping statistics ---
+rtt min/avg/max/mdev = 0.159/0.170/0.178/0.006 ms
