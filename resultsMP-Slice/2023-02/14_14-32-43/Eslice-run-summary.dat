@@ -1,0 +1,26 @@
+  Setup:
+    Experiment =  
+    Nodes = gard goracle zone
+    Internal network = 10.10.165.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 8 64
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-02/14_14-32-43/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-14_14-32-46_633982
+  Total Experiment runtime = 0h7min10sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+
+Latency Info
+Node gard statistics
+Node goracle statistics
+Node zone statistics
