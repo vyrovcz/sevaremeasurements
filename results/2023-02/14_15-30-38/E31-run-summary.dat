@@ -1,0 +1,60 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = gard goracle zone
+    Internal network = 10.10.170.0/24
+    Protocols:
+      Field  = shamir
+      Ring   = 
+      Binary = 
+    Inputs = 4 6 ... 14
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-02/14_15-30-38/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-14_15-30-41_659234
+  Total Experiment runtime = 0h9min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 41.8 Gbits/sec
+total receiver speed: 41.8 Gbits/sec
+ Threads: 10
+total sender speed: 98.69 Gbits/sec
+total receiver speed: 98.69 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 48.2 Gbits/sec
+total receiver speed: 48.2 Gbits/sec
+ Threads: 10
+total sender speed: 98.95 Gbits/sec
+total receiver speed: 98.95 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 30.6 Gbits/sec
+total receiver speed: 30.6 Gbits/sec
+ Threads: 10
+total sender speed: 95.32 Gbits/sec
+total receiver speed: 95.29 Gbits/sec
+
+Latency Info
+Node gard statistics
+--- 10.10.170.3 ping statistics ---
+rtt min/avg/max/mdev = 0.183/0.272/0.468/0.106 ms
+--- 10.10.170.4 ping statistics ---
+rtt min/avg/max/mdev = 0.124/0.228/0.310/0.070 ms
+Node goracle statistics
+--- 10.10.170.2 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.292/0.330/0.043 ms
+--- 10.10.170.4 ping statistics ---
+rtt min/avg/max/mdev = 0.368/0.564/0.679/0.104 ms
+Node zone statistics
+--- 10.10.170.2 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.360/0.676/0.162 ms
+--- 10.10.170.3 ping statistics ---
+rtt min/avg/max/mdev = 0.326/0.503/0.609/0.117 ms
