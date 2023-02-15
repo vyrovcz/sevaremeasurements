@@ -1,0 +1,62 @@
+  Setup:
+    Experiment =  
+    Nodes = gard goracle zone
+    Internal network = 10.10.243.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 256
+    Inputs = 40960
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    Testtypes:
+      BANDWIDTHS	= 25000 24000 ... 8000
+      FREQS	= 3.0 2.8 2.6 2.4 2.2 2.0 1.8 1.6
+  Summary file = resultsMP-Slice/2023-02/15_12-32-23/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-02-15_12-32-26_741851
+  Total Experiment runtime = 1h21min59sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m  Skip  - File not found error: [0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 34.9 Gbits/sec
+total receiver speed: 34.9 Gbits/sec
+ Threads: 10
+total sender speed: 98.72 Gbits/sec
+total receiver speed: 98.71 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 48.0 Gbits/sec
+total receiver speed: 48.0 Gbits/sec
+ Threads: 10
+total sender speed: 98.80 Gbits/sec
+total receiver speed: 98.71 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 31.6 Gbits/sec
+total receiver speed: 31.6 Gbits/sec
+ Threads: 10
+total sender speed: 95.54 Gbits/sec
+total receiver speed: 95.50 Gbits/sec
+
+Latency Info
+Node gard statistics
+--- 10.10.243.3 ping statistics ---
+rtt min/avg/max/mdev = 0.202/0.280/0.364/0.058 ms
+--- 10.10.243.4 ping statistics ---
+rtt min/avg/max/mdev = 0.306/0.310/0.317/0.004 ms
+Node goracle statistics
+--- 10.10.243.2 ping statistics ---
+rtt min/avg/max/mdev = 0.088/0.268/0.334/0.090 ms
+--- 10.10.243.4 ping statistics ---
+rtt min/avg/max/mdev = 0.220/0.480/0.678/0.153 ms
+Node zone statistics
+--- 10.10.243.2 ping statistics ---
+rtt min/avg/max/mdev = 0.193/0.370/0.725/0.183 ms
+--- 10.10.243.3 ping statistics ---
+rtt min/avg/max/mdev = 0.294/0.458/0.605/0.124 ms
