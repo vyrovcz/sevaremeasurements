@@ -1,0 +1,7 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);input_size;runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB)
+31;FIELD;semihonest;shamir;3;0.34;30;1;4;0.0224187;0.11;15;56;~38;0.648352;1.62459
+31;FIELD;semihonest;shamir;3;0.17;18;1;6;0.0236096;0.10;17;60;~54;0.652512;1.63685
+31;FIELD;semihonest;shamir;3;0.17;18;1;8;0.0311114;0.13;15;53;~70;0.656672;1.6491
+31;FIELD;semihonest;shamir;3;0.17;18;1;10;0.0280524;0.11;13;59;~86;0.660832;1.66136
+31;FIELD;semihonest;shamir;3;0.16;18;1;12;0.0304265;0.12;17;62;~102;0.664992;1.67362
+31;FIELD;semihonest;shamir;3;0.17;18;1;14;0.0310937;0.11;13;59;~118;0.669152;1.68587
