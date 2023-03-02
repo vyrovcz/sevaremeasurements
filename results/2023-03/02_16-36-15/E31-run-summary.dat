@@ -1,0 +1,66 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = bitcoin bitcoincash bitcoingold
+    Internal network = 10.10.44.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 4 6 ... 14
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-03/02_16-36-15/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-02_16-36-18_811227
+  Total Experiment runtime = 0h13min40sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .93 Gbits/sec
+total receiver speed: .91 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .95 Gbits/sec
+
+Latency Info
+Node bitcoin statistics
+--- 10.10.44.3 ping statistics ---
+rtt min/avg/max/mdev = 0.125/1216.638/3043.682/1183.638 ms, pipe 3
+--- 10.10.44.4 ping statistics ---
+rtt min/avg/max/mdev = 0.176/0.191/0.215/0.013 ms
+Node bitcoincash statistics
+--- 10.10.44.2 ping statistics ---
+rtt min/avg/max/mdev = 0.220/613.217/2040.706/816.548 ms, pipe 3
+--- 10.10.44.4 ping statistics ---
+rtt min/avg/max/mdev = 0.138/0.258/0.441/0.101 ms
+Node bitcoingold statistics
+--- 10.10.44.2 ping statistics ---
+rtt min/avg/max/mdev = 0.190/611.146/2029.908/812.779 ms, pipe 3
+--- 10.10.44.3 ping statistics ---
+rtt min/avg/max/mdev = 0.179/0.201/0.222/0.017 ms
