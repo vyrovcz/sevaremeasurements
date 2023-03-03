@@ -1,0 +1,31 @@
+  Setup:
+    Experiment = 35_set_intersection 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.90.0/24
+    Protocols:
+      Field  = mascot hemi semi temi soho
+      Ring   = 
+      Binary = malicious-rep-bin malicious-ccd ps-rep-bin mal-shamir-bmr shamir-bmr rep-bmr replicated-bin ccd
+    Inputs = 30
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 5 ... 50
+  Summary file = results/2023-03/02_09-06-09/E35-run-summary.dat
+  POS files location = /srv/testbed/results/eiserman/default/2023-03-02_09-06-14_561168
+  Total Experiment runtime = 19h56min51sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for mascot
+[ [0;32mok[0m ]   verified - test passed for hemi
+[ [0;32mok[0m ]   verified - test passed for semi
+[ [0;32mok[0m ]   verified - test passed for temi
+[ [0;32mok[0m ]   verified - test passed for soho
+[ [0;32mok[0m ]   verified - test passed for malicious-rep-bin
+[ [0;32mok[0m ]   verified - test passed for malicious-ccd
+[ [0;32mok[0m ]   verified - test passed for ps-rep-bin
+[ [0;32mok[0m ]   verified - test passed for mal-shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for shamir-bmr
+[ [0;32mok[0m ]   verified - test passed for rep-bmr
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for ccd
