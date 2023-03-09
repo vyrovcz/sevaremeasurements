@@ -1,0 +1,66 @@
+  Setup:
+    Experiment = 31_scalable_search 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.95.0/24
+    Protocols:
+      Field  = shamir malicious-shamir
+      Ring   = replicated-ring
+      Binary = ccd replicated-bin yao yaoO
+    Inputs = 4 6 ... 14
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+  Summary file = results/2023-03/09_11-17-34/E31-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-09_11-17-37_837868
+  Total Experiment runtime = 0h12min2sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   verified - test passed for shamir
+[ [0;32mok[0m ]   verified - test passed for malicious-shamir
+[ [0;32mok[0m ]   verified - test passed for replicated-ring
+[ [0;32mok[0m ]   verified - test passed for ccd
+[ [0;32mok[0m ]   verified - test passed for replicated-bin
+[ [0;32mok[0m ]   verified - test passed for yao
+[ [0;32mok[0m ]   verified - test passed for yaoO
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.76 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.80 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.95.3 ping statistics ---
+rtt min/avg/max/mdev = 0.248/0.307/0.508/0.100 ms
+--- 10.10.95.4 ping statistics ---
+rtt min/avg/max/mdev = 0.234/0.259/0.284/0.019 ms
+Node tinyman statistics
+--- 10.10.95.4 ping statistics ---
+rtt min/avg/max/mdev = 0.205/0.272/0.404/0.068 ms
+--- 10.10.95.2 ping statistics ---
+rtt min/avg/max/mdev = 0.249/0.256/0.268/0.006 ms
+Node yieldly statistics
+--- 10.10.95.2 ping statistics ---
+rtt min/avg/max/mdev = 0.273/0.314/0.396/0.042 ms
+--- 10.10.95.3 ping statistics ---
+rtt min/avg/max/mdev = 0.204/0.247/0.287/0.027 ms
