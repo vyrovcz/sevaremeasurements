@@ -1,0 +1,60 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.212.0/24
+    Protocols: 4
+    Datatypes = 128 256 512
+    Inputs = 4096 8192 ... 40960
+    Preprocessing: 0 1
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-03/09_23-40-24/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-09_23-40-27_578201
+  Total Experiment runtime = 0h17min52sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.78 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.84 Gbits/sec
+total receiver speed: 24.81 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.8 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.76 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.212.3 ping statistics ---
+rtt min/avg/max/mdev = 0.254/0.302/0.431/0.065 ms
+--- 10.10.212.4 ping statistics ---
+rtt min/avg/max/mdev = 0.212/0.268/0.297/0.030 ms
+Node tinyman statistics
+--- 10.10.212.4 ping statistics ---
+rtt min/avg/max/mdev = 0.211/0.284/0.486/0.102 ms
+--- 10.10.212.2 ping statistics ---
+rtt min/avg/max/mdev = 0.222/0.254/0.282/0.019 ms
+Node yieldly statistics
+--- 10.10.212.2 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.294/0.457/0.083 ms
+--- 10.10.212.3 ping statistics ---
+rtt min/avg/max/mdev = 0.247/0.274/0.296/0.018 ms
