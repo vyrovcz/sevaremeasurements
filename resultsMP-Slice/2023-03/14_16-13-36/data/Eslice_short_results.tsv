@@ -1,0 +1,2 @@
+comp.time(s)  comp.peakRAM(MiB)  bin.filesize(MiB)  ssl  datatype  optshare  packbool  protocol  input_size  preprocess  splitroles  inittime(s)  preproc(s)  runtime_clock(s)  runtime_getTime(s)  runtime_chrono(s)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)
+2.94          237                1                  0    128       1         0         1         4096        0           0           0.005195     NA          0.109267          0.067679            0.067678           0.11                 39            134
