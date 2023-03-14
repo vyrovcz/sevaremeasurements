@@ -1,0 +1,71 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.121.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 128
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-03/14_15-54-25/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797
+  Total Experiment runtime = 0h12min36sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run00[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run01[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run02[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run03[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run04[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run05[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run06[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run07[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run08[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run09[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/obrman/default/2023-03-14_15-54-28_720797/todd/testresults_run10[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 8.00 Gbits/sec
+total receiver speed: 7.99 Gbits/sec
+ Threads: 10
+total sender speed: 9.44 Gbits/sec
+total receiver speed: 9.39 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 7.96 Gbits/sec
+total receiver speed: 7.95 Gbits/sec
+ Threads: 10
+total sender speed: 9.45 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 8.42 Gbits/sec
+total receiver speed: 8.42 Gbits/sec
+ Threads: 10
+total sender speed: 9.42 Gbits/sec
+total receiver speed: 9.41 Gbits/sec
+
+Latency Info
+Node todd statistics
+--- 10.10.121.3 ping statistics ---
+rtt min/avg/max/mdev = 1024.236/1535.898/2047.560/511.662 ms, pipe 4
+--- 10.10.121.4 ping statistics ---
+rtt min/avg/max/mdev = 0.146/0.198/0.232/0.036 ms
+Node ned statistics
+--- 10.10.121.4 ping statistics ---
+rtt min/avg/max/mdev = 0.222/0.255/0.363/0.054 ms
+--- 10.10.121.2 ping statistics ---
+rtt min/avg/max/mdev = 0.137/0.187/0.230/0.033 ms
+Node rod statistics
+--- 10.10.121.2 ping statistics ---
+rtt min/avg/max/mdev = 0.231/0.252/0.324/0.036 ms
+--- 10.10.121.3 ping statistics ---
+rtt min/avg/max/mdev = 0.164/0.194/0.234/0.030 ms
