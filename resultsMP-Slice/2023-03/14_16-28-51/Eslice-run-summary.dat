@@ -1,0 +1,84 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.195.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 128
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-03/14_16-28-51/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-14_16-28-54_477814
+  Total Experiment runtime = 0h12min44sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[0;33m  Skip  - File not found error: [0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 9.38 Gbits/sec
+total receiver speed: 9.37 Gbits/sec
+ Threads: 10
+total sender speed: 9.45 Gbits/sec
+total receiver speed: 9.39 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 9.42 Gbits/sec
+total receiver speed: 9.41 Gbits/sec
+ Threads: 10
+total sender speed: 9.44 Gbits/sec
+total receiver speed: 9.38 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 8.11 Gbits/sec
+total receiver speed: 8.10 Gbits/sec
+ Threads: 10
+total sender speed: 9.43 Gbits/sec
+total receiver speed: 9.43 Gbits/sec
+
+Latency Info
+Node todd statistics
+--- 10.10.195.3 ping statistics ---
+rtt min/avg/max/mdev = 0.310/1024.122/2047.771/835.872 ms, pipe 3
+--- 10.10.195.4 ping statistics ---
+rtt min/avg/max/mdev = 0.198/0.214/0.230/0.010 ms
+Node ned statistics
+--- 10.10.195.4 ping statistics ---
+rtt min/avg/max/mdev = 0.171/0.228/0.311/0.045 ms
+--- 10.10.195.2 ping statistics ---
+rtt min/avg/max/mdev = 0.168/0.205/0.229/0.021 ms
+Node rod statistics
+--- 10.10.195.2 ping statistics ---
+rtt min/avg/max/mdev = 0.211/0.249/0.372/0.061 ms
+--- 10.10.195.3 ping statistics ---
+rtt min/avg/max/mdev = 0.142/0.186/0.237/0.038 ms
