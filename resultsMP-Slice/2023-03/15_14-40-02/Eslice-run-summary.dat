@@ -1,0 +1,60 @@
+  Setup:
+    Experiment =  
+    Nodes = todd ned rod
+    Internal network = 10.10.97.0/24
+    Protocols: 1 2 ... 6
+    Datatypes = 128 256
+    Inputs = 4096 8192 40960
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0 1
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-03/15_14-40-02/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-15_14-40-05_699089
+  Total Experiment runtime = 0h17min5sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 9.41 Gbits/sec
+total receiver speed: 9.41 Gbits/sec
+ Threads: 10
+total sender speed: 9.43 Gbits/sec
+total receiver speed: 9.43 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 9.34 Gbits/sec
+total receiver speed: 9.34 Gbits/sec
+ Threads: 10
+total sender speed: 9.43 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 8.21 Gbits/sec
+total receiver speed: 8.21 Gbits/sec
+ Threads: 10
+total sender speed: 9.45 Gbits/sec
+total receiver speed: 9.42 Gbits/sec
+
+Latency Info
+Node todd statistics
+--- 10.10.97.3 ping statistics ---
+rtt min/avg/max/mdev = 0.180/205.882/1028.584/411.350 ms, pipe 2
+--- 10.10.97.4 ping statistics ---
+rtt min/avg/max/mdev = 0.158/0.205/0.226/0.025 ms
+Node ned statistics
+--- 10.10.97.4 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.242/0.330/0.045 ms
+--- 10.10.97.2 ping statistics ---
+rtt min/avg/max/mdev = 0.159/0.191/0.218/0.020 ms
+Node rod statistics
+--- 10.10.97.2 ping statistics ---
+rtt min/avg/max/mdev = 0.215/0.243/0.310/0.037 ms
+--- 10.10.97.3 ping statistics ---
+rtt min/avg/max/mdev = 0.195/0.216/0.231/0.013 ms
