@@ -1,0 +1,64 @@
+  Setup:
+    Experiment =  
+    Nodes = ether ethercash ethergold
+    Internal network = 10.10.233.0/24
+    Function: 0
+    Protocols: 1 2 ... 6
+    Datatypes = 128
+    Inputs = 4096
+    Preprocessing: 0
+    SplitRoles: 0 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 4
+    rxBuffer: 4
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-03/31_22-40-42/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-03-31_22-40-46_507944
+  Total Experiment runtime = 0h8min31sec
+  Experiment run status: [0;32mcompleted[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .91 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+
+Latency Info
+Node ether statistics
+--- 10.10.233.3 ping statistics ---
+rtt min/avg/max/mdev = 0.156/1213.887/3047.414/1183.944 ms, pipe 3
+--- 10.10.233.4 ping statistics ---
+rtt min/avg/max/mdev = 0.170/0.201/0.251/0.030 ms
+Node ethercash statistics
+--- 10.10.233.2 ping statistics ---
+rtt min/avg/max/mdev = 0.211/614.343/2046.457/818.576 ms, pipe 3
+--- 10.10.233.4 ping statistics ---
+rtt min/avg/max/mdev = 0.177/0.226/0.337/0.058 ms
+Node ethergold statistics
+--- 10.10.233.2 ping statistics ---
+rtt min/avg/max/mdev = 0.216/607.878/2024.861/809.968 ms, pipe 3
+--- 10.10.233.3 ping statistics ---
+rtt min/avg/max/mdev = 0.192/0.212/0.234/0.013 ms
