@@ -1,0 +1,98 @@
+  Setup:
+    Experiment =  
+    Nodes = ether ethercash ethergold dogecoingold
+    Internal network = 10.10.160.0/24
+    Function: 0
+    Protocols: 1 2 ... 6
+    Datatypes = 128
+    Inputs = 40960
+    Preprocessing: 0
+    SplitRoles: 0 1 2
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1 2 ... 12
+    txBuffer: 0
+    rxBuffer: 0
+    Testtypes:
+  Summary file = resultsMP-Slice/2023-04/03_13-59-21/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/obrman/default/2023-04-03_13-59-25_593603
+  Total Experiment runtime = 0h36min46sec
+  Experiment run status: [0;33mincomplete[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .91 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .92 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .95 Gbits/sec
+total receiver speed: .95 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .96 Gbits/sec
+total receiver speed: .96 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: .94 Gbits/sec
+total receiver speed: .94 Gbits/sec
+ Threads: 10
+total sender speed: .93 Gbits/sec
+total receiver speed: .91 Gbits/sec
+
+Latency Info
+Node ether statistics
+--- 10.10.160.3 ping statistics ---
+rtt min/avg/max/mdev = 0.194/499.032/997.870/498.838 ms, pipe 4
+--- 10.10.160.4 ping statistics ---
+rtt min/avg/max/mdev = 0.201/0.216/0.231/0.010 ms
+--- 10.10.160.5 ping statistics ---
+rtt min/avg/max/mdev = 0.180/0.202/0.224/0.016 ms
+Node ethercash statistics
+--- 10.10.160.2 ping statistics ---
+rtt min/avg/max/mdev = 0.195/0.313/0.431/0.118 ms, pipe 4
+--- 10.10.160.4 ping statistics ---
+rtt min/avg/max/mdev = 0.228/0.263/0.382/0.059 ms
+--- 10.10.160.5 ping statistics ---
+rtt min/avg/max/mdev = 0.147/0.179/0.224/0.025 ms
+Node ethergold statistics
+--- 10.10.160.2 ping statistics ---
+rtt min/avg/max/mdev = 0.210/613.614/2042.455/817.168 ms, pipe 3
+--- 10.10.160.3 ping statistics ---
+rtt min/avg/max/mdev = 0.152/0.172/0.191/0.016 ms
+--- 10.10.160.5 ping statistics ---
+rtt min/avg/max/mdev = 0.215/0.248/0.364/0.058 ms
+Node dogecoingold statistics
+--- 10.10.160.2 ping statistics ---
+rtt min/avg/max/mdev = 0.183/205.263/1025.373/410.054 ms, pipe 2
+--- 10.10.160.3 ping statistics ---
+rtt min/avg/max/mdev = 0.173/0.229/0.331/0.055 ms
+--- 10.10.160.4 ping statistics ---
+rtt min/avg/max/mdev = 0.184/0.227/0.240/0.021 ms
